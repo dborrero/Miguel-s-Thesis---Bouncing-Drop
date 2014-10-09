@@ -14,25 +14,8 @@
 	    \subsubsection{Basic Parameters}
 	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$, in a bath of depth $H$ driven vertically at an amplitude $A_0$ at frequency $f=\frac{\omega}{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma$. The oil droplet of diameter $D$ bounces in the regime $\gamma<\gamma_F$, where $\gamma_F$ is the Faraday threshold (at this point, Fraday waves appear). The important experimental limits are outlined in Table~\ref{approxlimits}. 
 	       
-	       	       For certain parameters, the bouncing drop will behave differently. The vibration number $V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}}$ is ``the relative magnitude of the forcing frequency and the drop's natural oscillation frequency." Setting up a plot with $V_i$ on the y axis and $\frac{\gamma}{g}$ on the x axis can help in showing the behavior of the droplet, shown in Fig.~(\ref{regime}). 
 	       
-	    
-	    \begin{figure}[h]
-	% the options are h = here, t = top, b = bottom, p = page of figures.
-	% you can add an exclamation mark to make it try harder, and multiple
-	% options if you have an order of preference, e.g.
-	% \begin{figure}[h!tbp]
-	   
-	       \centering
-	    \includegraphics[scale=0.075]{Regime-Mega}
-	     \caption{A Figure}
-	 \label{regime}
-	\end{figure}
-
-  
-	       
-	       
-\begin{table}[htdp] 
+\begin{table}
 \caption[Basic Table 1]{Approximate Limits for Bouncing Drop Behavior} 
 \begin{center} 
 \begin{tabular}{c c c} 
@@ -48,5 +31,26 @@ Drop Diameter $D$ (mm) & 0.6 & 1.0 \\
 \end{tabular}
 \end{center}
 \label{approxlimits} 
-\end{table}	\section{Experimental Setup}
+\end{table}	
+	       	     
+	       	       For certain parameters, the bouncing drop will behave differently. The vibration number $V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}}$ is ``the relative magnitude of the forcing frequency and the drop's natural oscillation frequency." Setting up a plot with $V_i$ on the y axis and $\frac{\gamma}{g}$ on the x axis can help in showing the behavior of the droplet, shown in \refFig{regime}. 
+	       
+	    
+	    \begin{figure}[h]
+	% the options are h = here, t = top, b = bottom, p = page of figures.
+	% you can add an exclamation mark to make it try harder, and multiple
+	% options if you have an order of preference, e.g.
+	% \begin{figure}[h!tbp]
+	   
+	       \centering
+	    \includegraphics[scale=0.075]{Regime-Mega}
+	     \caption{A Figure}
+	 \label{regime}
+	\end{figure}
+
+      Path memory is a parameter that can be varied in this setup. Every time the droplet impacts the bath, it creates a radial traveling wave. Over the course of many bounces, a wavefield composed of a superposition of the many waves arises. If the bouncing droplet impacts the wavefield in such a way that it recives a lateral force from the slope of the wave, then it will be pushed to the side slightly. The next time the droplet makes contanct with the bath, it will again be pushed to the side. This propels the bouncing droplet, causing it to walk across the surface of the bath. These “walkers” are pushed in a direction dictated by previous impacts, and so it is said that the oil bath “remembers” the previous bounce.Damping the waves results in a low-memory limit, since the walker is affected by only the previous impact. In an undamped system (approaching the Faraday threshold), the system becomes high-memory because walker can be affected by waves from many impacts ago. The quantum like features of this experiment arise in the high-memory limit. (For more, Eddit et. al, 2001b: Information stored in Faraday waves.)
+
+
+
+\section{Experimental Setup}
 	    \subsection{Camera Modification}
