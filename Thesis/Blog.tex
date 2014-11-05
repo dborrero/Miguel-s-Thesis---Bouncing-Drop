@@ -17,16 +17,17 @@
 	\section{To Do}
 	\begin{itemize}
 	\item{Obtain flashdrives.    Miguel 9/30/14}
-	\item{Accelerometer.    Miguel 10/7/14}
-    \item{Learn Bohmian Mechanics. Miguel 10/28/14}
-    \item{Find walking regime. Miguel 10/28/14}
+	\item{Order Accelerometer.    Miguel 11/4/14}
+    \item{Learn Bohmian Mechanics. Miguel 11/4/14}
+    \item{Find walking regime. Miguel 11/4/14}
 	\end{itemize}
 	
 	\subsection{Done}
 	\begin{itemize}
+	\item{Learn Basics of Bohmian Mechanics. Miguel 10/28/14}
 	\item{Make tray. Miguel 10/20/14}
 	\item{Sort out camera situation. Miguel 10/20/14}
-	\item{Learn how to use the new \LaTeX\ and Github setup.     Miguel 9/30/14}
+	\item{Learn how to use the new \LaTeX\ and Github setup. Miguel 9/30/14}
 	\end{itemize}
 	
 	\section{Literature Reviews}
@@ -96,6 +97,7 @@ The various modes seen in \refFig{regime} can be described by ($m$,$n$), where $
 \section{Bohmian Mechanics}
 
 \subsection{Formalism}
+\subsubsection{The Schroedinger Equation and $\psi$}
 
 We begin with the Schoedinger equation
 
@@ -172,3 +174,49 @@ This then gives us two sepeate equations, one for the time derivative of $R$ and
 \end{equation}
 
 What does this do for us? Well \refeq{dR/dt} will allow us to ??? and \refeq{dS/dt} let's us write the Hamilton-Jacobi equation for a quantum system!
+
+
+\subsubsection{The Quantum Potential}
+
+We can rewrite $R$ in a way that is helpful if we say that $P(\mathbf{x},t)=R(\mathbf{x},t)^2=|\psi(\mathbf{x},t)|^2$ where $P(\mathbf{x},t)$ is the probability density. Plugging this in to \refeq{dS/dt} and rewriting in into a provocative form makes
+
+MATH?
+
+\begin{equation}
+\label{BohmHamiltonian}
+- \frac{\partial S}{\partial t} = \frac{(\nabla S)^2}{2 m} + V(\mathbf{x},t) + \frac{\hbar^2}{4m}\left[\frac{1}{2} \frac{\nabla^2 P}{P} - \frac{(\nabla P)^2}{P^2}\right]
+\end{equation}
+
+If I were to tell you that $\nabla S$ had units of momentum and $\partial S/\partial t$ units of energy, then this equation would look a lot like a Hamiltonian! The first term takes care of the kinetic energy, the second is the potential energy term, but we have this mysterious third term which we haven't ever encountered in classical mechanics. If we define this term as our "quantum potential": 
+
+\begin{equation}
+\label{QuantumPotential}
+U(\mathbf{x}) =  \frac{\hbar^2}{4m}\left[\frac{1}{2} \frac{\nabla^2 P}{P} - \frac{(\nabla P)^2}{P^2}\right] = \frac{\hbar^2}{2m}\frac{\nabla^2 R}{R}
+\end{equation}
+then we really \textit{can} think of \refeq{BohmHamiltonian} as a Hamiltonian with an extra potential term thrown in to make it "quantum." Note that in cases where $\hbar$ is much smaller than the rest of the terms (i.e. not the quantum realm), then this quantum potential term goes away, and we are left with the regular Hamilton equation from classical mechanics. 
+
+Recall that when writing a Hamiltonian, the potential terms govern the forces on the particle. For a conservative system, the force is given by F(x) = -$\partial U/\partial x$. If we include a quantum mechanical potential in our Hamiltonian, then this potential must cause a force on the paticle in addition to the one supplied by the $V(x)$ term. 
+
+
+\subsubsection{Continuity Equation}
+Plugging in the probability density into \refeq{dR/dt} also gives us something quite interesting.
+
+MATH?
+
+which we can finally express as 
+
+\begin{equation}
+\label{ProbCurrent}
+\frac{\partial P}{\partial t} + \nabla \cdot \left( P \frac{\nabla S}{m} \right)
+\end{equation}
+
+In describing the quantum potential term it was mentioned that $\nabla S$ can be thought of as momentum, so then from our classical relationship between momentum and velocity  $\textbf{v}(\textbf{x},t)=\nabla S/m$ can be thought of as velocity. Then by defining the probability current as $j(\mathbf{x},t) = P\nabla S/m$ then we recover
+
+\begin{equation}
+\label{ProbCurrent}
+\frac{\partial P}{\partial t} + \nabla \cdot j(\mathbf{x},t)
+\end{equation}
+known as the continuity equation! This tells us that $P$ is conserved over time.
+
+\subsubsection{Finding $R$ and $S$}
+
