@@ -17,13 +17,16 @@
 	\section{To Do}
 	\begin{itemize}
 	\item{Obtain flashdrives.    Miguel 9/30/14}
-	\item{Order Accelerometer.    Miguel 11/4/14}
     \item{Learn Bohmian Mechanics. Miguel 11/4/14}
     \item{Find walking regime. Miguel 11/4/14}
+    \item{Set up Accelerometer (should arrive around 11/19/14). Miguel 
+ 11/6/14}
+     \item{Learn de Broglie's interpretation of QM. Miguel 11/6/14}
 	\end{itemize}
 	
 	\subsection{Done}
 	\begin{itemize}
+	\item{Order Accelerometer.    Miguel 11/6/14}
 	\item{Learn Basics of Bohmian Mechanics. Miguel 10/28/14}
 	\item{Make tray. Miguel 10/20/14}
 	\item{Sort out camera situation. Miguel 10/20/14}
@@ -32,10 +35,9 @@
 	
 	\section{Literature Reviews}
 	
-	    \subsection{Particle-wave association on a fluid interface (Protiere 2006)}
-	
-	    \subsection{Pilot-Wave Hydrodynamics (Bush 2015)}
-	    In this annual review, Bush describes some of the characteristics of the bouncing oil drop experiment that are analagous to effects witnessed in the quantum mechanical world (single-particle diffraction, tunneling, quantized orbits, orbital level splitting, and spin states). Dynamics of the walker are described mathematically. Finally, comparisons to de Broglie's orginal formulation of QM (and not Bohm's) and Stochastic Electrodynamics (?) are made. 
+(Important: Particle-wave association on a fluid interface (Protiere 2006)).
+
+	    In this annual review, Bush describes some of the characteristics of the bouncing oil drop experiment that are analagous to effects witnessed in the quantum mechanical world (single-particle diffraction, tunneling, quantized orbits, orbital level splitting, and spin states). Dynamics of the walker are described mathematically. Finally, comparisons to de Broglie's orginal formulation of QM (and not Bohm's) and Stochastic Electrodynamics (?) are made. (Most coming from Pilot-Wave Hydrodynamics (Bush 2015))
 	    \subsubsection{Basic Parameters}
 	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$, in a bath of depth $H$ driven vertically at an amplitude $A_0$ at frequency $f=\omega/{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma~\mathrm{sin}(\omega t)$. The oil droplet of diameter $D$ bounces in the regime $\gamma<\gamma_F$, where $\gamma_F$ is the Faraday threshold (at this point, Fraday waves appear). The important experimental limits are outlined in \refTab{approxlimits}. 
 	       \begin{table}[htdp] 
@@ -61,7 +63,7 @@ For certain parameters, the bouncing drop will behave differently. The vibration
 \begin{equation} \label{vibrationnumber}
 V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}}
 \end{equation}   	       	       
-	       	       The natural frequency of the droplet occurs around $V_i = 0.65$, where the droplet can exhibit both walking and bouncing behaviors. Setting up a plot with $V_i$ on the y axis and (dimensionless) $\frac{\gamma}{g}$ on the x axis can help in showing the behavior of the droplet, shown in \refFig{regime}. 
+	       	       The natural frequency of the droplet occurs around $V_i = 0.65$, where the droplet can exhibit both walking and bouncing behaviors. Setting up a plot with $V_i$ on the y axis and (dimensionless) ${\gamma}/{g}$ on the x axis can help in showing the behavior of the droplet, shown in \refFig{regime}. 
 	    
 	    \begin{figure}[h]
 	% the options are h = here, t = top, b = bottom, p = page of figures.
@@ -85,12 +87,26 @@ The various modes seen in \refFig{regime} can be described by ($m$,$n$), where $
             \subsection{Single-Particle Diffraction}
 
 	       \subsection{Tunneling}
-	       The guiding wave field can be partially reflected off of an edge or even a change in depth of the oil bath. This effect can be seen when a walker is pushed back from a under-the-surface step, seemingly without any contact. In rare cases, the walker will actually tunnel across the step; that is, it will continue to walk along the surface of the oil bath and pass over the step without reflection. In the first experiment done by Eddi et al., they demonstrated tunneling by by building square "corrals" of varying thicknesses. In the second experiment, they built a rhombus shape which forced the walker across the center of a rhombus. The barrier was placed perpendicular to the direction of travel of the walker, so that it would hit the wall directly rather than at an angle (as in the square corral). ``The tunneling probability decreases exponentially with the barrier width and increases as the Faraday threshold is approached." Eddi et. al also found that the probability of tunneling increased with the velocity of the walker. (For more, Eddi et. al 2009b: Unpredictable Tunneling of a classical wave-particle association)
+	       The guiding wave field can be partially reflected off of an edge or even a change in depth of the oil bath. This effect can be seen when a walker is pushed back from a under-the-surface step, seemingly without any contact. In rare cases, the walker will actually tunnel across the step; that is, it will continue to walk along the surface of the oil bath and pass over the step without reflection. In the first experiment done by Eddi et al., they demonstrated tunneling by by building square ``corrals" of varying thicknesses. In the second experiment, they built a rhombus shape which forced the walker across the center of a rhombus. The barrier was placed perpendicular to the direction of travel of the walker, so that it would hit the wall directly rather than at an angle (as in the square corral). ``The tunneling probability decreases exponentially with the barrier width and increases as the Faraday threshold is approached." Eddi et. al also found that the probability of tunneling increased with the velocity of the walker. (For more, Eddi et. al 2009b: Unpredictable Tunneling of a classical wave-particle association.)
 	       
 	       
 	        The unpredictability of the tunneling comes from the complex interatction between the drop and its guiding wave. 
 
-	    \subsection{Camera Modification}
+\subsection{Bouncing Mechanics}
+In the regime of walkers we have $R_e \sim 20$, $B_0 \sim 0.1$, and $W_e \sim 0.1$. For the millimeric walkers, the dominant force comes from impact of the curvature of the surface. Gilet and Bush (2009: Chaotic bouncing of a drop on a soap film, and the fluid trampline: droplets bouncing on a soap film) show that the surface of the vibrating oil can be modeled with a soap film, where the soap film acts like a linear spring. 
+
+As the oil bath is forced up and down, a tiny droplet of oil will ``walk" across the surface. Mol\'{a}\v{c}ek and Bush have developed an equation of a droplet that describes the trajectory of the walking droplet, ignoring the verical dynamics by time averaging them out (cite: J. Mol\'{a}\v{c}ek and J. W. M. Bush, ``Drops walking on a vibrating bath: towards a hydrodynamic pilot-wave theory" J. FluidMech. 727, 612-647 (2013).). The trajectory of the walking droplet of mass $m$ at position $\textbf{x}(t) = (x(t),y(t))$ is given by
+\begin{equation}
+m \ddot{\textbf{x}} + D \dot{\textbf{x}} = -mg\nabla h(\textbf{x},t) 
+\end{equation}
+where $D$ describes the drag coefficient and $h(\textbf{x},t)$ describes the shape of the wavefield. Thus the second term describes the time averaged drag from both the flight and the impact of the droplet (as usual, depends on the velocity), and the third term describes the propulsive wave force resulting from drops landing on the inclined wave surface. 
+
+The wavefield is quite complicated because it depends on the memory. For a single impact of a droplet, Oza et al. argue the surface wave can be approximated with an integral of a monochromatic radial Bessel function of the first kind
+
+\begin{equation}
+h(\textbf{x},t) = \frac{F}{T_F} \int_{-\infty}^{t} J_0 \frac{(k_F |\textbf{x}(t)-\textbf{x}(s)|)}{|\textbf{x}(t)-\textbf{x}(s)|} (\textbf{x}(t)-\textbf{x}(s))e^{-(t-s)/(T_F M_e)} ds
+\end{equation}
+with $F$ giving the wave force coefficient (estimated in the above source), $T_F$ describing the Faraday period, and $k_F$ describing the Faraday wave number determined by the Faraday wavelength $\lambda_F = 2π/k_F$ (integral from A. U. Oza, D. M. Harris, R. R. Rosales, and J. W. M. Bush, "Pilot-wave dynamics in a rotating frame: on the emergence of orbital quantization" J. Fluid Mech. 744, 404-429 (2014).). (Faraday was a popular guy.) Finally, that last term $M_e$ is the nondimensional memory parameter $M_e = T_d/[T_F(1-\gamma / \gamma_F)]$ (with $T_d$ being the unforced decay time).
 
 \section{Experimental Setup}
 
@@ -173,25 +189,21 @@ This then gives us two sepeate equations, one for the time derivative of $R$ and
 \frac{\partial S}{\partial t} = \frac{\hbar^2}{2m}\frac{\nabla^2 R}{R} - \frac{(\nabla S)^2}{2 m} - V(\mathbf{x},t)
 \end{equation}
 
-What does this do for us? Well \refeq{dR/dt} will allow us to ??? and \refeq{dS/dt} let's us write the Hamilton-Jacobi equation for a quantum system!
-
+What does this do for us? Both equations will provide helpful descriptions of our system.
 
 \subsubsection{The Quantum Potential}
 
-We can rewrite $R$ in a way that is helpful if we say that $P(\mathbf{x},t)=R(\mathbf{x},t)^2=|\psi(\mathbf{x},t)|^2$ where $P(\mathbf{x},t)$ is the probability density. Plugging this in to \refeq{dS/dt} and rewriting in into a provocative form makes
-
-MATH?
+We can rewrite \refeq{dS/dt} in a provokative way 
 
 \begin{equation}
 \label{BohmHamiltonian}
-- \frac{\partial S}{\partial t} = \frac{(\nabla S)^2}{2 m} + V(\mathbf{x},t) + \frac{\hbar^2}{4m}\left[\frac{1}{2} \frac{\nabla^2 P}{P} - \frac{(\nabla P)^2}{P^2}\right]
+- \frac{\partial S}{\partial t} = \frac{(\nabla S)^2}{2 m} + V(\mathbf{x},t) + \frac{\hbar^2}{2m}\frac{\nabla^2 R}{R}
 \end{equation}
-
-If I were to tell you that $\nabla S$ had units of momentum and $\partial S/\partial t$ units of energy, then this equation would look a lot like a Hamiltonian! The first term takes care of the kinetic energy, the second is the potential energy term, but we have this mysterious third term which we haven't ever encountered in classical mechanics. If we define this term as our "quantum potential": 
+which should look suspiciously familiar. If I were to tell you that $\nabla S$ had units of momentum and $\partial S/\partial t$ units of energy, then this equation would look a lot like a Hamiltonian! The first term takes care of the kinetic energy, the second is the potential energy term, but we have this mysterious third term which we haven't ever encountered in classical mechanics. If we define this term as our ''quantum potential" 
 
 \begin{equation}
 \label{QuantumPotential}
-U(\mathbf{x}) =  \frac{\hbar^2}{4m}\left[\frac{1}{2} \frac{\nabla^2 P}{P} - \frac{(\nabla P)^2}{P^2}\right] = \frac{\hbar^2}{2m}\frac{\nabla^2 R}{R}
+U(\mathbf{x}) =  \frac{\hbar^2}{2m}\frac{\nabla^2 R}{R} = \frac{\hbar^2}{4m}\left[\frac{1}{2} \frac{\nabla^2 P}{P} - \frac{(\nabla P)^2}{P^2}\right] 
 \end{equation}
 then we really \textit{can} think of \refeq{BohmHamiltonian} as a Hamiltonian with an extra potential term thrown in to make it "quantum." Note that in cases where $\hbar$ is much smaller than the rest of the terms (i.e. not the quantum realm), then this quantum potential term goes away, and we are left with the regular Hamilton equation from classical mechanics. 
 
@@ -199,7 +211,7 @@ Recall that when writing a Hamiltonian, the potential terms govern the forces on
 
 
 \subsubsection{Continuity Equation}
-Plugging in the probability density into \refeq{dR/dt} also gives us something quite interesting.
+Plugging in the probability density $P(\mathbf{x},t) = R^2(\mathbf{x},t)$ into \refeq{dR/dt} also gives us something quite interesting.
 
 MATH?
 
