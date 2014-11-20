@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  6 NOV 2014 11:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  20 NOV 2014 11:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,15 +378,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./Figs/Regime-Mega.jpg>]
-Underfull \vbox (badness 1205) has occurred while \output is active []
-
- [4]
+ [3 <./Figs/Regime-Mega.jpg>] [4]
 Missing character: There is no Ï in font cmr12!
 Missing character: There is no € in font cmr12!
+ [5]
 
-
-./Blog.tex:142: Package amsmath Error: Erroneous nesting of equation structures
+./Blog.tex:149: Package amsmath Error: Erroneous nesting of equation structures
 ;
 (amsmath)                trying to recover with `aligned'.
 
@@ -394,14 +391,13 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.142 \end{align*}
+l.149 \end{align*}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[5]
 
-./Blog.tex:150: Package amsmath Error: Erroneous nesting of equation structures
+./Blog.tex:157: Package amsmath Error: Erroneous nesting of equation structures
 ;
 (amsmath)                trying to recover with `aligned'.
 
@@ -409,18 +405,18 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.150 \end{align*}
+l.157 \end{align*}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (29.5375pt too wide) detected at line 151
+Overfull \hbox (29.5375pt too wide) detected at line 158
 [] []
  []
 
 
-./Blog.tex:158: Package amsmath Error: Erroneous nesting of equation structures
+./Blog.tex:165: Package amsmath Error: Erroneous nesting of equation structures
 ;
 (amsmath)                trying to recover with `aligned'.
 
@@ -428,28 +424,28 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 \end{align*}
+l.165 \end{align*}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (104.19373pt too wide) detected at line 159
+Overfull \hbox (104.19373pt too wide) detected at line 166
 [] []
  []
 
 
-Overfull \hbox (81.85205pt too wide) detected at line 168
+Overfull \hbox (81.85205pt too wide) detected at line 175
 [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OML/cmm/m/it/12 ; t\OT
 1/cmr/m/n/12 ) = [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OML/c
 mm/m/it/12 ; t\OT1/cmr/m/n/12 )
  []
 
-[6]) (./math.tex [7] [8
+[6] [7]) (./math.tex [8]
+Chapter 1.
+[9
 
 ]
-Chapter 1.
-[9]
 Underfull \hbox (badness 10000) in paragraph at lines 65--68
 
  []
@@ -550,7 +546,7 @@ e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
 2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
 ive/2012/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (30 pages, 1347066 bytes).
+.texpadtmp/thesis.pdf (30 pages, 1348557 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  134 compressed objects within 2 object streams
