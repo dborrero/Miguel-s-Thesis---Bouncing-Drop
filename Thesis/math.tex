@@ -11,9 +11,15 @@ This equation states that as one knows more about the position of the system, th
 
 \section{Schroedinger's Equation}
 
-$$i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2m}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t) $$
+The wavefunction $\Psi(x, t)$ is goverened by the Schroedinger equation:
 
-$$E \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2m}\nabla^2 + V(\mathbf{r})\right ] \Psi(\mathbf{r},t)$$
+$$i\hbar\frac{\partial}{\partial t} \Psi(x,t) = \left [ \frac{-\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x,t)\right ] \Psi(x,t) $$
+where $V(x,t)$ is the given potential, $m$ is the mass of the particle, and $\hbar$ is the reduced Planck's constant. For potentials that do not change in time, one can use separation of variables to arrive at the time-independant Schroedinger equation
+$$E \Psi(x,t) = \left [ \frac{-\hbar^2}{2m}\frac{\partial^2}{\partial x^2} + V(x)\right ] \Psi(x,t)$$
+where $E$ is the total energy. The goal is to find $\Psi(x,t)$ knowing the potential $V(x)$.
+
+
+
 
 \section{Barrier Potential}
 
