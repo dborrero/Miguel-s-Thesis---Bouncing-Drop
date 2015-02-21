@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  13 FEB 2015 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 FEB 2015 16:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -445,51 +445,33 @@ LaTeX Warning: Reference `commands' on page 12 undefined on input line 36.
 
 ) (./tablesandgraphics.tex [12]
 Chapter 2.
-[13
+File: ./Figs/HQASetup.pdf Graphic file (type pdf)
+<use ./Figs/HQASetup.pdf>
+Package pdftex.def Info: ./Figs/HQASetup.pdf used on input line 16.
+(pdftex.def)             Requested size: 184.0905pt x 131.04152pt.
 
-] [14
+Underfull \vbox (badness 2245) has occurred while \output is active []
 
-] [15] <./Figs/subdivision.pdf, id=93, 220.825pt x 89.33376pt>
-File: ./Figs/subdivision.pdf Graphic file (type pdf)
+ [13
 
-<use ./Figs/subdivision.pdf>
-Package pdftex.def Info: ./Figs/subdivision.pdf used on input line 142.
-(pdftex.def)             Requested size: 220.82445pt x 89.33353pt.
- [16 <./Figs/subdivision.pdf>]
-File: ./Figs/subdivision.pdf Graphic file (type pdf)
+])
+(./conclusion.tex [14]) (./AppendixA.tex [15
 
-<use ./Figs/subdivision.pdf>
-Package pdftex.def Info: ./Figs/subdivision.pdf used on input line 155.
-(pdftex.def)             Requested size: 110.41222pt x 44.66676pt.
-File: ./Figs/subdivision.pdf Graphic file (type pdf)
- <use ./Figs/subdivision.pdf>
-Package pdftex.def Info: ./Figs/subdivision.pdf used on input line 167.
-(pdftex.def)             Requested size: 72.26979pt x 72.26979pt.
-File: ./Figs/subdivision.pdf Graphic file (type pdf)
-
-<use ./Figs/subdivision.pdf>
-Package pdftex.def Info: ./Figs/subdivision.pdf used on input line 178.
-(pdftex.def)             Requested size: 110.41222pt x 44.66676pt.
-) (./conclusion.tex [17
-
-] [18
-
-]) (./AppendixA.tex
-[19] [20
+] [16
 
 ]
 Appendix A.
-) (./appendixB.tex [21] [22
+) (./appendixB.tex [17] [18
 
 ]
 Appendix B.
-) [23] [24
+) [19] [20
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
-.bbl [25
+.bbl [21
 
-]) [26]
+]) [22]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
@@ -500,13 +482,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3575 strings out of 493117
- 47568 string characters out of 6135433
- 144151 words of memory out of 5000000
- 6916 multiletter control sequences out of 15000+600000
+ 3565 strings out of 493117
+ 47406 string characters out of 6135433
+ 115040 words of memory out of 5000000
+ 6907 multiletter control sequences out of 15000+600000
  16204 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,45p,1167b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,45p,1167b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -524,10 +506,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (30 pages, 1363646 bytes).
+.texpadtmp/thesis.pdf (26 pages, 1340703 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 117 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
