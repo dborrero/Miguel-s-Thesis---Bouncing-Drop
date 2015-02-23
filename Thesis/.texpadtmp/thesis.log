@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 FEB 2015 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 FEB 2015 19:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -447,15 +447,12 @@ LaTeX Warning: Reference `commands' on page 12 undefined on input line 36.
 Chapter 2.
 File: ./Figs/HQASetup.pdf Graphic file (type pdf)
 <use ./Figs/HQASetup.pdf>
-Package pdftex.def Info: ./Figs/HQASetup.pdf used on input line 16.
+Package pdftex.def Info: ./Figs/HQASetup.pdf used on input line 13.
 (pdftex.def)             Requested size: 184.0905pt x 131.04152pt.
-
-Underfull \vbox (badness 2245) has occurred while \output is active []
-
  [13
 
-])
-(./conclusion.tex [14]) (./AppendixA.tex [15
+]) (./conclusion.tex [14]) (./AppendixA.tex
+[15
 
 ] [16
 
@@ -506,7 +503,7 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (26 pages, 1340703 bytes).
+.texpadtmp/thesis.pdf (26 pages, 1342070 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  117 compressed objects within 2 object streams
