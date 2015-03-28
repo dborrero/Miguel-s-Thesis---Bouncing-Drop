@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 FEB 2015 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 MAR 2015 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -493,52 +493,42 @@ LaTeX Warning: Reference `commands' on page 12 undefined on input line 36.
 
 ) (./tablesandgraphics.tex [12]
 Chapter 2.
-<./Figs/Tray.pdf, id=83, 1019.81pt x 458.71375pt>
-File: ./Figs/Tray.pdf Graphic file (type pdf)
- <use ./Figs/Tray.pdf>
-Package pdftex.def Info: ./Figs/Tray.pdf used on input line 13.
-(pdftex.def)             Requested size: 489.50323pt x 220.1801pt.
-
-Overfull \hbox (55.88324pt too wide) in paragraph at lines 13--14
- [][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<./Figs/Setup.pdf, id=83, 390.45876pt x 257.96375pt>
+File: ./Figs/Setup.pdf Graphic file (type pdf)
+ <use ./Figs/Setup.pdf>
+Package pdftex.def Info: ./Figs/Setup.pdf used on input line 10.
+(pdftex.def)             Requested size: 312.36742pt x 206.37126pt.
 
 [13
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ <./Figs/Setup.pdf>] <./Figs/Tray.pdf, id=98, 1019.81pt x 458.71375pt>
+File: ./Figs/Tray.pdf Graphic file (type pdf)
 
- [14 <./Figs/Tray.pdf>] <./Figs/Setup.pdf, id=101, 390.45876pt x 257.96375pt>
-File: ./Figs/Setup.pdf Graphic file (type pdf)
+<use ./Figs/Tray.pdf>
+Package pdftex.def Info: ./Figs/Tray.pdf used on input line 23.
+(pdftex.def)             Requested size: 489.50323pt x 220.1801pt.
 
-<use ./Figs/Setup.pdf>
-Package pdftex.def Info: ./Figs/Setup.pdf used on input line 56.
-(pdftex.def)             Requested size: 312.36742pt x 206.37126pt.
+Overfull \hbox (55.88324pt too wide) in paragraph at lines 23--24
+ [][] 
+ []
 
+[14 <./Figs/Tray.pdf>] [15] [16]) (./conclusion.tex [17] [18
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./conclusion.tex [15] [16 <./Figs/Setup.pdf>]) (./AppendixA.tex [17
-
-]
-[18
+]) (./AppendixA.tex [19] [20
 
 ]
 Appendix A.
-) (./appendixB.tex [19] [20
+) (./appendixB.tex [21] [22
 
 ]
 Appendix B.
-) [21] [22
+) [23] [24
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
-.bbl [23
+.bbl [25
 
-]) [24]
+]) [26]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
@@ -573,10 +563,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 14/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (28 pages, 1393485 bytes).
+.texpadtmp/thesis.pdf (30 pages, 1396592 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
