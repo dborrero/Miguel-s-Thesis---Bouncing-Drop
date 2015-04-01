@@ -61,15 +61,17 @@ C \mathrm{cos}(2 k_2 a) - D \mathrm{sin}(2 k_2 a) =\frac{i k_1}{k_2} F e^{2a i k
 
 We know that the probability of reflection is the wave being reflected (represented by our coefficient $B$) divided by the total incoming wave (the coefficient $A$).
 
-$$R = |\frac{B}{A}|^2$$
+$$R = \left|\frac{B}{A}\right|^2$$
 
 Finding $R$ requires that we solve for $A$ in terms of $B$. We can do this by plugging \refeq{front} into \refeq{frontp} to eliminate $C$ and $D$ and make a new equation. Plug this equation into \refeq{end}, and then again into \refeq{endp} to find two new equations. Using these two new equations, we find an expression: 
 
-$$ A~\frac{k_1^2-k_2^2}{k_2^2}~\mathrm{sin}(2k_2a) = B~[\frac{k_1^2+k_2^2}{k_2^2}~\mathrm{sin}(2k_2a) + \frac{2 i k_1}{k_2}~\mathrm{cos}(2k_2a)]$$
+$$ A~\frac{k_1^2-k_2^2}{k_2^2}~\mathrm{sin}(2k_2a) = B~\left[\frac{k_1^2+k_2^2}{k_2^2}~\mathrm{sin}(2k_2a) + \frac{2 i k_1}{k_2}~\mathrm{cos}(2k_2a)\right]$$
 
-We can rearrange this expression to solve for $\frac{B}{A}$, which gets us $R$. Using the relation $T + R = 1$ we find that:
+We can rearrange this expression to solve for $\frac{B}{A}$, and squaring that to find $R$. Using the relation $T = 1 - R$ we find that:
 
-$$T^{-1} = 1 + \frac{V_0^2}{4 E (E - V_0)}~\mathrm{sin}^2\left(\frac{2 a}{h} \sqrt{2 m (E - V_0)}\right)$$
+\begin{equation}
+T^{-1} = 1 + \frac{V_0^2}{4 E (E - V_0)}~\mathrm{sin}^2\left(\frac{2 a}{h} \sqrt{2 m (E - V_0)}\right)
+\end{equation}
 
 \section{Energies}
     \subsection{$E = V_0$}

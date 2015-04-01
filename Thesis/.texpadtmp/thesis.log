@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  31 MAR 2015 20:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  1 APR 2015 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -488,7 +488,7 @@ me-chan-ics how-ever, Heisen-
 
 ] [12]
 
-LaTeX Warning: Reference `commands' on page 13 undefined on input line 84.
+LaTeX Warning: Reference `commands' on page 13 undefined on input line 86.
 
 ) (./tablesandgraphics.tex [13] [14
 
@@ -497,7 +497,7 @@ Chapter 2.
 <./Figs/Setup.pdf, id=90, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
  <use ./Figs/Setup.pdf>
-Package pdftex.def Info: ./Figs/Setup.pdf used on input line 16.
+Package pdftex.def Info: ./Figs/Setup.pdf used on input line 18.
 (pdftex.def)             Requested size: 312.36742pt x 206.37126pt.
 
 
@@ -510,24 +510,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <./Figs/Tray.pdf, id=95, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
-Package pdftex.def Info: ./Figs/Tray.pdf used on input line 29.
+Package pdftex.def Info: ./Figs/Tray.pdf used on input line 31.
 (pdftex.def)             Requested size: 489.50323pt x 220.1801pt.
 
-Overfull \hbox (55.88324pt too wide) in paragraph at lines 29--30
+Overfull \hbox (55.88324pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[16 <./Figs/Setup.pdf>]
+[16 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=110, 792.9625pt x 651.43375pt>
+File: ./Figs/group.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `Protiere2005' on page 17 undefined on input line 44.
+<use ./Figs/group.pdf>
+Package pdftex.def Info: ./Figs/group.pdf used on input line 46.
+(pdftex.def)             Requested size: 436.13072pt x 358.28966pt.
 
-[17 <./Figs/Tray.pdf>] [18]) (./conclusion.tex [19] [20
+Overfull \hbox (2.51073pt too wide) in paragraph at lines 46--49
+ [][] 
+ []
 
-]) (./AppendixA.tex
-[21] [22
+
+LaTeX Warning: Citation `Protiere2005' on page 17 undefined on input line 54.
+
+[17 <./Figs/Tray.pdf>] [18 <./Figs/group.pdf>] [19]) (./conclusion.tex [20])
+(./AppendixA.tex [21
+
+] [22
 
 ]
 Appendix A.
@@ -556,10 +566,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3928 strings out of 493117
- 54290 string characters out of 6135433
- 122854 words of memory out of 5000000
- 7240 multiletter control sequences out of 15000+600000
+ 3934 strings out of 493117
+ 54389 string characters out of 6135433
+ 122865 words of memory out of 5000000
+ 7245 multiletter control sequences out of 15000+600000
  16204 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1167b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -581,10 +591,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (31 pages, 1403029 bytes).
+.texpadtmp/thesis.pdf (31 pages, 14638543 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 229 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
