@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  28 MAR 2015 15:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  31 MAR 2015 20:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -216,13 +216,6 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box32
 \rot@mess@toks=\toks28
 )
-(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip64
-\bibsep=\skip65
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count111
-)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
 
@@ -240,7 +233,7 @@ Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
-\XKV@depth=\count112
+\XKV@depth=\count111
 File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -270,12 +263,12 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count113
+\c@checkoddpage=\count112
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box34
-\sift@deathcycles=\count114
+\sift@deathcycles=\count113
 \@vwid@loff=\dimen136
 \@vwid@roff=\dimen137
 ))
@@ -291,30 +284,30 @@ LaTeX Warning: Label `ProbCurrent' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count115
+\scratchcounter=\count114
 \scratchdimen=\dimen138
 \scratchbox=\box35
-\nofMPsegments=\count116
-\nofMParguments=\count117
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count118
+\MPscratchCnt=\count117
 \MPscratchDim=\dimen139
-\MPnumerator=\count119
-\makeMPintoPDFobject=\count120
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -364,17 +357,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+lasy on input line 79.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 67.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 79.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -485,50 +478,74 @@ mm/m/it/12 ; t\OT1/cmr/m/n/12 )
 
 [9]) (./math.tex [10]
 Chapter 1.
+
+Overfull \hbox (6.4046pt too wide) in paragraph at lines 7--8
+[]\OT1/cmr/m/n/12 In the stan-dard, Copen-hagen in-ter-pre-ta-tion of quan-tum 
+me-chan-ics how-ever, Heisen-
+ []
+
 [11
 
+] [12]
+
+LaTeX Warning: Reference `commands' on page 13 undefined on input line 84.
+
+) (./tablesandgraphics.tex [13] [14
+
 ]
-
-LaTeX Warning: Reference `commands' on page 12 undefined on input line 36.
-
-) (./tablesandgraphics.tex [12]
 Chapter 2.
-<./Figs/Setup.pdf, id=83, 390.45876pt x 257.96375pt>
+<./Figs/Setup.pdf, id=90, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
  <use ./Figs/Setup.pdf>
-Package pdftex.def Info: ./Figs/Setup.pdf used on input line 10.
+Package pdftex.def Info: ./Figs/Setup.pdf used on input line 16.
 (pdftex.def)             Requested size: 312.36742pt x 206.37126pt.
 
-[13
 
- <./Figs/Setup.pdf>] <./Figs/Tray.pdf, id=98, 1019.81pt x 458.71375pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+<./Figs/Tray.pdf, id=95, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
-
-<use ./Figs/Tray.pdf>
-Package pdftex.def Info: ./Figs/Tray.pdf used on input line 23.
+ <use ./Figs/Tray.pdf>
+Package pdftex.def Info: ./Figs/Tray.pdf used on input line 29.
 (pdftex.def)             Requested size: 489.50323pt x 220.1801pt.
 
-Overfull \hbox (55.88324pt too wide) in paragraph at lines 23--24
+Overfull \hbox (55.88324pt too wide) in paragraph at lines 29--30
  [][] 
  []
 
-[14 <./Figs/Tray.pdf>] [15] [16]) (./conclusion.tex [17] [18
 
-]) (./AppendixA.tex [19] [20
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./Figs/Setup.pdf>]
+
+LaTeX Warning: Citation `Protiere2005' on page 17 undefined on input line 44.
+
+[17 <./Figs/Tray.pdf>] [18]) (./conclusion.tex [19] [20
+
+]) (./AppendixA.tex
+[21] [22
 
 ]
 Appendix A.
-) (./appendixB.tex [21] [22
+) (./appendixB.tex [23] [24
 
 ]
 Appendix B.
-) [23] [24
+) [25] [26
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
-.bbl [25
+.bbl
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+) [27
 
-]) [26]
+]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
@@ -539,10 +556,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4300 strings out of 493117
- 59110 string characters out of 6135433
- 129128 words of memory out of 5000000
- 7608 multiletter control sequences out of 15000+600000
+ 3928 strings out of 493117
+ 54290 string characters out of 6135433
+ 122854 words of memory out of 5000000
+ 7240 multiletter control sequences out of 15000+600000
  16204 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1167b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -554,19 +571,20 @@ sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/201
-4/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (30 pages, 1396592 bytes).
+.texpadtmp/thesis.pdf (31 pages, 1403029 bytes).
 PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 211 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
