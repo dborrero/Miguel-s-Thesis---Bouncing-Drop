@@ -3,47 +3,51 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ../thesis.bib
-Too many commas in name 1 of "A. Eddi, E. Fort, F. Moisy, Y. Couder" for entry tunneling
+Name 1 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
-You've used 4 entries,
+Name 2 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
+while executing---line 969 of file ieeetr.bst
+Name 3 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
+while executing---line 969 of file ieeetr.bst
+You've used 6 entries,
             1876 wiz_defined-function locations,
-            508 strings with 3982 characters,
-and the built_in function-call counts, 992 in all, are:
-= -- 101
-> -- 30
+            526 strings with 4359 characters,
+and the built_in function-call counts, 1431 in all, are:
+= -- 135
+> -- 65
 < -- 0
-+ -- 12
-- -- 8
-* -- 64
-:= -- 144
-add.period$ -- 4
-call.type$ -- 4
-change.case$ -- 4
++ -- 24
+- -- 18
+* -- 107
+:= -- 219
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 61
-empty$ -- 90
-format.name$ -- 8
-if$ -- 246
+cite$ -- 6
+duplicate$ -- 81
+empty$ -- 123
+format.name$ -- 18
+if$ -- 345
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 4
-newline$ -- 15
-num.names$ -- 4
-pop$ -- 8
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 21
+num.names$ -- 6
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 56
 stack$ -- 0
-substring$ -- 46
-swap$ -- 30
+substring$ -- 50
+swap$ -- 36
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 7
-width$ -- 5
-write$ -- 42
-(There was 1 error message)
+while$ -- 10
+width$ -- 7
+write$ -- 61
+(There were 3 error messages)

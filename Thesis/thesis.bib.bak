@@ -86,14 +86,13 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1038/437208a}
 }
 
-@Article{Protiere2006,
+@Article{Prot2006,
   Title                    = {Particle-wave association on a fluid interface},
   Author                   = {Protiere, Suzie and BOUDAOUD, AREZKI and COUDER, YVES},
   Journal                  = {J. Fluid Mech.},
   Year                     = {2006},
 
   Month                    = {Apr},
-  Number                   = {-1},
   Pages                    = {85},
   Volume                   = {554},
 
@@ -106,7 +105,7 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1017/S0022112006009190}
 }
 
-@Article{Protiere2005,
+@Article{Prot2005,
   Title                    = {The self-organization of capillary wave sources},
   Author                   = {Protiere, Suzie and Couder, Yves and Fort, Emmanuel and Boudaoud, Arezki},
   Journal                  = {J. Phys.: Condens. Matter},

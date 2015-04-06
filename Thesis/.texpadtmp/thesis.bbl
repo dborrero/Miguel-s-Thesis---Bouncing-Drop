@@ -1,5 +1,10 @@
 \begin{thebibliography}{1}
 
+\bibitem{tunneling}
+A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a
+  classical wave-particle association,'' {\em Phys. Rev. Lett.}, vol.~102,
+  no.~240401, 2009.
+
 \bibitem{pilot-wave}
 J.~M.~W. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
   vol.~47, pp.~269--292, 2015.
@@ -9,13 +14,16 @@ Y.~Couder, S.~Protiere, E.~Fort, and A.~Boudaoud, ``Dynamical phenomena:
   Walking and orbiting droplets,'' {\em Nature}, vol.~437, p.~208–208, Sep
   2005.
 
-\bibitem{tunneling}
-F.~M. Y.~C. A.~Eddi, E.~Fort, ``Unpredictable tunneling of a classical
-  wave-particle association,'' {\em Phys. Rev. Lett.}, vol.~102, no.~240401,
-  2009.
-
 \bibitem{double-slit}
 Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
   macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, no.~154101, 2006.
+
+\bibitem{Protiere2006}
+S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
+  interface,'' {\em J. Fluid Mech.}, vol.~554, p.~85, Apr 2006.
+
+\bibitem{Protiere2005}
+S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
+  capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, Oct 2005.
 
 \end{thebibliography}
