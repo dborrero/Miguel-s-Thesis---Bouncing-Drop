@@ -68,7 +68,26 @@ electrodynamics.},
   Url                      = {http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.97.154101}
 }
 
-@Article{Couder2005,
+@Article{Couder2005a,
+  Title                    = {From Bouncing to Floating: Noncoalescence of Drops on a Fluid Bath},
+  Author                   = {Couder, Y. and Fort, E. and Gautier, C.-H. and Boudaoud, A.},
+  Journal                  = {Physical Review Letters},
+  Year                     = {2005},
+
+  Month                    = {May},
+  Number                   = {17},
+  Volume                   = {94},
+
+  __markedentry            = {[Miguel:6]},
+  Doi                      = {10.1103/physrevlett.94.177801},
+  ISSN                     = {1079-7114},
+  Owner                    = {Miguel},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.04.07},
+  Url                      = {http://dx.doi.org/10.1103/PhysRevLett.94.177801}
+}
+
+@Article{Couder2005b,
   Title                    = {Dynamical phenomena: Walking and orbiting droplets},
   Author                   = {Couder, Y. and Protiere, S. and Fort, E. and Boudaoud, A.},
   Journal                  = {Nature},
@@ -78,6 +97,7 @@ electrodynamics.},
   Number                   = {7056},
   Pages                    = {208–208},
   Volume                   = {437},
+
   Doi                      = {10.1038/437208a},
   ISSN                     = {1476-4679},
   Owner                    = {Miguel},
@@ -86,17 +106,15 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1038/437208a}
 }
 
-@Article{Prot2006,
+@Article{Protiere2006,
   Title                    = {Particle-wave association on a fluid interface},
-  Author                   = {Protiere, Suzie and BOUDAOUD, AREZKI and COUDER, YVES},
+  Author                   = {Protiere, Suzie and Boudard, Arezki and Couder, Yves},
   Journal                  = {J. Fluid Mech.},
   Year                     = {2006},
 
   Month                    = {Apr},
   Pages                    = {85},
   Volume                   = {554},
-
-  __markedentry            = {[Miguel:6]},
   Doi                      = {10.1017/s0022112006009190},
   ISSN                     = {1469-7645},
   Owner                    = {Miguel},
@@ -105,7 +123,7 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1017/S0022112006009190}
 }
 
-@Article{Prot2005,
+@Article{Protiere2005,
   Title                    = {The self-organization of capillary wave sources},
   Author                   = {Protiere, Suzie and Couder, Yves and Fort, Emmanuel and Boudaoud, Arezki},
   Journal                  = {J. Phys.: Condens. Matter},
@@ -114,13 +132,31 @@ electrodynamics.},
   Month                    = {Oct},
   Number                   = {45},
   Volume                   = {17},
-
-  __markedentry            = {[Miguel:]},
   Doi                      = {10.1088/0953-8984/17/45/044},
   ISSN                     = {1361-648X},
   Owner                    = {Miguel},
   Publisher                = {IOP Publishing},
   Timestamp                = {2015.03.31},
   Url                      = {http://dx.doi.org/10.1088/0953-8984/17/45/044}
+}
+
+@Article{Walker,
+  Title                    = {The Amateur Scientist},
+  Author                   = {Walker, Jearl},
+  Journal                  = {Scientific American},
+  Year                     = {1978},
+
+  Month                    = {Jun},
+  Number                   = {6},
+  Pages                    = {151-158},
+  Volume                   = {238},
+
+  __markedentry            = {[Miguel:]},
+  Doi                      = {10.1038/scientificamerican0678-151},
+  ISSN                     = {0036-8733},
+  Owner                    = {Miguel},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2015.04.07},
+  Url                      = {http://dx.doi.org/10.1038/scientificamerican0678-151}
 }
 

@@ -9,45 +9,45 @@ Name 2 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the
 while executing---line 969 of file ieeetr.bst
 Name 3 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
-You've used 6 entries,
+You've used 7 entries,
             1876 wiz_defined-function locations,
-            526 strings with 4359 characters,
-and the built_in function-call counts, 1431 in all, are:
-= -- 135
-> -- 65
+            536 strings with 4442 characters,
+and the built_in function-call counts, 1727 in all, are:
+= -- 168
+> -- 69
 < -- 0
-+ -- 24
-- -- 18
-* -- 107
-:= -- 219
-add.period$ -- 6
-call.type$ -- 6
-change.case$ -- 6
++ -- 26
+- -- 19
+* -- 127
+:= -- 257
+add.period$ -- 7
+call.type$ -- 7
+change.case$ -- 7
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 81
-empty$ -- 123
-format.name$ -- 18
-if$ -- 345
+cite$ -- 7
+duplicate$ -- 97
+empty$ -- 151
+format.name$ -- 19
+if$ -- 421
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 6
-newline$ -- 21
-num.names$ -- 6
-pop$ -- 12
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 24
+num.names$ -- 7
+pop$ -- 13
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 56
+skip$ -- 71
 stack$ -- 0
-substring$ -- 50
-swap$ -- 36
+substring$ -- 78
+swap$ -- 45
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 10
-width$ -- 7
-write$ -- 61
+while$ -- 13
+width$ -- 8
+write$ -- 71
 (There were 3 error messages)

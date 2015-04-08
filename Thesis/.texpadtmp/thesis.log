@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 APR 2015 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  7 APR 2015 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -478,9 +478,17 @@ Overfull \hbox (81.85205pt too wide) detected at line 229
 mm/m/it/12 ; t\OT1/cmr/m/n/12 )
  []
 
-[9]) (./Introduction.tex [10] [11
+[9]) (./Introduction.tex [10]
 
-]) (./math.tex [12]
+LaTeX Warning: Reference `bounce' on page 11 undefined on input line 27.
+
+[11
+
+]
+
+LaTeX Warning: Citation `Couder2005a' on page 12 undefined on input line 29.
+
+) (./math.tex [12]
 Chapter 1.
 
 Overfull \hbox (6.4046pt too wide) in paragraph at lines 7--8
@@ -578,10 +586,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3940 strings out of 493117
- 54468 string characters out of 6135433
- 123870 words of memory out of 5000000
- 7247 multiletter control sequences out of 15000+600000
+ 3943 strings out of 493117
+ 54497 string characters out of 6135433
+ 123873 words of memory out of 5000000
+ 7250 multiletter control sequences out of 15000+600000
  16513 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1509b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -603,7 +611,7 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (33 pages, 14643202 bytes).
+.texpadtmp/thesis.pdf (33 pages, 14648886 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams
