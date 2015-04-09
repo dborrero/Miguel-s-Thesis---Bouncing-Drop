@@ -1,0 +1,58 @@
+---
+title: "Thesis (Random)"
+author: "Miguel"
+date: "April 8, 2015"
+output: html_document
+---
+
+How random is this trial?
+
+```{r, echo = FALSE}
+suppressWarnings(library(ggplot2))
+library(tidyr)
+library(dplyr)
+```
+
+```{r}
+set.seed(4)
+
+# Import data.
+data <- c("R", "T", "T", "T", "R", "T", "T", "R", "T", "R","R","R","R","T", "R","R","R","R","R","T", "R","R","R","T","R","R","R","R","R","R","R","R","T", "T", "T", "T", "R", "R", "R", "T", "T", "R", "T","T", "R", "T", "T","R","T", "T", "R", "R", "T", "T", "R", "T", "R","R","R","R","T", "T", "T", "R", "T", "T", "R")
+
+# Write function to calculate the streak of transmissions.
+calc_streak <- function(x){
+    diff(which(c(0, as.numeric(x == "T"), 0) == 0)) - 1
+}
+
+# Calculate streak of data.
+streak <- calc_streak(data)
+
+
+# Reproduce with a simulation. Calculate streaks of simulation.
+T_prob <- 31.0/length(data)
+outcomes <- c("T", "R")
+sim_data <- sample(outcomes, size = length(data), replace = TRUE, prob = c(T_prob, (1-T_prob)))
+sim <- calc_streak(sim_data)
+
+
+# Format real and simulated data for plots.
+st <- data.frame(streak) %>% 
+  group_by(streak) %>% 
+  summarize(results = n()) %>%
+  rename(actual_streak = streak)
+
+su <- data.frame(sim) %>% 
+  group_by(sim) %>% 
+  summarize(results = n()) %>%
+  rename(sim_streak = sim)
+
+all <- full_join(st,su, by= "results")
+all[is.na(all)] <- 0
+all.long <- gather(all, "variable","value", -results)
+
+
+# Plot.
+ggplot(all.long, aes(value, results, fill=variable)) + 
+  geom_bar(stat="identity", position="dodge") +
+  ggtitle("Data vs. Simulation of Tranmission Counts") + ylab("Transmission Streaks")
+```
