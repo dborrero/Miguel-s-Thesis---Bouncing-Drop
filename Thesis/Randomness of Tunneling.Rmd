@@ -56,3 +56,71 @@ ggplot(all.long, aes(value, results, fill=variable)) +
   geom_bar(stat="identity", position="dodge") +
   ggtitle("Data vs. Simulation of Tranmission Counts") + ylab("Transmission Streaks")
 ```
+
+
+```{r, echo=FALSE}
+# Write function to calculate the streak of reflections.
+calc_streak <- function(x){
+    diff(which(c(0, as.numeric(x == "R"), 0) == 0)) - 1
+}
+
+# Calculate streak of data.
+streak <- calc_streak(data)
+
+
+# Calculate streaks of simulation.
+sim <- calc_streak(sim_data)
+
+
+# Format real and simulated data for plots.
+st <- data.frame(streak) %>% 
+  group_by(streak) %>% 
+  summarize(results = n()) %>%
+  rename(actual_streak = streak)
+
+su <- data.frame(sim) %>% 
+  group_by(sim) %>% 
+  summarize(results = n()) %>%
+  rename(sim_streak = sim)
+
+all <- full_join(st,su, by= "results")
+all[is.na(all)] <- 0
+all.long <- gather(all, "variable","value", -results)
+
+
+# Plot.
+ggplot(all.long, aes(value, results, fill=variable)) + 
+  geom_bar(stat="identity", position="dodge") +
+  ggtitle("Data vs. Simulation of Tranmission Counts") + ylab("Transmission Streaks")
+```
+Now let's look at some of the data.
+```{r}
+h <- c(1.52,1.27,1.02,1.51,1.26,1.01,1.26)
+h_E <- c(0.04, 0.04, 0.03, 0.03, 0.03,0.03,0.03) 
+T <- c(1.0, 1/12, 0.0, 1.0, 7/19, 0.0, 4/13)
+barrier <- c(2.75,3.0,3.25,2.75,3.0,3.25,3.0)
+trial <- c(1,1,1,2,2,2,3)
+
+D1 <- round(mean(c(0.9876,1.011,1.048,0.9968,0.9789,0.9676,0.9969,0.9969,0.9672)), digits = 2)
+D_SE1 <- round(sd(c(0.9876,1.011,1.048,0.9968,0.9789,0.9676,0.9969,0.9969,0.9672))/sqrt(9), digits = 2)
+
+D2 <- round(mean(c(1.042,1.094,1.113,1.011,1.154, 1.030,1.054,1.078)), digits = 2)
+D_SE2 <- round(sd(c(1.042,1.094,1.113,1.011,1.154, 1.030,1.054,1.078))/sqrt(9), digits = 2)
+
+D3 <- round(mean(c(1.089,0.9754,1.058,1.001,0.9794,1.030,0.9193,0.9878,1.090)), digits = 2)
+D_SE3 <- round(sd(c(1.089,0.9754,1.058,1.001,0.9794,1.030,0.9193,0.9878,1.090))/sqrt(9), digits = 2)
+
+D <- c(D1,D1,D1,D2,D2,D2,D3)
+df <- data.frame(trial, barrier, h, h_E, T, D)
+
+  
+ggplot(df, aes(h, T, col = as.factor(D))) + 
+  geom_point(size = 3) +
+  geom_errorbarh(aes(xmin=h-h_E, xmax=h+h_E), height=.03) +
+  xlab("Oil Height (mm)") + 
+  ylab("Transmissions") +
+  scale_color_discrete("Droplet\nDiameter (mm)") +
+  ggtitle("Tunneling Probability by\n Height of Oil Above Barrier")
+
+?geom_errobar
+```
