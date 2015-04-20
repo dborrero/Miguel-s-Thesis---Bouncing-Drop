@@ -77,8 +77,6 @@ electrodynamics.},
   Month                    = {May},
   Number                   = {17},
   Volume                   = {94},
-
-  __markedentry            = {[Miguel:6]},
   Doi                      = {10.1103/physrevlett.94.177801},
   ISSN                     = {1079-7114},
   Owner                    = {Miguel},
@@ -106,6 +104,25 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1038/437208a}
 }
 
+@Article{Eddi2011,
+  Title                    = {Information stored in Faraday waves: the origin of a path memory},
+  Author                   = {Eddi, Antonin and SULTAN, ERIC and MOUKHTAR, JULIEN and FORT, EMMANUEL and ROSSI, MAURICE and COUDER, YVES},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2011},
+
+  Month                    = {Mar},
+  Pages                    = {433–463},
+  Volume                   = {674},
+
+  __markedentry            = {[Miguel:6]},
+  Doi                      = {10.1017/s0022112011000176},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.20},
+  Url                      = {http://dx.doi.org/10.1017/S0022112011000176}
+}
+
 @Article{Faraday,
   Author                   = {Faraday, M.},
   Journal                  = {Phil. Trans. R. Soc. Lond.},
@@ -115,6 +132,25 @@ electrodynamics.},
 
   Owner                    = {Miguel},
   Timestamp                = {2015.04.08}
+}
+
+@Article{shaker,
+  Title                    = {Generating uniaxial vibration with an electrodynamic shaker and external air bearing},
+  Author                   = {Harris, Daniel M. and Bush, John W.M.},
+  Journal                  = {Journal of Sound and Vibration},
+  Year                     = {2015},
+
+  Month                    = {Jan},
+  Pages                    = {255–269},
+  Volume                   = {334},
+
+  __markedentry            = {[Miguel:]},
+  Doi                      = {10.1016/j.jsv.2014.09.015},
+  ISSN                     = {0022-460X},
+  Owner                    = {Miguel},
+  Publisher                = {Elsevier BV},
+  Timestamp                = {2015.04.19},
+  Url                      = {http://dx.doi.org/10.1016/j.jsv.2014.09.015}
 }
 
 @Article{Protiere2006,
@@ -163,8 +199,6 @@ electrodynamics.},
   Number                   = {6},
   Pages                    = {151-158},
   Volume                   = {238},
-
-  __markedentry            = {[Miguel:]},
   Doi                      = {10.1038/scientificamerican0678-151},
   ISSN                     = {0036-8733},
   Owner                    = {Miguel},

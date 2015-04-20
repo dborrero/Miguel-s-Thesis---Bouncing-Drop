@@ -96,7 +96,7 @@ ggplot(all.long, aes(value, results, fill=variable)) +
 Now let's look at some of the data.
 ```{r}
 h <- c(1.52,1.27,1.02,1.51,1.26,1.01,1.26)
-h_E <- c(0.04, 0.04, 0.03, 0.03, 0.03,0.03,0.03) 
+h_E <- c(0.04, 0.035, 0.034, 0.034, 0.034,0.034,0.034) 
 T <- c(1.0, 2/24, 0.0, 17/17, 7/19, 0/18, 4/13)
 barrier <- c(2.75,3.0,3.25,2.75,3.0,3.25,3.0)
 trial <- c(1,1,1,2,2,2,3)
@@ -167,5 +167,16 @@ ggplot(vdf, aes(x = jittert, v_perp, col = factor(tun))) +
   guides(colour = guide_legend("Tunneling"), shape = guide_legend("Droplet\nDiameter (mm)")) +
   scale_x_discrete(limits = c(1,2,3),labels=c("1","2","3")) +
   coord_cartesian(xlim = c(0.5,3.5)) 
+
+
+#Boxplot
+ggplot(vdf, aes(x = Dia, y = v_perp, col = factor(Dia))) + 
+  geom_boxplot() +
+  xlab("Diameter") +
+  ylab("Perpendicular Velocity (mm/s)") +
+  ggtitle("Is Tunneling Dependent on\nPerpendicular Velocity?") 
+  #guides(colour = guide_legend("Tunneling"), shape = guide_legend("Droplet\nDiameter (mm)")) 
+  #scale_x_discrete(limits = c(1,2,3),labels=c("1","2","3")) +
+  #coord_cartesian(xlim = c(0.95,1.10)) 
 
 ```

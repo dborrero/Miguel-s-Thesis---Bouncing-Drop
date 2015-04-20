@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Couder2005b}
 Y.~Couder, S.~Protiere, E.~Fort, and A.~Boudaoud, ``Dynamical phenomena:
@@ -22,13 +22,23 @@ A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a
   classical wave-particle association,'' {\em Phys. Rev. Lett.}, vol.~102,
   no.~240401, 2009.
 
-\bibitem{pilot-wave}
-J.~M.~W. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
-  vol.~47, pp.~269--292, 2015.
+\bibitem{Eddi2011}
+A.~Eddi, E.~SULTAN, J.~MOUKHTAR, E.~FORT, M.~ROSSI, and Y.~COUDER,
+  ``Information stored in faraday waves: the origin of a path memory,'' {\em J.
+  Fluid Mech.}, vol.~674, p.~433–463, Mar 2011.
 
 \bibitem{double-slit}
 Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
   macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, no.~154101, 2006.
+
+\bibitem{pilot-wave}
+J.~M.~W. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
+  vol.~47, pp.~269--292, 2015.
+
+\bibitem{shaker}
+D.~M. Harris and J.~W. Bush, ``Generating uniaxial vibration with an
+  electrodynamic shaker and external air bearing,'' {\em Journal of Sound and
+  Vibration}, vol.~334, p.~255–269, Jan 2015.
 
 \bibitem{Protiere2006}
 S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
