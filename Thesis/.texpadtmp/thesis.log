@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 APR 2015 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  19 APR 2015 23:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,17 +584,73 @@ LaTeX Warning: Citation `Couder2005' on page 23 undefined on input line 52.
 [23 <./Figs/Tray.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./Figs/group.pdf>] [25]) (./conclusion.tex [26]) (./AppendixA.tex [27
+ [24 <./Figs/group.pdf>] [25]) (./Chapter3.tex [26]
+Chapter 4.
 
-] [28
+LaTeX Warning: Reference `Sources of Error' on page 27 undefined on input line 
+11.
+
+<./Figs/datacollection.pdf, id=191, 644.4075pt x 323.2075pt>
+File: ./Figs/datacollection.pdf Graphic file (type pdf)
+
+<use ./Figs/datacollection.pdf>
+Package pdftex.def Info: ./Figs/datacollection.pdf used on input line 17.
+(pdftex.def)             Requested size: 386.64748pt x 193.926pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Figs/TunnelingProb.pdf, id=192, 505.89pt x 361.35pt>
+File: ./Figs/TunnelingProb.pdf Graphic file (type pdf)
+
+<use ./Figs/TunnelingProb.pdf>
+Package pdftex.def Info: ./Figs/TunnelingProb.pdf used on input line 34.
+(pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
+
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Figs/Velocity.pdf, id=193, 505.89pt x 361.35pt>
+File: ./Figs/Velocity.pdf Graphic file (type pdf)
+ <use ./Figs/Velocity.pdf>
+Package pdftex.def Info: ./Figs/Velocity.pdf used on input line 44.
+(pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
+
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
+
+]
+[28 <./Figs/datacollection.pdf>] [29 <./Figs/TunnelingProb.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30 <./Figs/Velocity.pdf>]
+
+LaTeX Warning: Citation `shaker' on page 31 undefined on input line 91.
+
+[31]) (./conclusion.tex [32]) (./AppendixA.tex [33
+
+] [34
 
 ]
 Appendix A.
-) (./appendixB.tex [29] [30
+) (./appendixB.tex [35] [36
 
 ]
 Appendix B.
-) [31] [32
+) [37] [38
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
@@ -602,7 +658,7 @@ Appendix B.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-) [33
+) [39
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
@@ -615,10 +671,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3960 strings out of 493117
- 54816 string characters out of 6135433
- 124903 words of memory out of 5000000
- 7261 multiletter control sequences out of 15000+600000
+ 3983 strings out of 493117
+ 55278 string characters out of 6135433
+ 124936 words of memory out of 5000000
+ 7278 multiletter control sequences out of 15000+600000
  16513 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1512b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -640,10 +696,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (37 pages, 19003845 bytes).
+.texpadtmp/thesis.pdf (43 pages, 19101791 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
+ 344 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
