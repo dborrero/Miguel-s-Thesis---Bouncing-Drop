@@ -3,7 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ../thesis.bib
-Warning--I didn't find a database entry for "Couder2005"
 Warning--empty title in Faraday
 Name 1 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
@@ -11,45 +10,45 @@ Name 2 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the
 while executing---line 969 of file ieeetr.bst
 Name 3 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
-You've used 14 entries,
+You've used 17 entries,
             1876 wiz_defined-function locations,
-            586 strings with 5518 characters,
-and the built_in function-call counts, 3944 in all, are:
-= -- 416
-> -- 131
+            605 strings with 5909 characters,
+and the built_in function-call counts, 4602 in all, are:
+= -- 461
+> -- 157
 < -- 0
-+ -- 50
-- -- 36
-* -- 243
-:= -- 524
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 13
++ -- 60
+- -- 43
+* -- 345
+:= -- 658
+add.period$ -- 17
+call.type$ -- 17
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 252
-empty$ -- 321
-format.name$ -- 36
-if$ -- 1001
+cite$ -- 18
+duplicate$ -- 237
+empty$ -- 415
+format.name$ -- 43
+if$ -- 1136
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 14
-newline$ -- 45
-num.names$ -- 14
-pop$ -- 28
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 54
+num.names$ -- 17
+pop$ -- 27
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 233
+skip$ -- 187
 stack$ -- 0
-substring$ -- 196
-swap$ -- 150
+substring$ -- 316
+swap$ -- 113
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 27
-width$ -- 16
-write$ -- 139
+while$ -- 41
+width$ -- 19
+write$ -- 169
 (There were 3 error messages)

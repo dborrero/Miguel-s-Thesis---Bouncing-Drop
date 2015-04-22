@@ -31,7 +31,7 @@ sufficient to generate a quantumlike tunneling at a macroscopic scale.},
 
   Month                    = {Jan},
   Number                   = {2},
-  Pages                    = {166–179},
+  Pages                    = {166-179},
   Volume                   = {85},
   Doi                      = {10.1103/physrev.85.166},
   ISSN                     = {0031-899X},
@@ -49,10 +49,8 @@ sufficient to generate a quantumlike tunneling at a macroscopic scale.},
 
   Month                    = {Jan},
   Number                   = {2},
-  Pages                    = {180–193},
+  Pages                    = {180-193},
   Volume                   = {85},
-
-  __markedentry            = {[Miguel:]},
   Doi                      = {10.1103/physrev.85.180},
   ISSN                     = {0031-899X},
   Owner                    = {Miguel},
@@ -132,7 +130,7 @@ electrodynamics.},
 
   Month                    = {Sep},
   Number                   = {7056},
-  Pages                    = {208–208},
+  Pages                    = {208-208},
   Volume                   = {437},
 
   Doi                      = {10.1038/437208a},
@@ -150,7 +148,7 @@ electrodynamics.},
   Year                     = {2011},
 
   Month                    = {Mar},
-  Pages                    = {433–463},
+  Pages                    = {433-463},
   Volume                   = {674},
 
   Doi                      = {10.1017/s0022112011000176},
@@ -179,7 +177,7 @@ electrodynamics.},
   Year                     = {2015},
 
   Month                    = {Jan},
-  Pages                    = {255–269},
+  Pages                    = {255-269},
   Volume                   = {334},
 
   Doi                      = {10.1016/j.jsv.2014.09.015},
@@ -190,6 +188,25 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1016/j.jsv.2014.09.015}
 }
 
+@Article{Harris2013,
+  Title                    = {Droplets walking in a rotating frame: from quantized orbits to multimodal statistics},
+  Author                   = {Harris, Daniel M. and Bush, John W. M.},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2013},
+
+  Month                    = {Dec},
+  Pages                    = {444-464},
+  Volume                   = {739},
+
+  __markedentry            = {[Miguel:6]},
+  Doi                      = {10.1017/jfm.2013.627},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.21},
+  Url                      = {http://dx.doi.org/10.1017/jfm.2013.627}
+}
+
 @Article{Molacek2013,
   Title                    = {Drops walking on a vibrating bath: towards a hydrodynamic pilot-wave theory},
   Author                   = {Mol\`{a}\v{c}ek, Jan and Bush, John W. M.},
@@ -197,16 +214,33 @@ electrodynamics.},
   Year                     = {2013},
 
   Month                    = {Jun},
-  Pages                    = {612–647},
+  Pages                    = {612-647},
   Volume                   = {727},
-
-  __markedentry            = {[Miguel:6]},
   Doi                      = {10.1017/jfm.2013.280},
   ISSN                     = {1469-7645},
   Owner                    = {Miguel},
   Publisher                = {Cambridge University Press (CUP)},
   Timestamp                = {2015.04.21},
   Url                      = {http://dx.doi.org/10.1017/jfm.2013.280}
+}
+
+@Article{Oza2014,
+  Title                    = {Pilot-wave dynamics in a rotating frame: on the emergence of orbital quantization},
+  Author                   = {Oza, Anand U. and Harris, Daniel M. and Rosales, Rodolfo R. and Bush, John W. M.},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2014},
+
+  Month                    = {Mar},
+  Pages                    = {404-429},
+  Volume                   = {744},
+
+  __markedentry            = {[Miguel:]},
+  Doi                      = {10.1017/jfm.2014.50},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.21},
+  Url                      = {http://dx.doi.org/10.1017/jfm.2014.50}
 }
 
 @Article{Protiere2006,

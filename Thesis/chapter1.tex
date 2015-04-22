@@ -1,19 +1,18 @@
 \chapter{``Quantum" Behavior}
 \label{Ch1}
 
-\section{Macroscopic Quantum Mechanics} 
-	    \subsubsection{Basic Parameters}
+\section{Oil Droplet System}
 	    \label{parameters}
-	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$ in a bath of depth $H$ driven vertically at an amplitude $A_0$ at frequency $f=\omega/{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma~\mathrm{sin}(\omega t)$. The surface of oil in the shaking tray remains quiescent for lower values of $\gamma$. However, if one continues to increase $\gamma$ (by increasing $A_0$ or $f$), one will eventually witness the appearance of standing surface waves called Faraday waves. We define the threshold at which these waves appear as the Faraday threshold $\gamma_\mathrm{F}$, the value of which changes depending on the size and shape of the tray, the amount of oil in the tray, and the properties of the fluid. 
+	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$ in a bath of depth $H$. This fluid bath is then driven vertically at an amplitude $A_0$ at frequency $f=\omega/{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma~\mathrm{sin}(\omega t)$. The surface of oil in the shaking tray remains quiescent for lower values of $\gamma$. However, if one continues to increase $\gamma$ (by increasing $A_0$ or $f$), one will eventually witness the appearance of standing surface waves called Faraday waves. We define the threshold at which these waves appear as the Faraday threshold $\gamma_\mathrm{F}$, the value of which changes depending on the size and shape of the tray, the amount of fluid in the tray, and the properties of the fluid. 
 	       
 	   \begin{figure}[h]
 	       \centering
-	    \includegraphics[scale=0.35]{HQASetup.pdf}
-	     \caption{The experimental setup. The tray vibrates with an amplitude $A_0$ and at frequency $f_0$.}
+	    \includegraphics[scale=.80]{basicsetup.pdf}
+	     \caption{A droplet bounces on a vertically vibrating fluid bath. The tray vibrates with an amplitude $A_0$ at frequency $f$.}
 	 \label{regime}
 	\end{figure}
 	       
-	    If we take a toothpick and break the surface of the vibrating oil bath, we form a droplet of oil that will remain bouncing for hours. The oil droplet of diameter $D$ bounces when $\gamma<\gamma_\mathrm{F}$, where $\gamma_\mathrm{F}$ is the Faraday threshold. The range of settings that produce the bouncing droplet are outlined in \refTab{approxlimits}. 
+	    If we take a toothpick and break the surface of the vibrating oil bath, we form a droplet of oil that will remain bouncing for hours. The oil droplet of diameter $D$ bounces when $\gamma<\gamma_\mathrm{F}$, where $\gamma_\mathrm{F}$ is the Faraday threshold. The range of settings which allow for the existance of the bouncing droplet are outlined in \refTab{approxlimits}. 
 	      
 	       \begin{table}[htdp] 
 \caption[Basic Table 1]{Approximate Limits for Bouncing Drop Behavior} 
@@ -33,12 +32,22 @@ Drop Diameter $D$ (mm) & 0.6 & 1.0 \\
 \label{approxlimits} 
 \end{table}	
 
-In an experiment, one usually pours in a specific volume of oil in the tray, fixing the values of $\nu$, $\sigma$, and $H$. One is then left with the option to adjust $\gamma$ which produces a range of droplet motions, including a slew of different stationary bouncing modes, a linear trajectory,  and chaotic trajectory. To visualize the various bounving behaviors, we use the vibration number $V_i$, which takes into account many of the parameters of the experiment \rf{Molacek2013}.  The vibration number describes ``the relative magnitude of the forcing frequency and the drop's natural oscillation frequency," and is given by:
-	       	      
-\begin{equation} \label{vibrationnumber}
+In an experiment, one usually pours in a specific volume of oil in the tray, fixing the values of $\nu$, $\sigma$, and $H$. One is then left with the option to adjust $\gamma$ which produces a range of droplet motions, including a slew of different stationary bouncing modes and linear or chaotic ``walking" trajectories. To visualize the various bounving behaviors, we use the vibration number $V_i$, which takes into account many of the parameters of the experiment \rf{Molacek2013}. The vibration number is the ratio of the forcing frequency and the drop's natural oscillation frequency:
+\begin{equation} \label{vibrationnumber1}
+V_i = \frac{\omega}{\omega_\mathrm{D}}
+\end{equation}   
+where $\omega_\mathrm{D}$ represents the oscillation frequency of a fluid droplet. In other words, it represents ...!!! The oscillation frequency of a fluid droplet is defined as:
+\begin{equation} \label{oscillationfrequency}
+\omega_\mathrm{D} = 2\sqrt{\frac{2\sigma}{\rho D^3}},
+\end{equation}   
+with surface tension $\sigma$, density $\rho$ , and diameter of the droplet $D$ \ref{lord}.
+
+
+Combining \refeqs{vibrationnumber1}{oscillationfrequency} we arrive at:
+\begin{equation} \label{vibrationnumber2}
 V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}},
 \end{equation}   	       	       
-where the fluid's properties are captured by $\sigma$ and $\rho$, the vibration is captured by the angular frequency $\omega$, and the size of the droplet is captured by it's diameter $D$. The natural frequency of the droplet occurs around $V_i \approx 0.65$, where the droplet can exhibit both walking and bouncing behaviors. Setting up a plot with $V_i$ on the y axis and (dimensionless) ${\gamma}/{g}$ on the x axis allows the experimenter to identify regions of similar behaviors, shown in \refFig{regime}. 
+a dimensionless parameter that captures the fluid's surface tension $\sigma$ and density$\rho$, the tray's vibration $\omega$, and the droplet's diameter $D$. The natural frequency of the droplet occurs around $V_i \approx 0.65$, where the droplet can exhibit both walking and bouncing behaviors. Setting up a plot with $V_i$ on the y axis and (dimensionless) ${\gamma}/{g}$ on the x axis allows the experimenter to identify regions of similar behaviors, shown in \refFig{regime}. 
 	    
 	    \begin{figure}[h]
 	% the options are h = here, t = top, b = bottom, p = page of figures.
@@ -47,19 +56,34 @@ where the fluid's properties are captured by $\sigma$ and $\rho$, the vibration 
 	% \begin{figure}[h!tbp]
 	   
 	       \centering
-	    \includegraphics[scale=.95]{vibrationnumber}
-	     \caption{The different bouncing regimes for the oil drops of 20 cSt silicon oil and at $f$ = $\omega / 2\pi$ = 80 Hz, characterized by the non-dimensionalized forcing frequency $\gamma/g$ and the vibration number $V_i$. The parameters $(m,n)^{i}$ describe the droplet that bounces $n$ times in $m$ forcing periods, where $i$ distinguishes modes with different mechanical energy. The Faraday threshold is $\gamma_\mathrm{F} = 4.2$. This diagram was taken from \rf{pilot-wave}.}
+	    \includegraphics[scale=.96]{vibrationnumber}
+	     \caption{The different bouncing regimes for the oil drops of 20 cSt silicone oil at $f$ = $\omega / 2\pi$ = 80 Hz, characterized by the non-dimensionalized forcing frequency $\gamma/g$ and the vibration number $V_i$. The parameters $(m,n)^{i}$ describe a droplet that bounces $n$ times in $m$ forcing periods, where $i$ distinguishes modes with different mechanical energy. The Faraday threshold is $\gamma_\mathrm{F} = 4.2$. This diagram was taken from \rf{pilot-wave}.}
 	 \label{regime}
 	\end{figure}
 
-The various modes seen in \refFig{regime} can be described by ($m$,$n$), where $n$ is the number to times the droplet contacts the surface over period $m/f$. For example, in the (1,1) mode, the droplet hits the oil bath once per driving period. In the (2,2) mode, the drop makes two bounces of differing heights. 
+The various modes seen in \refFig{regime} can be described by ($m$,$n$), where $n$ is the number to times the droplet contacts the surface over period $m/f$. For example, in the (1,1) ``Bounce" mode, the droplet hits the oil bath once per up-and-down motion of the tray. In the (2,2) mode, the drop makes two bounces of differing heights. The ``Chaos" regimes indicate that the bouncing of the droplet is chaotic, and it does not seem to exhibit a periodic bouncing motion. The ``Walk" regime describes a very particular kind of behavior in which the droplet moves forward as it bounces, seemingly walking across the surface. Like bouncing, walking also comes in various modes. Finally, the ``Coalescence" region demarcates the coalesces of the droplet with the bath.
+
+The droplet map shown in \refFig{regime} provides a valuable starting place for an experiment since it outlines the many possible states of the system. We will now narrow our focus to only the walking regime, for which a variety of fascinating interactions emerge.
+
+	       \subsection{Walking}
 	       
+	       DISPERSION RELATION
             \subsection{Path Memory}
                         
-            Path memory is a parameter that can be varied in this setup; it is essentially the damping of the system \cite{Eddi2011}. Every time the droplet impacts the bath, it creates a radial traveling wave. Over the course of many bounces, a wavefield composed of a superposition of the many waves arises. In this way the wavefield ``remembers" previous interactions. Because droplet motion is influenced by the wavefield, controlling the damping of the wavefield will influence the path of the walker. The heavily damped system has a low memory, while undamped system correspends to higher memory. As one gets closer to the Faraday threshold, one achieves higher and higher memory because waves last for longer. The quantum like features of this experiment arise in the high-memory limit. 
+            Path memory is a parameter that can be varied in this setup; essentially it captures the importance of damping in the system \rf{Eddi2011}. Every time the droplet impacts the bath, it creates a radial traveling wave. Over the course of many bounces, a guiding wave field composed of a superposition of the many waves arises. In this way the wave field ``remembers" previous interactions, but is at the same time being periodically ``updated" with every new bounce of the droplet. Because droplet motion is influenced by the wave field, controlling the damping of the wave field will influence the path of the walker. 
             
+For a bouncing droplet in which the guiding waves decay relatively quickly, the droplet can only be influenced by relatively recent waves. This kind of behavior is charactarized as a low memory. Conversely, a high memory system is one in which waves do not decay quickly; they propagate outwards and reflect off of the surfaces of the tray before reflecting back and interfering with the other waves produced by the droplet. As one gets closer to the Faraday threshold, one achieves higher and higher memory because waves last for longer. The quantum-like features of this experiment arise in the high-memory limit. 
+
+The non-dimensional memory parameter is formally defined as:
+$$M_e = \frac{T_\mathrm{d}}{T_\mathrm{F}(1-\gamma/\gamma_\mathrm{F})},$$
+where $T_\mathrm{d}$ is the decay time of waves in the absence of vibration and $T_\mathrm{F}$ is the period of the Faraday waves \rf{Harris2013}. It will suffice to discuss memory as a fraction of the Faraday threshold $\gamma/\gamma_{F}$, since the fraction and $M_e$ are monotonically related. As the value of $\gamma/\gamma_{F}$ increases (we get closer to the Faraday threshold), $M_e$ increases. Eventually as $\gamma/\gamma_{F}$ approaches 1, the memory parameter approaches $+~\infty$. Thus, higher forcing $\gamma$ goes hand in hand with higher memory $M_e$. 
+
+In practice, walking arises above a value of $\gamma/\gamma_{F}$ = 0.94, where as more quantum-like phenomena arise at values of $\gamma/\gamma_{F} = 0.97$ and above \rf{Oza2014}. Deviations in memory $\gamma/\gamma_{F}$ as small as $\pm 0.1$ can have drastic differences in both long term and short term droplet behaviors \rf{Harris2013}.
+            
+            
+\subsection{Quantum Analogs}   
              \subsection{Single-Particle Diffraction}
-In 2006 Couder and Fort showed that the system had properties that were strikinly similar to two famous and controversial quantum experiments\cite{double-slit}. They were able to demonstrate that a single walker travelling through one slit seemed to have its direction altered seemingly randomly, before continuing forward on its new path. By statistically analyzing many trials, Couder and Fort showed that the histogram of the ``diffraction" actually resulted in a diffraction pattern strikingly similar to the single photon diffraction experiment performed by Taylor in 1909. 
+In 2006 Couder and Fort showed that the system had properties that were strikinly similar to two famous and controversial quantum experiments \cite{double-slit}. They were able to demonstrate that a single walker travelling through one slit seemed to have its direction altered seemingly randomly, before continuing forward on its new path. By statistically analyzing many trials, Couder and Fort showed that the histogram of the ``diffraction" actually resulted in a diffraction pattern strikingly similar to the single photon diffraction experiment performed by Taylor in 1909. 
 
 Next, Couder and Fort added a second slit next to the first one. Now a single walker could pass through  one of two slits, and it was discovered that a histomgram of this data returned another diffraction pattern. This result is of course reminiscent of one of the most famous experiments in physics: Young's double slit diffraction with photons and electrons. 
     

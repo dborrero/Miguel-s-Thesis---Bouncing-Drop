@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 APR 2015 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 APR 2015 22:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -486,45 +486,43 @@ Package pdftex.def Info: ./Figs/Faraday.JPG used on input line 47.
 
 [11 <./Figs/Faraday.JPG>]) (./Chapter1.tex [12]
 Chapter 1.
-<./Figs/HQASetup.pdf, id=88, 525.965pt x 374.39874pt>
-File: ./Figs/HQASetup.pdf Graphic file (type pdf)
+<./Figs/basicsetup.pdf, id=88, 291.0875pt x 132.495pt>
+File: ./Figs/basicsetup.pdf Graphic file (type pdf)
 
-<use ./Figs/HQASetup.pdf>
-Package pdftex.def Info: ./Figs/HQASetup.pdf used on input line 11.
-(pdftex.def)             Requested size: 184.0905pt x 131.04152pt.
+<use ./Figs/basicsetup.pdf>
+Package pdftex.def Info: ./Figs/basicsetup.pdf used on input line 10.
+(pdftex.def)             Requested size: 232.8703pt x 105.99612pt.
  [13
 
- <./Figs/HQASetup.pdf>]
-<./Figs/vibrationnumber.jpeg, id=104, 455.5419pt x 317.38576pt>
+ <./Figs/basicsetup.pdf>]
+
+LaTeX Warning: Reference `lord' on page 14 undefined on input line 43.
+
+<./Figs/vibrationnumber.jpeg, id=103, 455.5419pt x 317.38576pt>
 File: ./Figs/vibrationnumber.jpeg Graphic file (type jpg)
 
 <use ./Figs/vibrationnumber.jpeg>
-Package pdftex.def Info: ./Figs/vibrationnumber.jpeg used on input line 50.
-(pdftex.def)             Requested size: 432.76234pt x 301.51476pt.
+Package pdftex.def Info: ./Figs/vibrationnumber.jpeg used on input line 59.
+(pdftex.def)             Requested size: 437.3222pt x 304.6917pt.
+
+Overfull \hbox (3.70221pt too wide) in paragraph at lines 59--60
+ [][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 1210) has occurred while \output is active []
-
- [14]
-[15 <./Figs/vibrationnumber.jpeg>]
-<./Figs/Tunneling.pdf, id=112, 862.22125pt x 788.9475pt>
+[14] [15 <./Figs/vibrationnumber.jpeg>] [16]
+<./Figs/Tunneling.pdf, id=114, 862.22125pt x 788.9475pt>
 File: ./Figs/Tunneling.pdf Graphic file (type pdf)
 
 <use ./Figs/Tunneling.pdf>
-Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 77.
+Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 101.
 (pdftex.def)             Requested size: 431.10957pt x 394.47278pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) (./tablesandgraphics.tex [16] [17 <./Figs/Tunneling.pdf>] [18
-
-]
+ [17 <./Figs/Tunneling.pdf>])
+(./tablesandgraphics.tex [18]
 Chapter 2.
-<./Figs/Setup.pdf, id=133, 390.45876pt x 257.96375pt>
+<./Figs/Setup.pdf, id=132, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
  <use ./Figs/Setup.pdf>
 Package pdftex.def Info: ./Figs/Setup.pdf used on input line 17.
@@ -533,7 +531,9 @@ Package pdftex.def Info: ./Figs/Setup.pdf used on input line 17.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19] <./Figs/Tray.pdf, id=137, 1019.81pt x 458.71375pt>
+[19
+
+] <./Figs/Tray.pdf, id=136, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
 Package pdftex.def Info: ./Figs/Tray.pdf used on input line 30.
@@ -546,7 +546,7 @@ Overfull \hbox (55.88324pt too wide) in paragraph at lines 30--31
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=152, 792.9625pt x 651.43375pt>
+[20 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=151, 792.9625pt x 651.43375pt>
 File: ./Figs/group.pdf Graphic file (type pdf)
 
 <use ./Figs/group.pdf>
@@ -567,19 +567,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Chapter 3.
-<./Figs/datacollection.pdf, id=201, 644.4075pt x 323.2075pt>
+<./Figs/datacollection.pdf, id=200, 644.4075pt x 323.2075pt>
 File: ./Figs/datacollection.pdf Graphic file (type pdf)
 
 <use ./Figs/datacollection.pdf>
 Package pdftex.def Info: ./Figs/datacollection.pdf used on input line 13.
-(pdftex.def)             Requested size: 386.64748pt x 193.926pt.
+(pdftex.def)             Requested size: 257.75844pt x 129.2807pt.
 
 
 LaTeX Warning: Reference `Sources of Error' on page 27 undefined on input line 
 18.
 
 [27 <./Figs/datacollection.pdf>]
-<./Figs/TunnelingProb.pdf, id=245, 505.89pt x 361.35pt>
+<./Figs/TunnelingProb.pdf, id=244, 505.89pt x 361.35pt>
 File: ./Figs/TunnelingProb.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingProb.pdf>
@@ -593,7 +593,7 @@ Overfull \hbox (21.67679pt too wide) in paragraph at lines 37--38
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Figs/TunnelingVDiagram.pdf, id=246, 645.41125pt x 331.2375pt>
+<./Figs/TunnelingVDiagram.pdf, id=245, 645.41125pt x 331.2375pt>
 File: ./Figs/TunnelingVDiagram.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingVDiagram.pdf>
@@ -606,7 +606,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Reference `tunneling' on page 28 undefined on input line 52.
 
-<./Figs/Velocity.pdf, id=247, 505.89pt x 361.35pt>
+<./Figs/Velocity.pdf, id=246, 505.89pt x 361.35pt>
 File: ./Figs/Velocity.pdf Graphic file (type pdf)
  <use ./Figs/Velocity.pdf>
 Package pdftex.def Info: ./Figs/Velocity.pdf used on input line 56.
@@ -619,8 +619,12 @@ Overfull \hbox (21.67679pt too wide) in paragraph at lines 56--57
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28] [29 <./Figs/TunnelingProb.pdf>] [30 <./Figs/TunnelingVDiagram.pdf>]
-Underfull \vbox (badness 6396) has occurred while \output is active []
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
+ [28]
+[29 <./Figs/TunnelingProb.pdf>] [30 <./Figs/TunnelingVDiagram.pdf>]
+Underfull \vbox (badness 1946) has occurred while \output is active []
 
  [31 <./Figs/Velocity.pdf>]) (./conclusion.tex [32]) (./AppendixA.tex [33
 
@@ -636,26 +640,7 @@ Appendix B.
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
-.bbl
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
- [39
+.bbl [39
 
 ]) [40]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
@@ -668,10 +653,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3991 strings out of 493117
- 55505 string characters out of 6135433
- 125963 words of memory out of 5000000
- 7285 multiletter control sequences out of 15000+600000
+ 3997 strings out of 493117
+ 55589 string characters out of 6135433
+ 125995 words of memory out of 5000000
+ 7291 multiletter control sequences out of 15000+600000
  14991 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,45p,1276b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -691,10 +676,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (44 pages, 20216716 bytes).
+.texpadtmp/thesis.pdf (44 pages, 20222957 bytes).
 PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
+ 359 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2,16 +2,16 @@
 
 \bibitem{Couder2005b}
 Y.~Couder, S.~Protiere, E.~Fort, and A.~Boudaoud, ``Dynamical phenomena:
-  Walking and orbiting droplets,'' {\em Nature}, vol.~437, p.~208–208, Sep
+  Walking and orbiting droplets,'' {\em Nature}, vol.~437, pp.~208--208, Sep
   2005.
 
 \bibitem{Bohm1952a}
 D.~Bohm, ``A suggested interpretation of the quantum theory in terms of "hidden
-  variables". i,'' {\em Phys. Rev.}, vol.~85, p.~166–179, Jan 1952.
+  variables". i,'' {\em Phys. Rev.}, vol.~85, pp.~166--179, Jan 1952.
 
 \bibitem{Bohm1952b}
 D.~Bohm, ``A suggested interpretation of the quantum theory in terms of "hidden
-  variables". ii,'' {\em Phys. Rev.}, vol.~85, p.~180–193, Jan 1952.
+  variables". ii,'' {\em Phys. Rev.}, vol.~85, pp.~180--193, Jan 1952.
 
 \bibitem{Walker}
 J.~Walker, ``The amateur scientist,'' {\em Scientific American}, vol.~238,
@@ -33,7 +33,7 @@ A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a
 \bibitem{Molacek2013}
 J.~Mol\`{a}\v{c}ek and J.~W.~M. Bush, ``Drops walking on a vibrating bath:
   towards a hydrodynamic pilot-wave theory,'' {\em J. Fluid Mech.}, vol.~727,
-  p.~612–647, Jun 2013.
+  pp.~612--647, Jun 2013.
 
 \bibitem{pilot-wave}
 J.~M.~W. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
@@ -42,7 +42,7 @@ J.~M.~W. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
 \bibitem{Eddi2011}
 A.~Eddi, E.~SULTAN, J.~MOUKHTAR, E.~FORT, M.~ROSSI, and Y.~COUDER,
   ``Information stored in faraday waves: the origin of a path memory,'' {\em J.
-  Fluid Mech.}, vol.~674, p.~433–463, Mar 2011.
+  Fluid Mech.}, vol.~674, pp.~433--463, Mar 2011.
 
 \bibitem{double-slit}
 Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
@@ -51,7 +51,17 @@ Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
 \bibitem{shaker}
 D.~M. Harris and J.~W. Bush, ``Generating uniaxial vibration with an
   electrodynamic shaker and external air bearing,'' {\em Journal of Sound and
-  Vibration}, vol.~334, p.~255–269, Jan 2015.
+  Vibration}, vol.~334, pp.~255--269, Jan 2015.
+
+\bibitem{Harris2013}
+D.~M. Harris and J.~W.~M. Bush, ``Droplets walking in a rotating frame: from
+  quantized orbits to multimodal statistics,'' {\em J. Fluid Mech.}, vol.~739,
+  pp.~444--464, Dec 2013.
+
+\bibitem{Oza2014}
+A.~U. Oza, D.~M. Harris, R.~R. Rosales, and J.~W.~M. Bush, ``Pilot-wave
+  dynamics in a rotating frame: on the emergence of orbital quantization,''
+  {\em J. Fluid Mech.}, vol.~744, pp.~404--429, Mar 2014.
 
 \bibitem{Protiere2006}
 S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
@@ -60,5 +70,9 @@ S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
 \bibitem{Protiere2005}
 S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
   capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, Oct 2005.
+
+\bibitem{lord}
+L.~Rayleigh, ``On the capillary phenomena of jets,'' {\em Proc. R. Soc. Lond.},
+  vol.~29, p.~71, 1879.
 
 \end{thebibliography}
