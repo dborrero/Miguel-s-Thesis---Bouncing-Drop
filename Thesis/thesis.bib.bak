@@ -23,6 +23,44 @@ sufficient to generate a quantumlike tunneling at a macroscopic scale.},
   Url                      = {https://blog.espci.fr/aeddi/files/2014/06/PhysRevLett_TUNNEL.pdf}
 }
 
+@Article{Bohm1952a,
+  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of "Hidden Variables". I},
+  Author                   = {Bohm, David},
+  Journal                  = {Phys. Rev.},
+  Year                     = {1952},
+
+  Month                    = {Jan},
+  Number                   = {2},
+  Pages                    = {166–179},
+  Volume                   = {85},
+  Doi                      = {10.1103/physrev.85.166},
+  ISSN                     = {0031-899X},
+  Owner                    = {Miguel},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.04.20},
+  Url                      = {http://dx.doi.org/10.1103/PhysRev.85.166}
+}
+
+@Article{Bohm1952b,
+  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of "Hidden Variables". II},
+  Author                   = {Bohm, David},
+  Journal                  = {Phys. Rev.},
+  Year                     = {1952},
+
+  Month                    = {Jan},
+  Number                   = {2},
+  Pages                    = {180–193},
+  Volume                   = {85},
+
+  __markedentry            = {[Miguel:]},
+  Doi                      = {10.1103/physrev.85.180},
+  ISSN                     = {0031-899X},
+  Owner                    = {Miguel},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.04.20},
+  Url                      = {http://dx.doi.org/10.1103/PhysRev.85.180}
+}
+
 @Article{pilot-wave,
   Title                    = {Pilot-Wave Hydrodynamics},
   Author                   = {J. M. W. Bush},
@@ -77,6 +115,7 @@ electrodynamics.},
   Month                    = {May},
   Number                   = {17},
   Volume                   = {94},
+
   Doi                      = {10.1103/physrevlett.94.177801},
   ISSN                     = {1079-7114},
   Owner                    = {Miguel},
@@ -114,7 +153,6 @@ electrodynamics.},
   Pages                    = {433–463},
   Volume                   = {674},
 
-  __markedentry            = {[Miguel:6]},
   Doi                      = {10.1017/s0022112011000176},
   ISSN                     = {1469-7645},
   Owner                    = {Miguel},
@@ -144,13 +182,31 @@ electrodynamics.},
   Pages                    = {255–269},
   Volume                   = {334},
 
-  __markedentry            = {[Miguel:]},
   Doi                      = {10.1016/j.jsv.2014.09.015},
   ISSN                     = {0022-460X},
   Owner                    = {Miguel},
   Publisher                = {Elsevier BV},
   Timestamp                = {2015.04.19},
   Url                      = {http://dx.doi.org/10.1016/j.jsv.2014.09.015}
+}
+
+@Article{Molacek2013,
+  Title                    = {Drops walking on a vibrating bath: towards a hydrodynamic pilot-wave theory},
+  Author                   = {Mol\`{a}\v{c}ek, Jan and Bush, John W. M.},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2013},
+
+  Month                    = {Jun},
+  Pages                    = {612–647},
+  Volume                   = {727},
+
+  __markedentry            = {[Miguel:6]},
+  Doi                      = {10.1017/jfm.2013.280},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.21},
+  Url                      = {http://dx.doi.org/10.1017/jfm.2013.280}
 }
 
 @Article{Protiere2006,
@@ -199,6 +255,7 @@ electrodynamics.},
   Number                   = {6},
   Pages                    = {151-158},
   Volume                   = {238},
+
   Doi                      = {10.1038/scientificamerican0678-151},
   ISSN                     = {0036-8733},
   Owner                    = {Miguel},

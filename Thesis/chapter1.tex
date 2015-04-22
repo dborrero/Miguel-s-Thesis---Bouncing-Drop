@@ -1,17 +1,20 @@
-\chapter{``Quantum" Behaviour}
+\chapter{``Quantum" Behavior}
+\label{Ch1}
 
-\section{Macroscopic Quantum Scale Behaviors} 
+\section{Macroscopic Quantum Mechanics} 
 	    \subsubsection{Basic Parameters}
-	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$, in a bath of depth $H$ driven vertically at an amplitude $A_0$ at frequency $f=\omega/{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma~\mathrm{sin}(\omega t)$. 
+	    \label{parameters}
+	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$ in a bath of depth $H$ driven vertically at an amplitude $A_0$ at frequency $f=\omega/{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma~\mathrm{sin}(\omega t)$. The surface of oil in the shaking tray remains quiescent for lower values of $\gamma$. However, if one continues to increase $\gamma$ (by increasing $A_0$ or $f$), one will eventually witness the appearance of standing surface waves called Faraday waves. We define the threshold at which these waves appear as the Faraday threshold $\gamma_\mathrm{F}$, the value of which changes depending on the size and shape of the tray, the amount of oil in the tray, and the properties of the fluid. 
 	       
 	   \begin{figure}[h]
 	       \centering
 	    \includegraphics[scale=0.35]{HQASetup.pdf}
-	     \caption{The experimental setup. The tray vibrates with an amplitude $A_0$.}
+	     \caption{The experimental setup. The tray vibrates with an amplitude $A_0$ and at frequency $f_0$.}
 	 \label{regime}
 	\end{figure}
 	       
-	       The oil droplet of diameter $D$ bounces in the regime $\gamma<\gamma_F$, where $\gamma_F$ is the Faraday threshold (at this point, Fraday waves appear). The important experimental limits are outlined in \refTab{approxlimits}. 
+	    If we take a toothpick and break the surface of the vibrating oil bath, we form a droplet of oil that will remain bouncing for hours. The oil droplet of diameter $D$ bounces when $\gamma<\gamma_\mathrm{F}$, where $\gamma_\mathrm{F}$ is the Faraday threshold. The range of settings that produce the bouncing droplet are outlined in \refTab{approxlimits}. 
+	      
 	       \begin{table}[htdp] 
 \caption[Basic Table 1]{Approximate Limits for Bouncing Drop Behavior} 
 \begin{center} 
@@ -30,12 +33,12 @@ Drop Diameter $D$ (mm) & 0.6 & 1.0 \\
 \label{approxlimits} 
 \end{table}	
 
-For certain parameters, the bouncing drop will behave differently. The vibration number describes ``the relative magnitude of the forcing frequency and the drop's natural oscillation frequency," and is given by:
+In an experiment, one usually pours in a specific volume of oil in the tray, fixing the values of $\nu$, $\sigma$, and $H$. One is then left with the option to adjust $\gamma$ which produces a range of droplet motions, including a slew of different stationary bouncing modes, a linear trajectory,  and chaotic trajectory. To visualize the various bounving behaviors, we use the vibration number $V_i$, which takes into account many of the parameters of the experiment \rf{Molacek2013}.  The vibration number describes ``the relative magnitude of the forcing frequency and the drop's natural oscillation frequency," and is given by:
 	       	      
 \begin{equation} \label{vibrationnumber}
-V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}}
+V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}},
 \end{equation}   	       	       
-	       	       The natural frequency of the droplet occurs around $V_i = 0.65$, where the droplet can exhibit both walking and bouncing behaviors. Setting up a plot with $V_i$ on the y axis and (dimensionless) ${\gamma}/{g}$ on the x axis can help in showing the behavior of the droplet, shown in \refFig{regime}. 
+where the fluid's properties are captured by $\sigma$ and $\rho$, the vibration is captured by the angular frequency $\omega$, and the size of the droplet is captured by it's diameter $D$. The natural frequency of the droplet occurs around $V_i \approx 0.65$, where the droplet can exhibit both walking and bouncing behaviors. Setting up a plot with $V_i$ on the y axis and (dimensionless) ${\gamma}/{g}$ on the x axis allows the experimenter to identify regions of similar behaviors, shown in \refFig{regime}. 
 	    
 	    \begin{figure}[h]
 	% the options are h = here, t = top, b = bottom, p = page of figures.
@@ -44,8 +47,8 @@ V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}}
 	% \begin{figure}[h!tbp]
 	   
 	       \centering
-	    \includegraphics[scale=0.075]{Regime-Mega}
-	     \caption{The different bouncing regimes for the oil drops of 20 cS silicon oil and at $f$ = $\omega / 2\pi$ = 80 Hz. The parameters ($m$,$n$) describe the droplet that bounces $n$ times in $m$ forcing periods. }
+	    \includegraphics[scale=.95]{vibrationnumber}
+	     \caption{The different bouncing regimes for the oil drops of 20 cSt silicon oil and at $f$ = $\omega / 2\pi$ = 80 Hz, characterized by the non-dimensionalized forcing frequency $\gamma/g$ and the vibration number $V_i$. The parameters $(m,n)^{i}$ describe the droplet that bounces $n$ times in $m$ forcing periods, where $i$ distinguishes modes with different mechanical energy. The Faraday threshold is $\gamma_\mathrm{F} = 4.2$. This diagram was taken from \rf{pilot-wave}.}
 	 \label{regime}
 	\end{figure}
 

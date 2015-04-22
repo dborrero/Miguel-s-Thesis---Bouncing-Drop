@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  20 APR 2015 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 APR 2015 17:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,117 +484,90 @@ File: ./Figs/Faraday.JPG Graphic file (type jpg)
 Package pdftex.def Info: ./Figs/Faraday.JPG used on input line 47.
 (pdftex.def)             Requested size: 329.53699pt x 219.69131pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11]) (./Chapter1.tex [12 <./Figs/Faraday.JPG>]
+[11 <./Figs/Faraday.JPG>]) (./Chapter1.tex [12]
 Chapter 1.
 <./Figs/HQASetup.pdf, id=88, 525.965pt x 374.39874pt>
 File: ./Figs/HQASetup.pdf Graphic file (type pdf)
 
 <use ./Figs/HQASetup.pdf>
-Package pdftex.def Info: ./Figs/HQASetup.pdf used on input line 9.
+Package pdftex.def Info: ./Figs/HQASetup.pdf used on input line 11.
 (pdftex.def)             Requested size: 184.0905pt x 131.04152pt.
+ [13
 
-<./Figs/Regime-Mega.jpg, id=89, 5585.11594pt x 3304.84688pt>
-File: ./Figs/Regime-Mega.jpg Graphic file (type jpg)
+ <./Figs/HQASetup.pdf>]
+<./Figs/vibrationnumber.jpeg, id=104, 455.5419pt x 317.38576pt>
+File: ./Figs/vibrationnumber.jpeg Graphic file (type jpg)
 
-<use ./Figs/Regime-Mega.jpg>
-Package pdftex.def Info: ./Figs/Regime-Mega.jpg used on input line 47.
-(pdftex.def)             Requested size: 418.86563pt x 247.85281pt.
+<use ./Figs/vibrationnumber.jpeg>
+Package pdftex.def Info: ./Figs/vibrationnumber.jpeg used on input line 50.
+(pdftex.def)             Requested size: 432.76234pt x 301.51476pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13
 
- <./Figs/HQASetup.pdf>] [14]
-<./Figs/Tunneling.pdf, id=108, 862.22125pt x 788.9475pt>
+Underfull \vbox (badness 1210) has occurred while \output is active []
+
+ [14]
+[15 <./Figs/vibrationnumber.jpeg>]
+<./Figs/Tunneling.pdf, id=112, 862.22125pt x 788.9475pt>
 File: ./Figs/Tunneling.pdf Graphic file (type pdf)
 
 <use ./Figs/Tunneling.pdf>
-Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 74.
+Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 77.
 (pdftex.def)             Requested size: 431.10957pt x 394.47278pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <./Figs/Regime-Mega.jpg>]) (./math.tex [16 <./Figs/Tunneling.pdf>]
-Chapter 2.
-
-Overfull \hbox (6.4046pt too wide) in paragraph at lines 7--8
-[]\OT1/cmr/m/n/12 In the stan-dard, Copen-hagen in-ter-pre-ta-tion of quan-tum 
-me-chan-ics how-ever, Heisen-
- []
-
-[17
-
-] [18]
-
-LaTeX Warning: Reference `commands' on page 19 undefined on input line 81.
-
-) (./tablesandgraphics.tex [19] [20
+) (./tablesandgraphics.tex [16] [17 <./Figs/Tunneling.pdf>] [18
 
 ]
-Chapter 3.
-
-Overfull \hbox (0.21161pt too wide) in paragraph at lines 3--4
-\OT1/cmr/m/n/12 The bounc-ing droplet sys-tem al-lows the ob-ser-va-tion of sur
--face waves guid-ing a droplet,
- []
-
-
-LaTeX Warning: Citation `Couder2005' on page 21 undefined on input line 7.
-
-<./Figs/Setup.pdf, id=141, 390.45876pt x 257.96375pt>
+Chapter 2.
+<./Figs/Setup.pdf, id=133, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
  <use ./Figs/Setup.pdf>
-Package pdftex.def Info: ./Figs/Setup.pdf used on input line 16.
+Package pdftex.def Info: ./Figs/Setup.pdf used on input line 17.
 (pdftex.def)             Requested size: 312.36742pt x 206.37126pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 6510) has occurred while \output is active []
-
- [21]
-<./Figs/Tray.pdf, id=146, 1019.81pt x 458.71375pt>
+[19] <./Figs/Tray.pdf, id=137, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
-Package pdftex.def Info: ./Figs/Tray.pdf used on input line 29.
+Package pdftex.def Info: ./Figs/Tray.pdf used on input line 30.
 (pdftex.def)             Requested size: 489.50323pt x 220.1801pt.
 
-Overfull \hbox (55.88324pt too wide) in paragraph at lines 29--30
+Overfull \hbox (55.88324pt too wide) in paragraph at lines 30--31
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=161, 792.9625pt x 651.43375pt>
+[20 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=152, 792.9625pt x 651.43375pt>
 File: ./Figs/group.pdf Graphic file (type pdf)
 
 <use ./Figs/group.pdf>
-Package pdftex.def Info: ./Figs/group.pdf used on input line 44.
+Package pdftex.def Info: ./Figs/group.pdf used on input line 45.
 (pdftex.def)             Requested size: 436.13072pt x 358.28966pt.
 
-Overfull \hbox (2.51073pt too wide) in paragraph at lines 44--47
+Overfull \hbox (2.51073pt too wide) in paragraph at lines 45--48
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Citation `Couder2005' on page 23 undefined on input line 52.
-
-[23 <./Figs/Tray.pdf>]
+[21 <./Figs/Tray.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./Figs/group.pdf>] [25]) (./Chapter3.tex [26]
-Chapter 4.
-<./Figs/datacollection.pdf, id=203, 644.4075pt x 323.2075pt>
+ [22 <./Figs/group.pdf>] [23] [24]) (./Chapter3.tex [25] [26
+
+]
+Chapter 3.
+<./Figs/datacollection.pdf, id=201, 644.4075pt x 323.2075pt>
 File: ./Figs/datacollection.pdf Graphic file (type pdf)
 
 <use ./Figs/datacollection.pdf>
@@ -605,10 +578,8 @@ Package pdftex.def Info: ./Figs/datacollection.pdf used on input line 13.
 LaTeX Warning: Reference `Sources of Error' on page 27 undefined on input line 
 18.
 
-[27
-
- <./Figs/datacollection.pdf>]
-<./Figs/TunnelingProb.pdf, id=247, 505.89pt x 361.35pt>
+[27 <./Figs/datacollection.pdf>]
+<./Figs/TunnelingProb.pdf, id=245, 505.89pt x 361.35pt>
 File: ./Figs/TunnelingProb.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingProb.pdf>
@@ -622,7 +593,7 @@ Overfull \hbox (21.67679pt too wide) in paragraph at lines 37--38
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Figs/TunnelingVDiagram.pdf, id=248, 645.41125pt x 331.2375pt>
+<./Figs/TunnelingVDiagram.pdf, id=246, 645.41125pt x 331.2375pt>
 File: ./Figs/TunnelingVDiagram.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingVDiagram.pdf>
@@ -635,7 +606,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: Reference `tunneling' on page 28 undefined on input line 52.
 
-<./Figs/Velocity.pdf, id=249, 505.89pt x 361.35pt>
+<./Figs/Velocity.pdf, id=247, 505.89pt x 361.35pt>
 File: ./Figs/Velocity.pdf Graphic file (type pdf)
  <use ./Figs/Velocity.pdf>
 Package pdftex.def Info: ./Figs/Velocity.pdf used on input line 56.
@@ -675,9 +646,18 @@ Missing character: There is no “ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
-) [39
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [39
 
-]
+]) [40]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
@@ -688,13 +668,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3997 strings out of 493117
- 55580 string characters out of 6135433
- 125966 words of memory out of 5000000
- 7290 multiletter control sequences out of 15000+600000
- 16513 words of font info for 67 fonts, out of 8000000 for 9000
+ 3991 strings out of 493117
+ 55505 string characters out of 6135433
+ 125963 words of memory out of 5000000
+ 7285 multiletter control sequences out of 15000+600000
+ 14991 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,45p,1512b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,45p,1276b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -703,20 +683,18 @@ sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (43 pages, 20417017 bytes).
+.texpadtmp/thesis.pdf (44 pages, 20216716 bytes).
 PDF statistics:
- 365 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
+ 360 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
