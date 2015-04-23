@@ -12,7 +12,7 @@
 	 \label{regime}
 	\end{figure}
 	       
-	    If we take a toothpick and break the surface of the vibrating oil bath, we form a droplet of oil that will remain bouncing for hours. The oil droplet of diameter $D$ bounces when for specific values of $\gamma$. For a small $\gamma$, the forcing is not enough to sustain the droplet, and it quickly coalesces. Increasing $\gamma$ will eventually reveal a region in which standing surface waves cover the entire tray. These waves are called Faraday waves, and the acceleration at which they first appear is referred to as the Faraday threshold $\gamma_\mathrm{F}$, which varies depending on the amount, density, and viscosity of fluid. The range of the various parameters which allow for the existence of the bouncing droplet are outlined in \refTab{approxlimits}. 
+	    If we take a toothpick and break the surface of the vibrating oil bath, we form a droplet of oil that will remain bouncing for hours. The oil droplet of diameter $D$ bounces when for specific values of $\gamma$. For a small $\gamma$, the forcing is not enough to sustain the droplet, and it quickly coalesces. Increasing $\gamma$ will eventually reveal a region in which standing surface waves cover the entire tray. These waves are called Faraday waves, and the driving acceleration at which they first appear is referred to as the \textbf{Faraday threshold} $\gamma_\mathrm{F}$, which varies depending on the amount, density, and viscosity of fluid. The range of the various parameters which allow for the existence of the bouncing droplet are outlined in \refTab{approxlimits}. 
 	      
 	       \begin{table}[htdp] 
 \caption[Basic Table 1]{Approximate limits for bouncing drop behavior. The value $g = 9.81\mathrm{ms}^{-2}$ is the standard acceleration due to gravity.} 
@@ -72,18 +72,39 @@ The various modes seen in \refFig{regime} can be described by ($m$,$n$), where $
 
 The droplet map shown in \refFig{regime} provides a valuable starting place for an experiment since it outlines the many possible states of the system. We will now narrow our focus to only the walking regime, for which a variety of fascinating interactions emerge.
 
-	                   \subsection{Walking}
-            
-            
-            
-             \begin{figure}[h]
+	        \subsection{Walking}
+A walking droplet is a very specific type of bouncing droplet. As the droplet bounces vertically on the vibrating fluid bath, the interaction of its previous waves give it a slight horizontal motion with every bounce. Thus, for every bounce, the droplet follows a parabolic trajectory. But because these droplets are bouncing at 40 times per second (or more) and the parabolic motion is periodic, the vertical oscillations are difficult to see. The apparent behavior that emerges is that of the droplet ``walking" across the surface of the fluid bath.             
+
+ \begin{figure}[h]
 	       \centering
 	    \includegraphics[scale=.6]{CouderWalkers.jpg}
 	     \caption{The series of pictures (a) - (c) show a droplet bouncing off of the slope of the localized wave, launching into the air, and then falling again on a new wave slope. This periodic process happens multiple times per second, giving the droplet the appearance of walking across the surface. Figure adapted from \rf{Couder2005b}.}
 	 \label{Couderwalkers}
 	\end{figure}
+ 
+ 
+The horizontal component is due to the droplet landing slightly off center of the radial wave it produced in the previous bounce, shown in \refFig{Couderwalkers}. At such close proximity to the Faraday threshold, the waves surrounding the droplet are not just regular ripples, but rather are like localized Faraday waves because they are sustained by the vibrations. The kinetic energy from the falling droplet is enough to perturb the unstable surface such that the waves are sustained for a longer period of time. As these waves interfere with one another they create an overall wave field that guides the droplet. This overall wave field is referred to as the \textbf{guiding wave} or the \textbf{pilot wave}. The \textbf{walker} is defined as both the droplet and it's guiding wave, since they are mutually dependent. The unique combination of the two components results in novel interactions like bound states or scattering states.
 
 
+%For example, as a walker approaches the wall of the tray, the droplet will slow down as it approaches and then--without touching the wall--walk off in the other direction. What's actually happening is that the guiding wave reflects off of the wall, which creates a new pilot-wave that pushes the droplet away from the wall. The defining quality illustrated in this example is that the droplet is apparently influenced by another feature without touching it, the interaction is happening with the guiding wave.
+
+\subsubsection{Bound States}
+            A periodic damped wave allows for two bouncers to form a \textbf{bound state}: a configuration in which the droplets remain a fixed distance apart \cite{Protiere2005}.  Starting far away from one another, two droplets drift towards one another until a fixed distance $d_{0}^{bd}$. Increasing driving acceleration $\gamma$ will decrease the value of $d_{0}^{bd}$. These bound bouncers can form triangular lattices, and their periodicity is highly sensitive to the mass of the droplet. If the masses of the droplets differ, these configurations drift slowly and rotate because the waves produced by the larger droplet are larger creating an imbalanced wave field \rf{Eddi2008}. Finally, the droplets can bounce in phase with one another (they both land at the same time and reach their peaks at the same time) or completely out of phase with one another (as on lands, the other reaches it's peak).
+            
+            Walkers can also form bound states. Two walkers of the same size that are approaching one another can form an orbit around their center of mass. Between the two droplets is the fixed distance $d_{n}^{orb}$ given by          
+\begin{equation} \label{orbital}
+d_{n}^{orb} = (n - \epsilon_0)\lambda_F
+\end{equation}         
+where $\epsilon_0$ is a fixed distance which is the same for all orbitals of these walkers (usually in the range $0.15 < \epsilon_0 < 0.25$ depending on droplet diameter), and $n = 1,2,3$... for drops that are in phase or $n = 1/2, 3/2, 5/2$... for drops out of phase. Orbiting periods are approximately proportional to $d_{n}^{orb}$, which ends up meaning that the velocity of the orbiting walkers is a little less than the velocity of a free walker \rf{Protiere2006}. Droplets of equal mass will orbit around their center of mass, which ends up being in the middle of their orbit. Droplets of differing masses will still orbit around their center of mass, which is no longer in between the two.    
+
+            \subsubsection{Scattering States}
+            Two identical walkers headed towards each other can form fixed orbits, or they can scatter. \textbf{Scattering} describes an interaction in which droplets are deflected through their wave fields, and never actually make contact with one another. Most of the interactions of a walker are scattering of some form. For example, if a single walker approaches the wall of the tray, it will never actually touch the wall. Instead, the guiding wave reflects off of the wall and modifies the wave field such the droplet will scatter in the opposite direction.           
+
+%When two walkers interact with one another, their guiding waves interfere. Bouncing droplets will often organize themselves into stable configurations a specified distance apart. Increasing the forcing acceleration $\gamma$ will increase the separation between each droplet in the configuration. For walkers that 
+
+%Walkers can travel anywhere from $5$ to $15~\mathrm{mm/s}$, depending on their size and on the driving acceleration $\gamma$ \rf{Protiere2005}. 
+
+ 
             \subsection{Path Memory}
                         
             Path memory is a parameter that can be varied in this setup; essentially it captures the importance of damping in the system \rf{Eddi2011}. Every time the droplet impacts the bath, it creates a radial traveling wave. Over the course of many bounces, a guiding wave field composed of a superposition of the many waves arises. In this way the wave field ``remembers" previous interactions, but is at the same time being periodically ``updated" with every new bounce of the droplet. Because droplet motion is influenced by the wave field, controlling the damping of the wave field will influence the path of the walker. 
@@ -97,20 +118,32 @@ where $T_\mathrm{d}$ is the decay time of waves in the absence of vibration and 
 In practice, walking arises above a value of $\gamma/\gamma_{F}$ = 0.94, where as more quantum-like phenomena arise at values of $\gamma/\gamma_{F} = 0.97$ and above \rf{Oza2014}. Deviations in memory $\gamma/\gamma_{F}$ as small as $\pm 0.1$ can have drastic differences in both long term and short term droplet behaviors \rf{Harris2013}.
             
             
-\section{Quantum Analogs}   
-             \subsection{Single-Particle Diffraction}
-In 2006 Couder and Fort showed that the system had properties that were strikingly similar to two famous and controversial quantum experiments \cite{double-slit}. They were able to demonstrate that a single walker traveling through one slit seemed to have its direction altered seemingly randomly, before continuing forward on its new path. By statistically analyzing many trials, Couder and Fort showed that the histogram of the ``diffraction" actually resulted in a diffraction pattern strikingly similar to the single photon diffraction experiment performed by Taylor in 1909. 
+\section{Droplet System as a Quantum Analog}   
 
-Next, Couder and Fort added a second slit next to the first one. Now a single walker could pass through  one of two slits, and it was discovered that a histogram of this data returned another diffraction pattern. This result is of course reminiscent of one of the most famous experiments in physics: Young's double slit diffraction with photons and electrons. 
+Classical mechanics seeks to mathematically describe the motion of relatively large scale objects under action of forces. Quantum mechanics however, attempts to describe physical interactions at the nanoscale level, where the mathematical descriptions are very different. Despite the un-classical predictions made by quantum mechanics, these predictions have been tested and confirmed by experiment again and again. There is really very little doubt about the existence of these properties, as modern technologies like transistors or modern microscopes rely on them.
+
+On top of the mathematics there is the also story we tell ourselves, conceptually and to some extent mathematically, about how exactly these processes occur. Are a particles actions probabilistic, or are they deterministic? ...
+
+Tunneling is one of the phenomena that is unique to the quantum world. A basketball thrown at a wall will hit the wall and bounce back every time we try it. This is tunneling at the classical level. When shift to the quantum scale, if we have a particle headed towards a barrier of a given potential energy, we will not always necessarily see it bounce back. Depending on the characteristics of this potential, there will be a few times in which the particle will \textbf{tunnel} through the barrier, shooting out on the other side.   
+
+
+ %            \subsection{Single-Particle Diffraction}
+%In 2006 Couder and Fort showed that the system had properties that were strikingly similar to two famous and controversial quantum experiments \cite{double-slit}. They were able to demonstrate that a single walker traveling through one slit seemed to have its direction altered seemingly randomly, before continuing forward on its new path. By statistically analyzing many trials, Couder and Fort showed that the histogram of the ``diffraction" actually resulted in a diffraction pattern strikingly similar to the single photon diffraction experiment performed by Taylor in 1909. 
+
+%Next, Couder and Fort added a second slit next to the first one. Now a single walker could pass through  one of two slits, and it was discovered that a histogram of this data returned another diffraction pattern. This result is of course reminiscent of one of the most famous experiments in physics: Young's double slit diffraction with photons and electrons. 
     
-Using a numerical simulation, Couder and Fort were able to reproduce similar results. 
+%Using a numerical simulation, Couder and Fort were able to reproduce similar results. 
     
-As Couder and Fort mention in their paper: ``A discussion of the relation between these single-particle experiments and those concerning elementary particles is unavoidable." Important differences and similarities are then described between the quantum system and the quantum-like system. For the differences: we have a dissipative system, where energy is continually put in through the vibration of the tray; the particle can be followed;\footnote{C and F note that it'd be impossible to detect the particle without disturbing it "by any means at its scale," like a bouy, for example. As the bouy floated it would interfere with the system by altering the wave pattern on the surface.} it's really effectively moving in two dimensions; the velocity is measurable; and the probability distribution is linked with the wave amplitude (rather than it's intensity). And then of course, the similarity: an uncertainty principle arises from the statistical data (and without knowledge of the actual paths followed by the walkers). %and some others that were unclear...
+%As Couder and Fort mention in their paper: ``A discussion of the relation between these single-particle experiments and those concerning elementary particles is unavoidable." Important differences and similarities are then described between the quantum system and the quantum-like system. For the differences: we have a dissipative system, where energy is continually put in through the vibration of the tray; the particle can be followed;\footnote{C and F note that it'd be impossible to detect the particle without disturbing it "by any means at its scale," like a bouy, for example. As the bouy floated it would interfere with the system by altering the wave pattern on the surface.} it's really effectively moving in two dimensions; the velocity is measurable; and the probability distribution is linked with the wave amplitude (rather than it's intensity). And then of course, the similarity: an uncertainty principle arises from the statistical data (and without knowledge of the actual paths followed by the walkers). %and some others that were unclear...
 
 %Recently, Harris attempted to reproduce single slit interference. With better technology, new results were found. Using a looping guiding batt, trajectories were found to follow the same loop without deviating. Only at a very high memory were there chaotic paths.
 
 
 \subsection{Tunneling}
+
+    \subsubsection{Tunneling in Quantum Mechanics}
+    
+    \subsubsection{Tunneling in the Bouncing Droplet System}
 
 \begin{figure}[h!]
  \centering

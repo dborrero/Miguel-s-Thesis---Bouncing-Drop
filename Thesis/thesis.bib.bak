@@ -207,7 +207,7 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1017/jfm.2013.627}
 }
 
-@Article{Kumar1996,
+@Article{Kumar,
   Title                    = {Linear Theory of Faraday Instability in Viscous Liquids},
   Author                   = {Kumar, K.},
   Journal                  = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},

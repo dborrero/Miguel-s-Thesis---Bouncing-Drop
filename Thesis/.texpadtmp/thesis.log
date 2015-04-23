@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 APR 2015 10:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 APR 2015 19:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,6 +284,9 @@ LaTeX Warning: Label `bounce' multiply defined.
 
 LaTeX Warning: Label `regime' multiply defined.
 
+
+LaTeX Warning: Label `orbital' multiply defined.
+
 )
 \openout1 = `thesis.aux'.
 
@@ -407,7 +410,7 @@ Missing character: There is no Ï in font cmr12!
 Missing character: There is no € in font cmr12!
 
 
-./Blog.tex:115: Package amsmath Error: Erroneous nesting of equation structures
+./Blog.tex:116: Package amsmath Error: Erroneous nesting of equation structures
 ;
 (amsmath)                trying to recover with `aligned'.
 
@@ -415,14 +418,14 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 \end{align*}
+l.116 \end{align*}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [4]
 
-./Blog.tex:123: Package amsmath Error: Erroneous nesting of equation structures
+./Blog.tex:124: Package amsmath Error: Erroneous nesting of equation structures
 ;
 (amsmath)                trying to recover with `aligned'.
 
@@ -430,18 +433,18 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 \end{align*}
+l.124 \end{align*}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (29.5375pt too wide) detected at line 124
+Overfull \hbox (29.5375pt too wide) detected at line 125
 [] []
  []
 
 
-./Blog.tex:131: Package amsmath Error: Erroneous nesting of equation structures
+./Blog.tex:132: Package amsmath Error: Erroneous nesting of equation structures
 ;
 (amsmath)                trying to recover with `aligned'.
 
@@ -449,18 +452,18 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 \end{align*}
+l.132 \end{align*}
                   
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (104.19373pt too wide) detected at line 132
+Overfull \hbox (104.19373pt too wide) detected at line 133
 [] []
  []
 
 
-Overfull \hbox (81.85205pt too wide) detected at line 141
+Overfull \hbox (81.85205pt too wide) detected at line 142
 [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OML/cmm/m/it/12 ; t\OT
 1/cmr/m/n/12 ) = [] \OML/cmm/m/it/12  \OT1/cmr/m/n/12 (\OT1/cmr/bx/n/12 x\OML/c
 mm/m/it/12 ; t\OT1/cmr/m/n/12 )
@@ -528,42 +531,46 @@ Overfull \hbox (3.70221pt too wide) in paragraph at lines 66--67
 File: ./Figs/CouderWalkers.jpg Graphic file (type jpg)
 
 <use ./Figs/CouderWalkers.jpg>
-Package pdftex.def Info: ./Figs/CouderWalkers.jpg used on input line 81.
+Package pdftex.def Info: ./Figs/CouderWalkers.jpg used on input line 80.
 (pdftex.def)             Requested size: 330.03554pt x 333.0468pt.
 
-Underfull \vbox (badness 3189) has occurred while \output is active []
 
- [16 <./Figs/CouderWalkers.jpg>] [17]
-<./Figs/Tunneling.pdf, id=137, 862.22125pt x 788.9475pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `Eddi2008' on page 16 undefined on input line 92.
+
+[16] [17 <./Figs/CouderWalkers.jpg>] [18]
+<./Figs/Tunneling.pdf, id=140, 862.22125pt x 788.9475pt>
 File: ./Figs/Tunneling.pdf Graphic file (type pdf)
 
 <use ./Figs/Tunneling.pdf>
-Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 117.
+Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 150.
 (pdftex.def)             Requested size: 431.10957pt x 394.47278pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./tablesandgraphics.tex [18] [19 <./Figs/Tunneling.pdf>] [20
-
-]
+) (./tablesandgraphics.tex [19] [20 <./Figs/Tunneling.pdf>]
 Chapter 2.
 <./Figs/Setup.pdf, id=158, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
  <use ./Figs/Setup.pdf>
-Package pdftex.def Info: ./Figs/Setup.pdf used on input line 17.
+Package pdftex.def Info: ./Figs/Setup.pdf used on input line 19.
 (pdftex.def)             Requested size: 312.36742pt x 206.37126pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21] <./Figs/Tray.pdf, id=163, 1019.81pt x 458.71375pt>
+[21
+
+] <./Figs/Tray.pdf, id=163, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
-Package pdftex.def Info: ./Figs/Tray.pdf used on input line 30.
+Package pdftex.def Info: ./Figs/Tray.pdf used on input line 32.
 (pdftex.def)             Requested size: 489.50323pt x 220.1801pt.
 
-Overfull \hbox (55.88324pt too wide) in paragraph at lines 30--31
+Overfull \hbox (55.88324pt too wide) in paragraph at lines 32--33
  [][] 
  []
 
@@ -574,10 +581,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./Figs/group.pdf Graphic file (type pdf)
 
 <use ./Figs/group.pdf>
-Package pdftex.def Info: ./Figs/group.pdf used on input line 45.
+Package pdftex.def Info: ./Figs/group.pdf used on input line 47.
 (pdftex.def)             Requested size: 436.13072pt x 358.28966pt.
 
-Overfull \hbox (2.51073pt too wide) in paragraph at lines 45--48
+Overfull \hbox (2.51073pt too wide) in paragraph at lines 47--50
  [][] 
  []
 
@@ -587,7 +594,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [23 <./Figs/Tray.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./Figs/group.pdf>] [25] [26]) (./Chapter3.tex [27] [28
+ [24 <./Figs/group.pdf>]
+Underfull \vbox (badness 5985) has occurred while \output is active []
+
+ [25]
+[26]) (./Chapter3.tex [27] [28
 
 ]
 Chapter 3.
@@ -677,13 +688,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4009 strings out of 493117
- 55851 string characters out of 6135433
- 126017 words of memory out of 5000000
- 7301 multiletter control sequences out of 15000+600000
+ 4010 strings out of 493117
+ 55861 string characters out of 6135433
+ 125020 words of memory out of 5000000
+ 7302 multiletter control sequences out of 15000+600000
  14991 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,45p,1275b,283s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,45p,1285b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -700,7 +711,7 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (46 pages, 20342253 bytes).
+.texpadtmp/thesis.pdf (46 pages, 20345147 bytes).
 PDF statistics:
  385 PDF objects out of 1000 (max. 8388607)
  269 compressed objects within 3 object streams
