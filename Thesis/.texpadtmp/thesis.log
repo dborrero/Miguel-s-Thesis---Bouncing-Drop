@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 APR 2015 19:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 APR 2015 18:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -204,13 +204,39 @@ Package: chemarr 2001/06/22 v1.1 Chemical reaction arrows (HO)
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
+)
+\c@ContinuedFloat=\count110
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+))
+\c@subfigure=\count111
+\c@subtable=\count112
+)
 (/usr/local/texlive/2014/texmf-dist/tex/latex/rotating/rotating.sty
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count110
+\c@r@tfl@t=\count113
 \rotFPtop=\skip62
 \rotFPbot=\skip63
 \rot@float@box=\box32
@@ -233,7 +259,7 @@ Package: xkeyval 2014/05/09 v2.6d package option processing (HA)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks29
 \XKV@tempa@toks=\toks30
-\XKV@depth=\count111
+\XKV@depth=\count114
 File: xkeyval.tex 2014/05/09 v2.6d key=value parser (HA)
 ))
 (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/adjcalc.sty
@@ -247,30 +273,30 @@ Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box33
 )
-\tc@llx=\dimen128
-\tc@lly=\dimen129
-\tc@urx=\dimen130
-\tc@ury=\dimen131
+\tc@llx=\dimen135
+\tc@lly=\dimen136
+\tc@urx=\dimen137
+\tc@ury=\dimen138
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen132
-\adjbox@Height=\dimen133
-\adjbox@Depth=\dimen134
-\adjbox@Totalheight=\dimen135
+\adjbox@Width=\dimen139
+\adjbox@Height=\dimen140
+\adjbox@Depth=\dimen141
+\adjbox@Totalheight=\dimen142
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count112
+\c@checkoddpage=\count115
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box34
-\sift@deathcycles=\count113
-\@vwid@loff=\dimen136
-\@vwid@roff=\dimen137
+\sift@deathcycles=\count116
+\@vwid@loff=\dimen143
+\@vwid@roff=\dimen144
 ))
 (./defthesis.tex)
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
@@ -282,38 +308,35 @@ LaTeX Warning: Label `ProbCurrent' multiply defined.
 LaTeX Warning: Label `bounce' multiply defined.
 
 
-LaTeX Warning: Label `regime' multiply defined.
-
-
 LaTeX Warning: Label `orbital' multiply defined.
 
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count114
-\scratchdimen=\dimen138
+\scratchcounter=\count117
+\scratchdimen=\dimen145
 \scratchbox=\box35
-\nofMPsegments=\count115
-\nofMParguments=\count116
+\nofMPsegments=\count118
+\nofMParguments=\count119
 \everyMPshowfont=\toks31
-\MPscratchCnt=\count117
-\MPscratchDim=\dimen139
-\MPnumerator=\count118
-\makeMPintoPDFobject=\count119
+\MPscratchCnt=\count120
+\MPscratchDim=\dimen146
+\MPnumerator=\count121
+\makeMPintoPDFobject=\count122
 \everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -363,17 +386,20 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+lasy on input line 67.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 68.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 67.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -507,53 +533,105 @@ Chapter 1.
 File: ./Figs/basicsetup.pdf Graphic file (type pdf)
 
 <use ./Figs/basicsetup.pdf>
-Package pdftex.def Info: ./Figs/basicsetup.pdf used on input line 10.
+Package pdftex.def Info: ./Figs/basicsetup.pdf used on input line 13.
 (pdftex.def)             Requested size: 232.8703pt x 105.99612pt.
  [13
 
- <./Figs/basicsetup.pdf>]
-
-LaTeX Warning: Citation `Kumar' on page 14 undefined on input line 41.
-
-[14] <./Figs/vibrationnumber.jpeg, id=125, 455.5419pt x 317.38576pt>
+ <./Figs/basicsetup.pdf>] [14]
+<./Figs/vibrationnumber.jpeg, id=125, 455.5419pt x 317.38576pt>
 File: ./Figs/vibrationnumber.jpeg Graphic file (type jpg)
 
 <use ./Figs/vibrationnumber.jpeg>
-Package pdftex.def Info: ./Figs/vibrationnumber.jpeg used on input line 66.
+Package pdftex.def Info: ./Figs/vibrationnumber.jpeg used on input line 69.
 (pdftex.def)             Requested size: 437.3222pt x 304.6917pt.
 
-Overfull \hbox (3.70221pt too wide) in paragraph at lines 66--67
+Overfull \hbox (3.70221pt too wide) in paragraph at lines 69--70
  [][] 
  []
-
-[15 <./Figs/vibrationnumber.jpeg>]
-<./Figs/CouderWalkers.jpg, id=130, 550.055pt x 555.07375pt>
-File: ./Figs/CouderWalkers.jpg Graphic file (type jpg)
-
-<use ./Figs/CouderWalkers.jpg>
-Package pdftex.def Info: ./Figs/CouderWalkers.jpg used on input line 80.
-(pdftex.def)             Requested size: 330.03554pt x 333.0468pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<./Figs/ProtiereWalkers.png, id=126, 872.25874pt x 678.535pt>
+File: ./Figs/ProtiereWalkers.png Graphic file (type png)
 
-LaTeX Warning: Citation `Eddi2008' on page 16 undefined on input line 92.
+<use ./Figs/ProtiereWalkers.png>
+Package pdftex.def Info: ./Figs/ProtiereWalkers.png used on input line 83.
+(pdftex.def)             Requested size: 431.76276pt x 335.87068pt.
+ [15]
 
-[16] [17 <./Figs/CouderWalkers.jpg>] [18]
-<./Figs/Tunneling.pdf, id=140, 862.22125pt x 788.9475pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figs/BoundedStates.png, id=132, 1189.44376pt x 393.47pt>
+File: ./Figs/BoundedStates.png Graphic file (type png)
+
+<use ./Figs/BoundedStates.png>
+Package pdftex.def Info: ./Figs/BoundedStates.png used on input line 100.
+(pdftex.def)             Requested size: 435.33215pt x 144.0086pt.
+
+Overfull \hbox (1.71216pt too wide) in paragraph at lines 100--103
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./Figs/vibrationnumber.jpeg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Figs/OrbitingProtiere2006.png, id=136, 1178.4025pt x 584.1825pt>
+File: ./Figs/OrbitingProtiere2006.png Graphic file (type png)
+
+<use ./Figs/OrbitingProtiere2006.png>
+Package pdftex.def Info: ./Figs/OrbitingProtiere2006.png used on input line 110
+.
+(pdftex.def)             Requested size: 388.87402pt x 192.7808pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./Figs/ProtiereWalkers.png>] [18 <./Figs/BoundedStates.png>] [19 <./Figs/O
+rbitingProtiere2006.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+<./Figs/Tunneling.pdf, id=152, 862.22125pt x 788.9475pt>
 File: ./Figs/Tunneling.pdf Graphic file (type pdf)
 
 <use ./Figs/Tunneling.pdf>
-Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 150.
+Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 184.
 (pdftex.def)             Requested size: 431.10957pt x 394.47278pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./tablesandgraphics.tex [19] [20 <./Figs/Tunneling.pdf>]
+<./Figs/Eddi.png, id=153, 764.8575pt x 653.44125pt>
+File: ./Figs/Eddi.png Graphic file (type png)
+ <use ./Figs/Eddi.png>
+Package pdftex.def Info: ./Figs/Eddi.png used on input line 195.
+(pdftex.def)             Requested size: 173.44865pt x 148.18451pt.
+
+<./Figs/EddiVelocity.png, id=154, 1004.75375pt x 665.48625pt>
+File: ./Figs/EddiVelocity.png Graphic file (type png)
+
+<use ./Figs/EddiVelocity.png>
+Package pdftex.def Info: ./Figs/EddiVelocity.png used on input line 199.
+(pdftex.def)             Requested size: 242.82706pt x 160.8268pt.
+
+Overfull \hbox (89.33376pt too wide) in paragraph at lines 193--201
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./tablesandgraphics.tex [21] [22 <./Figs/Tunneling.pdf>] [23 <./Figs/Eddi.pn
+g> <./Figs/EddiVelocity.png>] [24
+
+]
 Chapter 2.
-<./Figs/Setup.pdf, id=158, 390.45876pt x 257.96375pt>
+<./Figs/Setup.pdf, id=182, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
  <use ./Figs/Setup.pdf>
 Package pdftex.def Info: ./Figs/Setup.pdf used on input line 19.
@@ -562,9 +640,7 @@ Package pdftex.def Info: ./Figs/Setup.pdf used on input line 19.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21
-
-] <./Figs/Tray.pdf, id=163, 1019.81pt x 458.71375pt>
+[25] <./Figs/Tray.pdf, id=186, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
 Package pdftex.def Info: ./Figs/Tray.pdf used on input line 32.
@@ -577,7 +653,7 @@ Overfull \hbox (55.88324pt too wide) in paragraph at lines 32--33
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=179, 792.9625pt x 651.43375pt>
+[26 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=201, 792.9625pt x 651.43375pt>
 File: ./Figs/group.pdf Graphic file (type pdf)
 
 <use ./Figs/group.pdf>
@@ -591,18 +667,18 @@ Overfull \hbox (2.51073pt too wide) in paragraph at lines 47--50
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23 <./Figs/Tray.pdf>]
+[27 <./Figs/Tray.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24 <./Figs/group.pdf>]
+ [28 <./Figs/group.pdf>]
 Underfull \vbox (badness 5985) has occurred while \output is active []
 
- [25]
-[26]) (./Chapter3.tex [27] [28
+ [29]
+[30]) (./Chapter3.tex [31] [32
 
 ]
 Chapter 3.
-<./Figs/datacollection.pdf, id=227, 644.4075pt x 323.2075pt>
+<./Figs/datacollection.pdf, id=249, 644.4075pt x 323.2075pt>
 File: ./Figs/datacollection.pdf Graphic file (type pdf)
 
 <use ./Figs/datacollection.pdf>
@@ -610,11 +686,11 @@ Package pdftex.def Info: ./Figs/datacollection.pdf used on input line 13.
 (pdftex.def)             Requested size: 257.75844pt x 129.2807pt.
 
 
-LaTeX Warning: Reference `Sources of Error' on page 29 undefined on input line 
+LaTeX Warning: Reference `Sources of Error' on page 33 undefined on input line 
 18.
 
-[29 <./Figs/datacollection.pdf>]
-<./Figs/TunnelingProb.pdf, id=270, 505.89pt x 361.35pt>
+[33 <./Figs/datacollection.pdf>]
+<./Figs/TunnelingProb.pdf, id=293, 505.89pt x 361.35pt>
 File: ./Figs/TunnelingProb.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingProb.pdf>
@@ -628,7 +704,7 @@ Overfull \hbox (21.67679pt too wide) in paragraph at lines 37--38
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Figs/TunnelingVDiagram.pdf, id=271, 645.41125pt x 331.2375pt>
+<./Figs/TunnelingVDiagram.pdf, id=294, 645.41125pt x 331.2375pt>
 File: ./Figs/TunnelingVDiagram.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingVDiagram.pdf>
@@ -639,9 +715,9 @@ Package pdftex.def Info: ./Figs/TunnelingVDiagram.pdf used on input line 47.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `tunneling' on page 30 undefined on input line 52.
+LaTeX Warning: Reference `tunneling' on page 34 undefined on input line 52.
 
-<./Figs/Velocity.pdf, id=272, 505.89pt x 361.35pt>
+<./Figs/Velocity.pdf, id=295, 505.89pt x 361.35pt>
 File: ./Figs/Velocity.pdf Graphic file (type pdf)
  <use ./Figs/Velocity.pdf>
 Package pdftex.def Info: ./Figs/Velocity.pdf used on input line 56.
@@ -657,27 +733,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1137) has occurred while \output is active []
 
- [30]
-[31 <./Figs/TunnelingProb.pdf>] [32 <./Figs/TunnelingVDiagram.pdf>]
-Underfull \vbox (badness 1946) has occurred while \output is active []
+ [34]
 
- [33 <./Figs/Velocity.pdf>]) (./conclusion.tex [34]) (./AppendixA.tex [35
+LaTeX Warning: Text page 35 contains only floats.
 
-] [36
+
+Overfull \vbox (2.02599pt too high) has occurred while \output is active []
+
+
+[35 <./Figs/TunnelingProb.pdf> <./Figs/TunnelingVDiagram.pdf>] [36 <./Figs/Velo
+city.pdf>] [37]) (./conclusion.tex [38]) (./AppendixA.tex [39
+
+] [40
 
 ]
 Appendix A.
-) (./appendixB.tex [37] [38
+) (./appendixB.tex [41] [42
 
 ]
 Appendix B.
-) [39] [40
+) [43] [44
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
-.bbl [41
+.bbl [45
 
-]) [42]
+]) [46]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
@@ -688,13 +769,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4010 strings out of 493117
- 55861 string characters out of 6135433
- 125020 words of memory out of 5000000
- 7302 multiletter control sequences out of 15000+600000
+ 5157 strings out of 493117
+ 76829 string characters out of 6135433
+ 145903 words of memory out of 5000000
+ 8434 multiletter control sequences out of 15000+600000
  14991 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,45p,1285b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,75p,1285b,473s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -711,10 +792,10 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (46 pages, 20345147 bytes).
+.texpadtmp/thesis.pdf (50 pages, 21762728 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
+ 408 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

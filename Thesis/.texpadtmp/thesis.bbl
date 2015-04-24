@@ -6,12 +6,12 @@ Y.~Couder, S.~Protiere, E.~Fort, and A.~Boudaoud, ``Dynamical phenomena:
   2005.
 
 \bibitem{Bohm1952a}
-D.~Bohm, ``A suggested interpretation of the quantum theory in terms of "hidden
-  variables". i,'' {\em Phys. Rev.}, vol.~85, pp.~166--179, Jan 1952.
+D.~Bohm, ``A suggested interpretation of the quantum theory in terms of 'hidden
+  variables' i,'' {\em Phys. Rev.}, vol.~85, pp.~166--179, Jan 1952.
 
 \bibitem{Bohm1952b}
-D.~Bohm, ``A suggested interpretation of the quantum theory in terms of "hidden
-  variables". ii,'' {\em Phys. Rev.}, vol.~85, pp.~180--193, Jan 1952.
+D.~Bohm, ``A suggested interpretation of the quantum theory in terms of 'hidden
+  variables' ii,'' {\em Phys. Rev.}, vol.~85, pp.~180--193, Jan 1952.
 
 \bibitem{Walker}
 J.~Walker, ``The amateur scientist,'' {\em Scientific American}, vol.~238,
@@ -30,28 +30,41 @@ A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a
   classical wave-particle association,'' {\em Phys. Rev. Lett.}, vol.~102,
   no.~240401, 2009.
 
+\bibitem{Kumar1996}
+K.~Kumar, ``Linear theory of faraday instability in viscous liquids,'' {\em
+  Proceedings of the Royal Society A: Mathematical, Physical and Engineering
+  Sciences}, vol.~452, pp.~1113--1126, May 1996.
+
 \bibitem{Molacek2013}
 J.~Mol\`{a}\v{c}ek and J.~W.~M. Bush, ``Drops walking on a vibrating bath:
   towards a hydrodynamic pilot-wave theory,'' {\em J. Fluid Mech.}, vol.~727,
   pp.~612--647, Jun 2013.
 
+\bibitem{lord}
+L.~Rayleigh, ``On the capillary phenomena of jets,'' {\em Proc. R. Soc. Lond.},
+  vol.~29, p.~71, 1879.
+
 \bibitem{pilot-wave}
 J.~M.~W. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
   vol.~47, pp.~269--292, 2015.
 
+\bibitem{Protiere2006}
+S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
+  interface,'' {\em J. Fluid Mech.}, vol.~554, p.~85, Apr 2006.
+
+\bibitem{Protiere2005}
+S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
+  capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, Oct 2005.
+
+\bibitem{Eddi2008}
+A.~Eddi, D.~Terwagne, E.~Fort, and Y.~Couder, ``Wave propelled ratchets and
+  drifting rafts,'' {\em EPL (Europhysics Letters)}, vol.~82, p.~44001, May
+  2008.
+
 \bibitem{Eddi2011}
-A.~Eddi, E.~SULTAN, J.~MOUKHTAR, E.~FORT, M.~ROSSI, and Y.~COUDER,
+A.~Eddi, E.~Sultan, J.~Moukhtar, E.~Fort, M.~Rossi, and Y.~Couder,
   ``Information stored in faraday waves: the origin of a path memory,'' {\em J.
   Fluid Mech.}, vol.~674, pp.~433--463, Mar 2011.
-
-\bibitem{double-slit}
-Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
-  macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, no.~154101, 2006.
-
-\bibitem{shaker}
-D.~M. Harris and J.~W. Bush, ``Generating uniaxial vibration with an
-  electrodynamic shaker and external air bearing,'' {\em Journal of Sound and
-  Vibration}, vol.~334, pp.~255--269, Jan 2015.
 
 \bibitem{Harris2013}
 D.~M. Harris and J.~W.~M. Bush, ``Droplets walking in a rotating frame: from
@@ -63,16 +76,13 @@ A.~U. Oza, D.~M. Harris, R.~R. Rosales, and J.~W.~M. Bush, ``Pilot-wave
   dynamics in a rotating frame: on the emergence of orbital quantization,''
   {\em J. Fluid Mech.}, vol.~744, pp.~404--429, Mar 2014.
 
-\bibitem{Protiere2006}
-S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
-  interface,'' {\em J. Fluid Mech.}, vol.~554, p.~85, Apr 2006.
+\bibitem{double-slit}
+Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
+  macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, no.~154101, 2006.
 
-\bibitem{Protiere2005}
-S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
-  capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, Oct 2005.
-
-\bibitem{lord}
-L.~Rayleigh, ``On the capillary phenomena of jets,'' {\em Proc. R. Soc. Lond.},
-  vol.~29, p.~71, 1879.
+\bibitem{shaker}
+D.~M. Harris and J.~W. Bush, ``Generating uniaxial vibration with an
+  electrodynamic shaker and external air bearing,'' {\em Journal of Sound and
+  Vibration}, vol.~334, pp.~255--269, Jan 2015.
 
 \end{thebibliography}

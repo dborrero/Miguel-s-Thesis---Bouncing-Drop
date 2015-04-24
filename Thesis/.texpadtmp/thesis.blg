@@ -4,51 +4,49 @@ The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ../thesis.bib
 Warning--empty title in Faraday
-Name 1 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
+Name 2 in "Eddi, A. and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
-Name 2 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
+Name 3 in "Eddi, A. and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
-Name 3 in "A. Eddi, and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
-while executing---line 969 of file ieeetr.bst
-You've used 17 entries,
+You've used 19 entries,
             1876 wiz_defined-function locations,
-            605 strings with 5909 characters,
-and the built_in function-call counts, 4602 in all, are:
-= -- 461
-> -- 157
+            623 strings with 6237 characters,
+and the built_in function-call counts, 5227 in all, are:
+= -- 528
+> -- 175
 < -- 0
-+ -- 60
-- -- 43
-* -- 345
-:= -- 658
-add.period$ -- 17
-call.type$ -- 17
-change.case$ -- 16
++ -- 67
+- -- 48
+* -- 387
+:= -- 739
+add.period$ -- 19
+call.type$ -- 19
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 237
-empty$ -- 415
-format.name$ -- 43
-if$ -- 1136
+cite$ -- 20
+duplicate$ -- 273
+empty$ -- 467
+format.name$ -- 48
+if$ -- 1295
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 17
-newline$ -- 54
-num.names$ -- 17
-pop$ -- 27
+int.to.str$ -- 19
+missing$ -- 19
+newline$ -- 60
+num.names$ -- 19
+pop$ -- 30
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 187
+skip$ -- 222
 stack$ -- 0
-substring$ -- 316
-swap$ -- 113
+substring$ -- 362
+swap$ -- 135
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 41
-width$ -- 19
-write$ -- 169
-(There were 3 error messages)
+while$ -- 46
+width$ -- 21
+write$ -- 189
+(There were 2 error messages)

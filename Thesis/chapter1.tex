@@ -1,18 +1,21 @@
-\chapter{``Quantum" Behavior}
+\chapter{Pilot-Wave Hydrodynamics}
 \label{Ch1}
+
+In this chapter I will present a brief survey of the literature describing the hydrodynamic quantum analog, and discuss in more detail the particular tunneling experiments relevant to my investigation. Because the system was discovered in 2005, most of the literature examining this topic was written within the last ten years and is constantly advancing.
+
 
 \section{Oil Droplet System}
 	    \label{parameters}
-	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$ in a bath of depth $H$. This fluid bath is then driven vertically at an amplitude $A_0$ at frequency $f=\omega/{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma~\mathrm{sin}(\omega t)$. The surface of oil in the shaking tray remains quiescent for lower values of $\gamma$. However, if one continues to increase $\gamma$ (by increasing $A_0$ or $f$), one will eventually witness the appearance of standing surface waves called Faraday waves. We define the threshold at which these waves appear as the Faraday threshold $\gamma_\mathrm{F}$, the value of which changes depending on the size and shape of the tray, the amount of fluid in the tray, and the properties of the fluid. 
+	       Consider a fluid of density $\rho$, viscosity $\nu$, and surface tension $\sigma$ in a bath of depth $H$. This fluid bath is driven vertically at an amplitude $A_0$ at frequency $f=\omega/{2\pi}$. By defining $\mathnormal{\gamma}=A_0\omega^2$, the effective gravity in the frame of reference of the bath is $g+\gamma~\mathrm{sin}(\omega t)$. The surface of oil in the shaking tray remains quiescent for lower values of $\gamma$. However, if one continues to increase $\gamma$ (by increasing $A_0$ or $f$), one will eventually witness the appearance of standing surface waves called Faraday waves. We define the threshold at which these waves appear as the \textbf{Faraday threshold} $\gamma_\mathrm{F}$, the value of which changes depending on the size and shape of the tray, the amount of fluid in the tray, and the properties of the fluid. 
 	       
 	   \begin{figure}[h]
 	       \centering
 	    \includegraphics[scale=.80]{basicsetup.pdf}
 	     \caption{A droplet bounces on a vertically vibrating fluid bath. The tray vibrates with an amplitude $A_0$ at frequency $f$.}
-	 \label{regime}
+	 \label{basic}
 	\end{figure}
 	       
-	    If we take a toothpick and break the surface of the vibrating oil bath, we form a droplet of oil that will remain bouncing for hours. The oil droplet of diameter $D$ bounces when for specific values of $\gamma$. For a small $\gamma$, the forcing is not enough to sustain the droplet, and it quickly coalesces. Increasing $\gamma$ will eventually reveal a region in which standing surface waves cover the entire tray. These waves are called Faraday waves, and the driving acceleration at which they first appear is referred to as the \textbf{Faraday threshold} $\gamma_\mathrm{F}$, which varies depending on the amount, density, and viscosity of fluid. The range of the various parameters which allow for the existence of the bouncing droplet are outlined in \refTab{approxlimits}. 
+	    If we take a toothpick and break the surface of the vibrating oil bath, we form a droplet of oil that will remain bouncing for hours as shown in \refFig{basic}. The droplet bounces on a pocket of air, trapped beneath the droplet and the bath~\rf{Walker}. As the oil droplet of diameter $D$ bounces, it creates radially traveling waves that propagate outwards in an otherwise placid surface. The droplet will continue bouncing for a specific range of values of $\gamma$. For a small $\gamma$, the forcing is not enough to sustain the droplet, and it quickly coalesces. Increasing $\gamma$ will yield changes to the droplet's dynamics until $\gamma > \gamma_\mathrm{F}$, where the droplet bounces on the standing Faraday waves and can jump out of the tray. We are interested in studying the region below the appearance of Faraday waves but above the region of coalescence. The range of the various parameters which allow for the existence of the bouncing droplet are outlined in \refTab{approxlimits}. 
 	      
 	       \begin{table}[htdp] 
 \caption[Basic Table 1]{Approximate limits for bouncing drop behavior. The value $g = 9.81\mathrm{ms}^{-2}$ is the standard acceleration due to gravity.} 
@@ -34,16 +37,16 @@ Forcing Acceleration $\gamma$ ($\mathrm{ms}^{-2}$) & 0.5$g$ & $\gamma_\mathrm{F}
 \end{table}	
 
 \subsection{Faraday Waves}
-	       At a forcing $\gamma = \gamma_\mathrm{F}$ we see the appearance of standing surface waves known as Faraday waves. These waves have frequency $f_\mathrm{F} = f/2$ and a angular frequency $\omega_\mathrm{F} = 2\pi f_\mathrm{F}=\pi f$. The standing wave and water dispersion relation can be used to find the wavelengths of standing waves at the Faraday threshold:
+	       At a forcing $\gamma = \gamma_\mathrm{F}$ we see the appearance of standing surface waves known as Faraday waves. These waves have frequency $f_\mathrm{F} = f/2$ and a angular frequency $\omega_\mathrm{F} = 2\pi f_\mathrm{F}=\pi f$. For a fluid bath of density $\rho$, surface tension $\sigma$, and height $H$, the standing wave and water dispersion relation can be used to find the wavelengths of standing waves at the Faraday threshold:
 \begin{equation} \label{dispersion}
 \omega_\mathrm{F}^2 = \left(gk_\mathrm{F}+\frac{\sigma k_\mathrm{F}^3}{\rho}\right)\mathrm{tanh}(k_\mathrm{F}H),
 \end{equation} 
-which relates the angular Faraday frequency $\omega_\mathrm{F}$ to the Faraday wavenumber $k_\mathrm{F}$ \rf{Kumar}. From the wavenumber, we can calculate the wavelength $\lambda_\mathrm{F}$ of the Faraday waves by the relation $\lambda_\mathrm{F}$ = $2\pi/k_\mathrm{F}$. Though we are interested in investigating the region $\gamma < \gamma_\mathrm{F}$ where there are no standing surface waves, \refeq{dispersion} provides an estimate to the wavelength and frequency of waves in the bouncing droplet system. 
+which relates the angular Faraday frequency $\omega_\mathrm{F}$ to the Faraday wavenumber $k_\mathrm{F}$, where $g$ is the gravitational constant \rf{Kumar1996}. From the wavenumber, we can calculate the wavelength $\lambda_\mathrm{F}$ of the Faraday waves by the relation $\lambda_\mathrm{F}$ = $2\pi/k_\mathrm{F}$. Though we are interested in investigating the region $\gamma < \gamma_\mathrm{F}$ for which there are no standing surface waves, \refeq{dispersion} provides an estimate to the wavelength and frequency of the localized waves surrounding the droplet for the bouncing behavior. 
 
 
 \subsection{Vibration Number}
 
-In an experiment, one usually pours in a specific volume of oil in the tray, fixing the values of $\nu$, $\sigma$, and $H$. One is then left with the option to adjust $\gamma$ which produces a range of droplet motions, including a slew of different stationary bouncing modes and linear or chaotic ``walking" trajectories. To visualize the various bounving behaviors, we use the vibration number $V_i$, which takes into account many of the parameters of the experiment \rf{Molacek2013}. The vibration number is the ratio of the forcing frequency and the drop's natural oscillation frequency:
+In an experiment, one usually pours in a specific volume of oil in the tray, fixing the values of $\nu$, $\sigma$, and $H$. One is then left with the option to adjust $\gamma$ which produces a range of droplet motions, including a slew of different stationary bouncing modes and linear or chaotic ``walking" trajectories (which are discussed later). To visualize the various bouncing behaviors, we use the vibration number $V_i$, which takes into account many of the parameters of the experiment \rf{Molacek2013}. The vibration number is the ratio of the forcing frequency and the drop's natural oscillation frequency:
 \begin{equation} \label{vibrationnumber1}
 V_i = \frac{\omega}{\omega_\mathrm{D}}
 \end{equation}   
@@ -51,11 +54,11 @@ where $\omega_\mathrm{D}$ represents the oscillation frequency of a fluid drople
 \begin{equation} \label{oscillationfrequency}
 \omega_\mathrm{D} = 2\sqrt{\frac{2\sigma}{\rho D^3}},
 \end{equation}   
-with surface tension $\sigma$, density $\rho$ , and diameter of the droplet $D$ \rf{lord}. Combining \refeqs{vibrationnumber1}{oscillationfrequency} we arrive at:
+with surface tension $\sigma$, density $\rho$, and diameter of the droplet $D$ \rf{lord}. Combining \refeqs{vibrationnumber1}{oscillationfrequency} we arrive at:
 \begin{equation} \label{vibrationnumber2}
 V_i = \frac{\omega}{2}\sqrt{\frac{\rho D^3}{2\sigma}},
 \end{equation}   	       	       
-a dimensionless parameter that captures the fluid's surface tension $\sigma$ and density$\rho$, the tray's vibration $\omega$, and the droplet's diameter $D$. The natural frequency of the droplet occurs around $V_i \approx 0.65$, where the droplet can exhibit both walking and bouncing behaviors. Setting up a plot with $V_i$ on the y axis and (dimensionless) ${\gamma}/{g}$ on the x axis allows the experimenter to identify regions of similar behaviors, shown in \refFig{regime}. If we hold the fluid and the frequency constant ($\sigma$, $\rho$, and $\omega$), then we can think of increasing $V_i$ as and increasing droplet diameter $D$. 
+a dimensionless parameter that captures the fluid's surface tension $\sigma$ and density $\rho$, the tray's vibration $\omega$, and the droplet's diameter $D$. Depending on the vibration number $V_i$ and the driving frequency $\gamma/g$ the droplets switch between different bouncing states as shown in \refFig{regime}. If we hold the fluid and the frequency constant ($\sigma$, $\rho$, and $\omega$), then \refeq{vibrationnumber2} says we can think of increasing $V_i$ as and increasing droplet diameter $D$. 
 	    
 	    \begin{figure}[h]
 	% the options are h = here, t = top, b = bottom, p = page of figures.
@@ -64,38 +67,59 @@ a dimensionless parameter that captures the fluid's surface tension $\sigma$ and
 	% \begin{figure}[h!tbp]
 	       \centering
 	    \includegraphics[scale=.96]{vibrationnumber}
-	     \caption{The different bouncing regimes for the oil drops of 20 cSt silicone oil at $f$ = $\omega / 2\pi$ = 80 Hz, characterized by the non-dimensionalized forcing frequency $\gamma/g$ and the vibration number $V_i$. The parameters $(m,n)^{i}$ describe a droplet that bounces $n$ times in $m$ forcing periods, where $i$ distinguishes modes with different mechanical energy. The Faraday threshold is $\gamma_\mathrm{F} = 4.2$. This diagram was taken from \rf{pilot-wave}.}
+	     \caption{The different bouncing regimes for the oil drops of 20 cSt silicone oil at $f$ = $\omega / 2\pi$ = 80 Hz, characterized by the non-dimensionalized forcing frequency $\gamma/g$ and the vibration number $V_i$. The solid colors represent the  modes predicted by a theoretical model~\rf{Molacek2013}, and the various points represent experimentally measured limits. The parameters $(m,n)^{i}$ describe a droplet that bounces $n$ times in $m$ forcing periods, where $i$ distinguishes modes with different mechanical energy. The Faraday threshold is $\gamma_\mathrm{F} = 4.2$. This diagram was taken from \rf{pilot-wave}.}
 	 \label{regime}
 	\end{figure}
 
-The various modes seen in \refFig{regime} can be described by ($m$,$n$), where $n$ is the number to times the droplet contacts the surface over period $m/f$. For example, in the (1,1) ``Bounce" mode, the droplet hits the oil bath once per up-and-down motion of the tray. In the (2,2) mode, the drop makes two bounces of differing heights. The ``Chaos" regimes indicate that the bouncing of the droplet is chaotic, and it does not seem to exhibit a periodic bouncing motion. The ``Walk" regime describes a very particular kind of behavior in which the droplet moves forward as it bounces, seemingly walking across the surface. Like bouncing, walking also comes in various modes. Finally, the ``Coalescence" region demarcates the coalesces of the droplet with the bath.
+The various modes seen in \refFig{regime} can be described by ($m$,$n$), where $n$ is the number to times the droplet contacts the surface over a time span $m/f$. For example, in the (1, 1) ``bounce" mode, the droplet hits the oil bath once per up-and-down motion of the tray. In the (2, 2) mode, the drop makes two bounces of differing heights for two driving periods. The ``chaos" regimes indicate that the bouncing of the droplet is chaotic, and it does not seem to exhibit a periodic bouncing motion. The ``walk" regime describes a very particular kind of behavior in which the droplet moves forward as it bounces, seemingly walking across the surface. Like bouncing, walking also comes either the (2, 1), (4, 2), or the chaos mode. Finally, the ``coalescence" region demarcates the values for which the droplet coalesces with the bath.
 
-The droplet map shown in \refFig{regime} provides a valuable starting place for an experiment since it outlines the many possible states of the system. We will now narrow our focus to only the walking regime, for which a variety of fascinating interactions emerge.
+The droplet map shown in \refFig{regime} provides a valuable starting place for an experiment since it outlines the many possible states of the system, and where we can expect to find particular behaviors. We will now narrow our focus to only the walking regime, for which a variety of fascinating interactions emerge.
 
 	        \subsection{Walking}
-A walking droplet is a very specific type of bouncing droplet. As the droplet bounces vertically on the vibrating fluid bath, the interaction of its previous waves give it a slight horizontal motion with every bounce. Thus, for every bounce, the droplet follows a parabolic trajectory. But because these droplets are bouncing at 40 times per second (or more) and the parabolic motion is periodic, the vertical oscillations are difficult to see. The apparent behavior that emerges is that of the droplet ``walking" across the surface of the fluid bath.             
+A walking droplet is a very specific type of bouncing droplet. As the droplet bounces vertically on the vibrating fluid bath, the interaction of its previous waves give it a slight horizontal motion with every bounce. Thus, for every bounce, the droplet follows a parabolic trajectory. But because these droplets are bouncing at 40 times per second (or more) and the parabolic motion is periodic, the vertical oscillations are difficult to see. The apparent behavior that emerges is that of the droplet moving in a straight line along the surface of the fluid bath.             
 
  \begin{figure}[h]
 	       \centering
-	    \includegraphics[scale=.6]{CouderWalkers.jpg}
-	     \caption{The series of pictures (a) - (c) show a droplet bouncing off of the slope of the localized wave, launching into the air, and then falling again on a new wave slope. This periodic process happens multiple times per second, giving the droplet the appearance of walking across the surface. Figure adapted from \rf{Couder2005b}.}
+	    \includegraphics[scale=.495]{ProtiereWalkers}
+	     \caption{%The series of pictures (a) - (c) show a droplet bouncing off of the slope of the localized wave, launching into the air, and then falling again on a new wave slope. This periodic process happens multiple times per second, giving the droplet the appearance of walking across the surface. Figure adapted from~\rf{Couder2005b}.
+	    The series of pictures (a) - (f) show a walker during two forcing periods. The droplet bounces off of the slope of the localized wave, launching into the air, and then falls again on a new wave slope. This periodic process happens multiple times per second, giving the droplet the appearance of walking across the surface. Figure from~\rf{Protiere2006} 
+	     }
 	 \label{Couderwalkers}
 	\end{figure}
  
  
-The horizontal component is due to the droplet landing slightly off center of the radial wave it produced in the previous bounce, shown in \refFig{Couderwalkers}. At such close proximity to the Faraday threshold, the waves surrounding the droplet are not just regular ripples, but rather are like localized Faraday waves because they are sustained by the vibrations. The kinetic energy from the falling droplet is enough to perturb the unstable surface such that the waves are sustained for a longer period of time. As these waves interfere with one another they create an overall wave field that guides the droplet. This overall wave field is referred to as the \textbf{guiding wave} or the \textbf{pilot wave}. The \textbf{walker} is defined as both the droplet and it's guiding wave, since they are mutually dependent. The unique combination of the two components results in novel interactions like bound states or scattering states.
+The horizontal component of the walker is due to the droplet landing slightly off center of the radial wave it produced in the previous bounce, shown in \refFig{Couderwalkers}. At such close proximity to the Faraday threshold, the waves surrounding the droplet are not just regular ripples, but rather are like localized Faraday waves because they are sustained by the vibrations. The kinetic energy from the falling droplet is enough to perturb the unstable surface such that the waves are sustained for a longer period of time. As these waves interfere with one another they create an overall wave field that guides the droplet. This overall wave field is referred to as the \textbf{guiding wave} or the \textbf{pilot wave}. The \textbf{walker} is defined as both the droplet and it's guiding wave, since they are mutually dependent. The unique combination of the two components results in novel interactions like bound states or scattering states.
 
 
 %For example, as a walker approaches the wall of the tray, the droplet will slow down as it approaches and then--without touching the wall--walk off in the other direction. What's actually happening is that the guiding wave reflects off of the wall, which creates a new pilot-wave that pushes the droplet away from the wall. The defining quality illustrated in this example is that the droplet is apparently influenced by another feature without touching it, the interaction is happening with the guiding wave.
 
 \subsubsection{Bound States}
-            A periodic damped wave allows for two bouncers to form a \textbf{bound state}: a configuration in which the droplets remain a fixed distance apart \cite{Protiere2005}.  Starting far away from one another, two droplets drift towards one another until a fixed distance $d_{0}^{bd}$. Increasing driving acceleration $\gamma$ will decrease the value of $d_{0}^{bd}$. These bound bouncers can form triangular lattices, and their periodicity is highly sensitive to the mass of the droplet. If the masses of the droplets differ, these configurations drift slowly and rotate because the waves produced by the larger droplet are larger creating an imbalanced wave field \rf{Eddi2008}. Finally, the droplets can bounce in phase with one another (they both land at the same time and reach their peaks at the same time) or completely out of phase with one another (as on lands, the other reaches it's peak).
+
+\begin{figure}[h]
+	       \centering
+	    \includegraphics[scale=.366]{BoundedStates}
+	     \caption{In (a), the trio of droplets organize themselves into a triangular latice separated by distace $d_{0}^{bd}$. The forcing accerlation has been increased in (b), and the droplets are more spread out with a larger $d_{0}^{bd}$ value. Bound states can include a large number of bouncing droplets, as demonstrated by the 7 bouncing droplets shown in (c).   
+	    Figure from~\rf{Protiere2005} 
+	     }
+	 \label{bounded}
+	\end{figure}
+            A periodic damped wave allows for two bouncers to form a \textbf{bound state}: a configuration in which the droplets remain a fixed distance apart \rf{Protiere2005}.  Starting far away from one another, two droplets drift towards one another until a fixed distance $d_{0}^{bd}$. Increasing driving acceleration $\gamma$ will decrease their separation distance $d_{0}^{bd}$ (\refFig{bounded}). These bound bouncers can form triangular lattices, though their periodicity is highly sensitive to the mass of the droplet. If the masses of the droplets differ, these configurations drift slowly and rotate because the waves produced by the larger droplet are larger creating an imbalanced wave field \rf{Eddi2008}. Finally, the droplets can bounce in phase with one another (they both land at the same time and reach their peaks at the same time) or completely out of phase with one another (as on lands, the other reaches it's peak).
             
-            Walkers can also form bound states. Two walkers of the same size that are approaching one another can form an orbit around their center of mass. Between the two droplets is the fixed distance $d_{n}^{orb}$ given by          
+\begin{figure}[h]
+	       \centering
+	    \includegraphics[scale=.33]{OrbitingProtiere2006}
+	     \caption{ The figures show two droplets of equal size orbiting their center of mass. In (a) the droplets bounce out of phase with $n = 0.5$ and $d_{n}^{orb} =1.65~\mathrm{mm}$ whereas in (b) the droplets bounce in phase with  $n=1$ and  $d_{n}^{orb} = 3.7~\mathrm{mm}$.
+	    Figure adapted from~\rf{Protiere2006} 
+	     }
+	 \label{orbiting}
+	\end{figure}
+ 
+
+            Walkers can also form bound states. Two walkers of the same size that are approaching one another can form an orbit around their center of mass as shown in \refFig{orbiting}. Between the two droplets is the fixed distance $d_{n}^{orb}$ given by          
 \begin{equation} \label{orbital}
 d_{n}^{orb} = (n - \epsilon_0)\lambda_F
 \end{equation}         
-where $\epsilon_0$ is a fixed distance which is the same for all orbitals of these walkers (usually in the range $0.15 < \epsilon_0 < 0.25$ depending on droplet diameter), and $n = 1,2,3$... for drops that are in phase or $n = 1/2, 3/2, 5/2$... for drops out of phase. Orbiting periods are approximately proportional to $d_{n}^{orb}$, which ends up meaning that the velocity of the orbiting walkers is a little less than the velocity of a free walker \rf{Protiere2006}. Droplets of equal mass will orbit around their center of mass, which ends up being in the middle of their orbit. Droplets of differing masses will still orbit around their center of mass, which is no longer in between the two.    
+where $\lambda_\mathrm{F}$ is the wavelength of the localized Faraday waves estimated by \refeq{dispersion}, $\epsilon_0$ is a fixed distance which is the same for all orbitals of these walkers (usually in the range $0.15 < \epsilon_0 < 0.25$ depending on droplet diameter), and $n = 1,2,3,...$ for drops that are in phase or $n = 1/2, 3/2, 5/2,...$ for drops out of phase. Orbiting periods are approximately proportional to $d_{n}^{orb}$, which ends up meaning that the velocity of the orbiting walkers is a little less than the velocity of a free walker \rf{Protiere2006}. Droplets of equal mass will orbit around their center of mass, which ends up being in the middle of their orbit. Droplets of differing masses will still orbit around their center of mass, which will be closer to the larger mass than the smaller mass.
 
             \subsubsection{Scattering States}
             Two identical walkers headed towards each other can form fixed orbits, or they can scatter. \textbf{Scattering} describes an interaction in which droplets are deflected through their wave fields, and never actually make contact with one another. Most of the interactions of a walker are scattering of some form. For example, if a single walker approaches the wall of the tray, it will never actually touch the wall. Instead, the guiding wave reflects off of the wall and modifies the wave field such the droplet will scatter in the opposite direction.           
@@ -113,19 +137,27 @@ For a bouncing droplet in which the guiding waves decay relatively quickly, the 
 
 The non-dimensional memory parameter is formally defined as:
 $$M_e = \frac{T_\mathrm{d}}{T_\mathrm{F}(1-\gamma/\gamma_\mathrm{F})},$$
-where $T_\mathrm{d}$ is the decay time of waves in the absence of vibration and $T_\mathrm{F}$ is the period of the Faraday waves \rf{Harris2013}. It will suffice to discuss memory as a fraction of the Faraday threshold $\gamma/\gamma_{F}$, since the fraction and $M_e$ are monotonically related. As the value of $\gamma/\gamma_{F}$ increases (we get closer to the Faraday threshold), $M_e$ increases. Eventually as $\gamma/\gamma_{F}$ approaches 1, the memory parameter approaches $+~\infty$. Thus, higher forcing $\gamma$ goes hand in hand with higher memory $M_e$. 
+where $T_\mathrm{d}$ is the decay time of waves in the absence of vibration and $T_\mathrm{F}$ is the period of the Faraday waves ($T_\mathrm{F} = 1/f_\mathrm{F}$) \rf{Harris2013}. It will suffice to discuss memory as a fraction of the Faraday threshold $\gamma/\gamma_{F}$, since the fraction and $M_e$ are monotonically related. As the value of $\gamma/\gamma_{F}$ increases (we get closer to the Faraday threshold), $M_e$ increases. Eventually as $\gamma/\gamma_{F}$ approaches 1, the memory parameter approaches $+~\infty$. Thus, higher forcing $\gamma$ goes hand in hand with higher memory $M_e$. 
 
-In practice, walking arises above a value of $\gamma/\gamma_{F}$ = 0.94, where as more quantum-like phenomena arise at values of $\gamma/\gamma_{F} = 0.97$ and above \rf{Oza2014}. Deviations in memory $\gamma/\gamma_{F}$ as small as $\pm 0.1$ can have drastic differences in both long term and short term droplet behaviors \rf{Harris2013}.
+In practice, walking arises above a value of $\gamma/\gamma_{F}$ = 0.94, where as more quantum-like phenomena arise at values of $\gamma/\gamma_{F} = 0.97$ and above \rf{Oza2014}. Deviations in memory $\gamma/\gamma_{F}$ as small as $\pm~0.01$ can have drastic differences in both long term and short term droplet behaviors \rf{Harris2013}.
             
             
 \section{Droplet System as a Quantum Analog}   
 
-Classical mechanics seeks to mathematically describe the motion of relatively large scale objects under action of forces. Quantum mechanics however, attempts to describe physical interactions at the nanoscale level, where the mathematical descriptions are very different. Despite the un-classical predictions made by quantum mechanics, these predictions have been tested and confirmed by experiment again and again. There is really very little doubt about the existence of these properties, as modern technologies like transistors or modern microscopes rely on them.
+Classical mechanics seeks to mathematically describe the motion of relatively large scale objects under action of forces. It was, until the late 19th century, physics. Physicists in the early 20th century, after a couple of very puzzling experiments, slowly began realizing that matter at the nanoscale behaved very differently than what they'd been studying in macroscale world. Quantum mechanics was developed, from the ground up, with the aim of mathematically describing this brave new world. As with any new behavior, a variety of theoretical explanations with mathematical foundations were tossed around, until the Copenhagen interpretation of quantum mechanics emerged from the 1927 Solvay conference. The Copenhagen interpretation was spearheaded by Niels Bohr and Werner Heisenberg, and it is a way of describing the strange experimental results. In the modern day, physicists teach and preach the Copenhagen interpretation of quantum mechanics because it is in excellent agreement with experiment; it is more developed than any other the other interpretations; it is the lesser of two evils (locality/non-realism over non-locality/realism); it has not been \textit{dis}proven; and because, well, that's how they learned it. 
 
-On top of the mathematics there is the also story we tell ourselves, conceptually and to some extent mathematically, about how exactly these processes occur. Are a particles actions probabilistic, or are they deterministic? ...
+The oil droplet system is the first known classical system that behaves \textit{like} a quantum system. It exhibits a variety of the same counter-intuitive interactions also seen in quantum mechanics, when subject to experiment. These include single particle double slit diffraction \rf{double-slit}, quantized orbits , tunneling (discussed below) \rf{tunneling}, and others \rf{pilot-wave}. These unique features stem from the \textbf{particle-wave duality} that is central in quantum mechanics: the idea that a particle can behave like a particle in some circumstances and like a wave in other circumstances. In the pilot-wave hydrodynamic system, the this is represented by the walker which is both a droplet and a wave.
 
-Tunneling is one of the phenomena that is unique to the quantum world. A basketball thrown at a wall will hit the wall and bounce back every time we try it. This is tunneling at the classical level. When shift to the quantum scale, if we have a particle headed towards a barrier of a given potential energy, we will not always necessarily see it bounce back. Depending on the characteristics of this potential, there will be a few times in which the particle will \textbf{tunnel} through the barrier, shooting out on the other side.   
+The astute reader will point out that the oil droplet system is slightly different since the walker is a droplet \textit{and} a wave, while the Copenhagen interpretation describes an electron (for example) as a particle \textit{or} a wave. That's because this the oil droplet system isn't analogous to the Copenhagen interpretation of quantum mechanics. It actually bears remarkable resemblance to a somewhat obscure theory proposed by L. de Broglie in 1924, the so-called ``double solution" theory. De Brolgie's ideas were half-baked, but the theory essentially described a pilot-wave that guides a particle, which is then goverened by a long term statistical wave. His theory was picked up and modified by David Bohm in 1952, where it lost it's relevance to this model. Perhaps it's time we picked it back up. 
 
+
+%and eventually picked up by David Bohm who in 1952 modified them to create Bohmian mechanics. This modification, which made it quite popular in the undeground physics community, lost some of the original aspects of de Broglie's theory. As such, it is much closer 
+
+%A fundamental concept in quantum mechanics is the idea of \textbf{wave-particle duality}, that an particle can often times behave like a wave and other times behave like a point mass. The particle dissonance is highlighted in the double slit experiment which was finally conducted in 1974, though it's outcome already been predicted with other, less precise experiments \rf{Italins}. When light is sent through a two slits, the resulting pattern is one of interference. When an electron is aimed at the two slits, it can go through one of the two slits or it can bounce back. The dissonance arises when the experimenter takes a measurement of which slit the particle went through. If the measurement is made and the experimenter knows which slit the electron passed through, then the resulting pattern is like that of a point mass traveling through. If the measurement is not made, then the behavior of a single electron is like that of interfering waves. How can it be, that when we make a measurement of something, we change the way an electron interacts with the world?
+
+
+
+%There is the also story we tell ourselves, conceptually and to some extent mathematically, what exactly is going on during these processes. These interpretations of quantum mechanics is what causes all the fuss. As Niels Bohr famously said: ``For those who are not shocked when they first come across quantum theory cannot possibly have understood it" \rf{?}. This is because the 
 
  %            \subsection{Single-Particle Diffraction}
 %In 2006 Couder and Fort showed that the system had properties that were strikingly similar to two famous and controversial quantum experiments \cite{double-slit}. They were able to demonstrate that a single walker traveling through one slit seemed to have its direction altered seemingly randomly, before continuing forward on its new path. By statistically analyzing many trials, Couder and Fort showed that the histogram of the ``diffraction" actually resulted in a diffraction pattern strikingly similar to the single photon diffraction experiment performed by Taylor in 1909. 
@@ -143,6 +175,8 @@ Tunneling is one of the phenomena that is unique to the quantum world. A basketb
 
     \subsubsection{Tunneling in Quantum Mechanics}
     
+Tunneling is one of the phenomena that is unique to the quantum world. At the classical level, we can take the example of a basketball thrown at a brick wall: the ball will hit the wall and bounce back every time we try it. When shift to the quantum scale, if we have a particle headed towards a barrier of a given potential energy, it will not necessarily bounce back. Depending on the characteristics of this potential, there will be a few times in which the particle will \textbf{tunnel} through the barrier, shooting out on the other side. It is not completely fair use the basketball-wall example as an analogy for the particle-barrier interaction because the ``effective potential energy" of the brick wall is much higher, relatively, than that of the quantum potential barrier. For a high enough potential, the particle will also (almost) always bounce back. The point is that there really is no exact analogy in classical mechanics to tunneling at lower potentials for which tunneling is probablistic. 
+
     \subsubsection{Tunneling in the Bouncing Droplet System}
 
 \begin{figure}[h!]
@@ -151,6 +185,21 @@ Tunneling is one of the phenomena that is unique to the quantum world. A basketb
 	     \caption{A diagram of the droplet-barrier interaction. In (a) the droplet moves towards the barrier. As it gets closer (b), the guiding wave is damped. In (c) the guiding wave is fully damped, and then the droplet will either reflect back from where it came (d), or carry on as shown in (e).}
 	 \label{tuncartoon}
 	\end{figure}
-	       The guiding wave field can be partially reflected off of an edge or even a change in depth of the oil bath. This effect can be seen when a walker is pushed back from a under-the-surface step, seemingly without any contact. In rare cases, the walker will actually ``tunnel" across the step; that is, it will continue to walk along the surface of the oil bath and pass over the step without reflection. This interaction is sketched in \refFig{tuncartoon}. In the first experiment done by Eddi et al., they demonstrated tunneling by by building square ``corrals" of varying thicknesses\cite{tunneling}. In the second experiment, they built a rhombus shape which forced the walker across the center of a rhombus. The barrier was placed perpendicular to the direction of travel of the walker, so that it would hit the wall directly rather than at an angle (as in the square corral). ``The tunneling probability decreases exponentially with the barrier width and increases as the Faraday threshold is approached." Eddi et. al also found that the probability of tunneling increased with the velocity of the walker.  The unpredictability of the tunneling comes from the complex interaction between the drop and its guiding wave. 
+	A study performed by Eddi et al. examined tunneling in the bouncing droplet system \cite{tunneling}. In this setting, tunneling takes the form of the droplet tunneling through (or being reflected by) a subsurface barrier as depicted in \refFig{tuncartoon}. The droplet never actually travels through the barrier, since it bounces on the interface, but the analog to quantum tunneling remains, because as the droplet approaches the barrier it is affected by the region of a different ``potential". 
+	
+For a different depth of fluid $H$, a tray will have a different $\gamma_\mathrm{F}$. If a tray has various regions of different depths, then these different regions will behave slightly differently. This means that when a walker travels from an area of one depth to an area of another depth, it is entering an area in which it's behavior will change. This effect can be seen when a walker is pushed back from a under-the-surface step, seemingly without any contact with the droplet. In certain cases, the walker will actually tunnel across the step; that is, it will continue to walk along the surface of the oil bath and pass into the new region of different depth, without reflection. Adjusting the width of the region as well as it's depth will affect the behavior of the droplet. If we make this region of the tray of width $e$ with depth $h$ in a bath that otherwise has depth $H$, then we can think of if as a potential barrier. As the droplet steps over the barrier, it becomes a bouncer, with different dynamics. The unpredictability of the tunneling comes from the complex interaction between the drop and its guiding wave. 
 
+\begin{figure}[h!]
+ \begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{Eddi}
+\end{subfigure}
+\begin{subfigure}{.7\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{EddiVelocity}
+\end{subfigure}
+\caption{In (a) and (b) we see the path of a droplet traced out over many collision with the barrier in then rhombus shaped tray. The plot (c) shows the tunneling probability as a function of walker velocity. Figures from \rf{tunneling}}
+\label{fig:Eddi}
+	\end{figure}
 
+Eddi et al. built a rhombus shape which forced the walker across the center of a rhombus shown in \refFig{fig:Eddi} (a) - (b). A barrier was then placed across the diagonal of the rhombus, perpendicular to the direction of travel of the walker, so that the walker would run into the wall at a perpendicular angle. They discovered that by increasing the barrier width, the tunneling probability decreased. They also discovered that as $\gamma/\gamma_\mathrm{F}$ approached $1$, they saw faster droplets which, they showed, had higher probabilities of tunneling (\refFig{fig:Eddi} (c)). 

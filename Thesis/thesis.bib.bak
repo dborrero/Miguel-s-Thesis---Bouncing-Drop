@@ -2,29 +2,8 @@
 % Encoding: MacRoman
 
 
-@Article{tunneling,
-  Title                    = {Unpredictable Tunneling of a Classical Wave-Particle Association},
-  Author                   = {A. Eddi, and E. Fort, and F. Moisy, and Y. Couder},
-  Journal                  = {Phys. Rev. Lett.},
-  Year                     = {2009},
-  Number                   = {240401},
-  Volume                   = {102},
-
-  Abstract                 = {A droplet bouncing on a vibrated bath becomes a ``walker" moving at constant velocity on the interface
-when it couples to the surface wave it generates. Here the motion of a walker is investigated when it
-collides with barriers of various thicknesses. Surprisingly, it undergoes a form of tunneling: the reflection
-or transmission of a given incident walker is unpredictable. However, the crossing probability decreases
-exponentially with increasing barrier width. This shows that this wave-particle association has a nonlocality
-sufficient to generate a quantumlike tunneling at a macroscopic scale.},
-  Doi                      = {10.1103/PhysRevLett.102.240401},
-  Keywords                 = {tunneling},
-  Owner                    = {Miguel},
-  Timestamp                = {2015.03.31},
-  Url                      = {https://blog.espci.fr/aeddi/files/2014/06/PhysRevLett_TUNNEL.pdf}
-}
-
 @Article{Bohm1952a,
-  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of "Hidden Variables". I},
+  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of 'Hidden Variables' I},
   Author                   = {Bohm, David},
   Journal                  = {Phys. Rev.},
   Year                     = {1952},
@@ -42,7 +21,7 @@ sufficient to generate a quantumlike tunneling at a macroscopic scale.},
 }
 
 @Article{Bohm1952b,
-  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of "Hidden Variables". II},
+  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of 'Hidden Variables' II},
   Author                   = {Bohm, David},
   Journal                  = {Phys. Rev.},
   Year                     = {1952},
@@ -141,9 +120,30 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1038/437208a}
 }
 
+@Article{tunneling,
+  Title                    = {Unpredictable Tunneling of a Classical Wave-Particle Association},
+  Author                   = {Eddi, A. and E. Fort, and F. Moisy, and Y. Couder},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2009},
+  Number                   = {240401},
+  Volume                   = {102},
+
+  Abstract                 = {A droplet bouncing on a vibrated bath becomes a ``walker" moving at constant velocity on the interface
+when it couples to the surface wave it generates. Here the motion of a walker is investigated when it
+collides with barriers of various thicknesses. Surprisingly, it undergoes a form of tunneling: the reflection
+or transmission of a given incident walker is unpredictable. However, the crossing probability decreases
+exponentially with increasing barrier width. This shows that this wave-particle association has a nonlocality
+sufficient to generate a quantumlike tunneling at a macroscopic scale.},
+  Doi                      = {10.1103/PhysRevLett.102.240401},
+  Keywords                 = {tunneling},
+  Owner                    = {Miguel},
+  Timestamp                = {2015.03.31},
+  Url                      = {https://blog.espci.fr/aeddi/files/2014/06/PhysRevLett_TUNNEL.pdf}
+}
+
 @Article{Eddi2011,
   Title                    = {Information stored in Faraday waves: the origin of a path memory},
-  Author                   = {Eddi, Antonin and SULTAN, ERIC and MOUKHTAR, JULIEN and FORT, EMMANUEL and ROSSI, MAURICE and COUDER, YVES},
+  Author                   = {Eddi, Antonin and Sultan, E. and Moukhtar, J. and Fort, E. and Rossi, M. and Couder, Y.},
   Journal                  = {J. Fluid Mech.},
   Year                     = {2011},
 
@@ -157,6 +157,26 @@ electrodynamics.},
   Publisher                = {Cambridge University Press (CUP)},
   Timestamp                = {2015.04.20},
   Url                      = {http://dx.doi.org/10.1017/S0022112011000176}
+}
+
+@Article{Eddi2008,
+  Title                    = {Wave propelled ratchets and drifting rafts},
+  Author                   = {Eddi, A. and Terwagne, D. and Fort, E. and Couder, Y.},
+  Journal                  = {EPL (Europhysics Letters)},
+  Year                     = {2008},
+
+  Month                    = {May},
+  Number                   = {4},
+  Pages                    = {44001},
+  Volume                   = {82},
+
+  __markedentry            = {[Miguel:6]},
+  Doi                      = {10.1209/0295-5075/82/44001},
+  ISSN                     = {1286-4854},
+  Owner                    = {Miguel},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2015.04.22},
+  Url                      = {http://dx.doi.org/10.1209/0295-5075/82/44001}
 }
 
 @Article{Faraday,
@@ -197,8 +217,6 @@ electrodynamics.},
   Month                    = {Dec},
   Pages                    = {444-464},
   Volume                   = {739},
-
-  __markedentry            = {[Miguel:]},
   Doi                      = {10.1017/jfm.2013.627},
   ISSN                     = {1469-7645},
   Owner                    = {Miguel},
@@ -207,7 +225,7 @@ electrodynamics.},
   Url                      = {http://dx.doi.org/10.1017/jfm.2013.627}
 }
 
-@Article{Kumar,
+@Article{Kumar1996,
   Title                    = {Linear Theory of Faraday Instability in Viscous Liquids},
   Author                   = {Kumar, K.},
   Journal                  = {Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},
@@ -218,7 +236,7 @@ electrodynamics.},
   Pages                    = {1113-1126},
   Volume                   = {452},
 
-  __markedentry            = {[Miguel:6]},
+  __markedentry            = {[Miguel:]},
   Doi                      = {10.1098/rspa.1996.0056},
   ISSN                     = {1471-2946},
   Owner                    = {Miguel},
