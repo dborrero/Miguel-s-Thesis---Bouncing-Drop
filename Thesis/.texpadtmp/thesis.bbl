@@ -49,10 +49,6 @@ J.~Mol\`{a}\v{c}ek and J.~W.~M. Bush, ``Drops walking on a vibrating bath:
 L.~Rayleigh, ``On the capillary phenomena of jets,'' {\em Proc. R. Soc. Lond.},
   vol.~29, pp.~71--97, 1879.
 
-\bibitem{Protiere2006}
-S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
-  interface,'' {\em J. Fluid Mech.}, vol.~554, pp.~85--108, 2006.
-
 \bibitem{Protiere2005}
 S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
   capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, no.~45,
@@ -62,6 +58,10 @@ S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
 A.~Eddi, D.~Terwagne, E.~Fort, and Y.~Couder, ``Wave propelled ratchets and
   drifting rafts,'' {\em Europhys. Lett.}, vol.~82, no.~4,
   pp.~44001.1--44001.5, 2008.
+
+\bibitem{Protiere2006}
+S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
+  interface,'' {\em J. Fluid Mech.}, vol.~554, pp.~85--108, 2006.
 
 \bibitem{Eddi2011}
 A.~Eddi, E.~Sultan, J.~Moukhtar, E.~Fort, M.~Rossi, and Y.~Couder,
@@ -82,6 +82,9 @@ A.~U. Oza, D.~M. Harris, R.~R. Rosales, and J.~W.~M. Bush, ``Pilot-wave
 Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
   macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, no.~154101.1 -
   154101.4, 2006.
+
+\bibitem{tracker}
+D.~Brown, ``Tracker video analysis and modeling tool,'' November 2014.
 
 \bibitem{shaker}
 D.~M. Harris and J.~Bush, ``Generating uniaxial vibration with an
