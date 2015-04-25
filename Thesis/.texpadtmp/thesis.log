@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  24 APR 2015 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  24 APR 2015 23:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -313,18 +313,18 @@ LaTeX Warning: Label `orbital' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
@@ -389,17 +389,17 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 68.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 69.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 68.
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 68.
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -550,7 +550,10 @@ Package pdftex.def Info: ./Figs/basicsetup.pdf used on input line 13.
 (pdftex.def)             Requested size: 232.8703pt x 105.99612pt.
  [13
 
- <./Figs/basicsetup.pdf>] [14]
+ <./Figs/basicsetup.pdf>]
+Underfull \vbox (badness 1248) has occurred while \output is active []
+
+ [14]
 <./Figs/vibrationnumber.jpeg, id=144, 3766.07pt x 2188.175pt>
 File: ./Figs/vibrationnumber.jpeg Graphic file (type jpg)
 
@@ -565,17 +568,21 @@ Overfull \hbox (1.33658pt too wide) in paragraph at lines 69--70
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figs/ProtiereWalkers.png, id=145, 872.25874pt x 678.535pt>
+[15] <./Figs/ProtiereWalkers.png, id=149, 872.25874pt x 678.535pt>
 File: ./Figs/ProtiereWalkers.png Graphic file (type png)
 
 <use ./Figs/ProtiereWalkers.png>
 Package pdftex.def Info: ./Figs/ProtiereWalkers.png used on input line 84.
 (pdftex.def)             Requested size: 431.76276pt x 335.87068pt.
- [15]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figs/BoundedStates.png, id=151, 1189.44376pt x 393.47pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <./Figs/vibrationnumber.jpeg>]
+<./Figs/BoundedStates.png, id=154, 1189.44376pt x 393.47pt>
 File: ./Figs/BoundedStates.png Graphic file (type png)
 
 <use ./Figs/BoundedStates.png>
@@ -589,11 +596,8 @@ Overfull \hbox (1.71216pt too wide) in paragraph at lines 101--104
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16 <./Figs/vibrationnumber.jpeg>]
-<./Figs/OrbitingProtiere2006.png, id=155, 1178.4025pt x 584.1825pt>
+[17 <./Figs/ProtiereWalkers.png>]
+<./Figs/OrbitingProtiere2006.png, id=159, 1178.4025pt x 584.1825pt>
 File: ./Figs/OrbitingProtiere2006.png Graphic file (type png)
 
 <use ./Figs/OrbitingProtiere2006.png>
@@ -604,10 +608,13 @@ Package pdftex.def Info: ./Figs/OrbitingProtiere2006.png used on input line 111
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./Figs/ProtiereWalkers.png>] [18 <./Figs/BoundedStates.png>]
-Underfull \vbox (badness 1122) has occurred while \output is active []
 
- [19 <./Figs/OrbitingProtiere2006.png>] [20]
+Underfull \vbox (badness 2050) has occurred while \output is active []
+
+ [18 <./Figs/BoundedStates.png>] [19 <./Figs/OrbitingProtiere2006.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
 <./Figs/Tunneling.pdf, id=171, 862.22125pt x 788.9475pt>
 File: ./Figs/Tunneling.pdf Graphic file (type pdf)
 
@@ -628,8 +635,8 @@ Package pdftex.def Info: ./Figs/EddiCombo.pdf used on input line 195.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./tablesandgraphics.tex [21] [22 <./Figs/Tunneling.pdf>] [23 <./Figs/EddiCom
-bo.pdf>] [24
+[21]) (./tablesandgraphics.tex [22 <./Figs/Tunneling.pdf>] [23 <./Figs/EddiComb
+o.pdf>] [24
 
 ]
 Chapter 2.
@@ -763,13 +770,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5150 strings out of 493117
- 76812 string characters out of 6135433
- 145916 words of memory out of 5000000
- 8426 multiletter control sequences out of 15000+600000
+ 5155 strings out of 493117
+ 76859 string characters out of 6135433
+ 145939 words of memory out of 5000000
+ 8431 multiletter control sequences out of 15000+600000
  14991 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,75p,1322b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,75p,1294b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
@@ -786,7 +793,7 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/20
 14/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (52 pages, 21647423 bytes).
+.texpadtmp/thesis.pdf (52 pages, 21649024 bytes).
 PDF statistics:
  422 PDF objects out of 1000 (max. 8388607)
  290 compressed objects within 3 object streams

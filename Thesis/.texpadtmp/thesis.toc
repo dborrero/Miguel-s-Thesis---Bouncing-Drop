@@ -21,14 +21,14 @@
 \contentsline {chapter}{Chapter 1: Pilot-Wave Hydrodynamics}{13}
 \contentsline {section}{\numberline {1.1}Oil Droplet System}{13}
 \contentsline {subsection}{\numberline {1.1.1}Faraday Waves}{14}
-\contentsline {subsection}{\numberline {1.1.2}Vibration Number}{14}
-\contentsline {subsection}{\numberline {1.1.3}Walking}{15}
+\contentsline {subsection}{\numberline {1.1.2}Vibration Number}{15}
+\contentsline {subsection}{\numberline {1.1.3}Walking}{16}
 \contentsline {subsubsection}{Bound States}{17}
 \contentsline {subsubsection}{Scattering States}{18}
-\contentsline {subsection}{\numberline {1.1.4}Path Memory}{18}
+\contentsline {subsection}{\numberline {1.1.4}Path Memory}{19}
 \contentsline {section}{\numberline {1.2}Bouncing Droplets as a Quantum Analog}{20}
-\contentsline {subsection}{\numberline {1.2.1}Tunneling}{20}
-\contentsline {subsubsection}{Tunneling in Quantum Mechanics}{20}
+\contentsline {subsection}{\numberline {1.2.1}Tunneling}{21}
+\contentsline {subsubsection}{Tunneling in Quantum Mechanics}{21}
 \contentsline {subsubsection}{Tunneling in the Bouncing Droplet System}{21}
 \contentsline {chapter}{Chapter 2: Experimental Design}{25}
 \contentsline {section}{\numberline {2.1}Setup}{25}

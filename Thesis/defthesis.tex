@@ -22,6 +22,10 @@
 \newcommand{\refAppe}[1] {Appendix~\ref{#1}}
 \newcommand{\refChapter}[1]{Chapter~\ref{#1}}
 \newcommand{\refChapt}[1]{Chapt.~\ref{#1}}
+\newcommand{\ignore}[1]{}
+\newcommand{\nobibentry}[1]{{\let\nocite\ignore\bibentry{#1}}}
+\newcommand{\bibfnamefont}[1]{#1}
+\newcommand{\bibnamefont}[1]{#1}
 
 %%%% SYMBOLS %%%%
 \newcommand{\ReN}{\ensuremath{Re}} % Reynolds number
