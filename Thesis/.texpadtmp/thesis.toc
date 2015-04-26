@@ -1,8 +1,8 @@
 \contentsline {chapter}{Introduction}{1}
 \contentsline {subsection}{\numberline {0.0.1}Bouncing Droplets}{2}
 \contentsline {subsection}{\numberline {0.0.2}Faraday Waves}{3}
-\contentsline {subsection}{\numberline {0.0.3}Walking Droplets}{4}
-\contentsline {subsection}{\numberline {0.0.4}Road Map}{4}
+\contentsline {subsection}{\numberline {0.0.3}Walking Droplets}{3}
+\contentsline {subsection}{\numberline {0.0.4}Road Map}{3}
 \contentsline {chapter}{Chapter 1: Pilot-Wave Hydrodynamics}{5}
 \contentsline {section}{\numberline {1.1}Oil Droplet System}{5}
 \contentsline {subsection}{\numberline {1.1.1}Faraday Waves}{6}
@@ -35,12 +35,12 @@
 \contentsline {section}{\numberline {3.2}Analysis}{26}
 \contentsline {subsection}{\numberline {3.2.1}Tunneling vs. Oil Depth}{26}
 \contentsline {subsection}{\numberline {3.2.2}Tunneling by Droplet Velocity}{27}
-\contentsline {section}{\numberline {3.3}Sources of Error}{28}
-\contentsline {subsection}{\numberline {3.3.1}Droplet Diameter}{28}
-\contentsline {subsection}{\numberline {3.3.2}Droplet Velocity}{30}
+\contentsline {section}{\numberline {3.3}Sources of Error}{29}
+\contentsline {subsection}{\numberline {3.3.1}Droplet Diameter}{30}
+\contentsline {subsection}{\numberline {3.3.2}Droplet Velocity}{31}
 \contentsline {subsection}{\numberline {3.3.3}Height of Oil}{31}
-\contentsline {subsection}{\numberline {3.3.4}Consistency of Memory}{31}
-\contentsline {subsection}{\numberline {3.3.5}Imperfect Droplet Motion}{31}
-\contentsline {chapter}{Conclusion}{33}
-\contentsline {section}{\numberline {4.1}More info}{33}
-\contentsline {chapter}{References}{35}
+\contentsline {subsection}{\numberline {3.3.4}Consistency of Memory}{32}
+\contentsline {subsection}{\numberline {3.3.5}Imperfect Droplet Motion}{32}
+\contentsline {chapter}{Conclusion}{35}
+\contentsline {section}{\numberline {4.1}More info}{35}
+\contentsline {chapter}{References}{37}

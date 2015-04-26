@@ -211,18 +211,18 @@ roundcust(12.1)
 vgroup <- subset(vdf, bar == 3.00) %>%
   mutate(tun_binary  = ifelse(tun == "R", 0,1)) %>%
   mutate(vbin = roundcust(v_perp)) %>%
-  group_by(trial, vbin) %>%
+  group_by(trial, Dia, vbin) %>%
   summarize(prob = mean(tun_binary), num = n(), se = sd(tun_binary)/n())
 
 vgroup[is.na(vgroup)] <- 0
   
-ggplot(vgroup, aes(vbin, prob, col = factor(trial))) + 
+ggplot(vgroup, aes(vbin, prob, col = factor(Dia))) + 
   geom_point(aes(size = num)) +
   geom_smooth(method="auto") +
   xlab("Velocity (mm/s)") +
   ylab("Probability of Tunneling") +
   guides( size = guide_legend("Number of\nDatapoints"),
-          colour = guide_legend("Trial")) +
+          colour = guide_legend("Droplet\nDiameter (mm)")) +
   #geom_errorbarh(aes(xmin=vbin-1.0, xmax=vbin+1.0), height=0.01) +
   geom_errorbar(aes(ymin = prob-se, ymax = prob+se), width = 0.2) +
   scale_size_area(max_size = 5,breaks=c(1,5,10,13))

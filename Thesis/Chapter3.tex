@@ -5,21 +5,56 @@ In this chapter, I will summarize the raw data that I collected and the findings
 %-------------------------
 %        RAW DATA
 %-------------------------
-\section{Raw Data}
-The raw data consisted of a total of 7 videos and are laid out in \refFig{datacollection}. Barrier height, acceleration of the tray, Faraday threshold, and percentage of ``transmissions" were recorded for each of the 7 videos. The 7 videos contained: one trial of a single droplet for all three barrier heights, another trial of a single droplet for all three barrier heights, and a final trial of a single droplet for the $3.0~\mathrm{mm}$ barrier. By switching the barriers while the tray was still shaking we were able to use same droplet for each of the three barrier heights in a trial. There were between 12 to 24 separate collisions for each barrier. 
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[scale=0.4]{datacollection.pdf}
-	\caption{For each barrier ($2.75~\mathrm{mm}$, $3.0~\mathrm{mm}$, or $3.25~\mathrm{mm}$), the forcing acceleration $\gamma$, the Faraday threshold acceleration $\gamma_\mathrm{F}$, and the percentage of ``transmissions" (\%T) were recorded. The oil volume $V$ was recorded at the beginning of each trial. From \textit{Tracker}, measurements of the droplet diameter $D_n$ in three randomly selected frames were made, along with the velocity of the droplet for every frame $v(t)$.}
-	\label{datacollection}
-\end{figure}
+\section{Raw Data}
+
+
+
+The raw data consisted of a total of 7 videos. All of the variables collected for each trial are laid out in \reftab{datacollection}. Barrier height, acceleration of the tray, Faraday threshold, and percentage of ``transmissions" were recorded for each of the 7 videos. The 7 videos contained: one trial of a single droplet for all three barrier heights, another trial of a single droplet for all three barrier heights, and a final trial of a single droplet for the $3.0~\mathrm{mm}$ barrier.\footnote{A similar methodology was attempted for Trial 3, but the droplet coalescence prevented a complete trial from being recorded. Eventually it was decided to only examine the middle barrier, since it exhibited the richest behavior.} By switching the barriers while the tray was still shaking we were able to use same droplet for each of the three barrier heights in a trial. There were between 12 to 24 separate collisions for each barrier. An example of a trial is presented in \refFig{trialex}.
+
+\begin{table}[h]
+\caption{This table illustrates data collected for all trials. For each barrier ($2.75~\mathrm{mm}$, $3.0~\mathrm{mm}$, or $3.25~\mathrm{mm}$), the forcing acceleration $\gamma$, the Faraday threshold acceleration $\gamma_\mathrm{F}$, and the percentage of ``transmissions" (\%T) were recorded. The oil volume $V$ was recorded at the beginning of each trial. From \textit{Tracker}, measurements of the droplet diameter $D_n$ in three randomly selected frames were made, along with the velocity of the droplet for every frame $v(t)$. Using $V$, the values of the depth of oil in the bath $H$ and over the barrier $h$ were calculated.}
+\begin{center}
+\begin{tabular}{ccccc}
+
+\hline
+Trial & Barrier & Recorded & From \textit{Tracker}  & Calculated \\
+\hline
+\multirow{3}{*}{1} & 2.75 & $\gamma$, $\gamma_\mathrm{F}$, \%T, $V$ & {3 x }$D_1$, $v(t)$ & $H$, $h$ \\
+                   & 3.0 & $\gamma$, $\gamma_\mathrm{F}$, \%T & {3 x }$D_1$, $v(t)$ & $H$, $h$   \\
+                   & 3.25 & $\gamma$, $\gamma_\mathrm{F}$, \%T & {3 x }$D_1$, $v(t)$ & $H$, $h$  \\
+                   \hline
+\multirow{3}{*}{2} & 2.75 & $\gamma$, $\gamma_\mathrm{F}$, \%T, $V$ & {3 x }$D_1$, $v(t)$ & $H$, $h$ \\
+                   & 3.0 & $\gamma$, $\gamma_\mathrm{F}$, \%T & {3 x }$D_1$, $v(t)$ & $H$, $h$   \\
+                   & 3.25 & $\gamma$, $\gamma_\mathrm{F}$, \%T & {3 x }$D_1$, $v(t)$ & $H$, $h$  \\
+                   \hline
+\multirow{1}{*}{3} & 3.0 & $\gamma$, $\gamma_\mathrm{F}$, \%T, $V$ & {3 x }$D_1$, $v(t)$ & $H$, $h$ \\   
+\hline         
+                     
+\end{tabular}
+\end{center} 
+\label{datacollection} 
+\end{table}
+
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics[scale=0.4]{datacollection.pdf}
+%	\caption{For each barrier ($2.75~\mathrm{mm}$, $3.0~\mathrm{mm}$, or $3.25~\mathrm{mm}$), the forcing acceleration $\gamma$, the Faraday threshold acceleration $\gamma_\mathrm{F}$, and the percentage of ``transmissions" (\%T) were recorded. The oil volume $V$ was recorded at the beginning of each trial. From \textit{Tracker}, measurements of the droplet diameter $D_n$ in three randomly selected frames were made, along with the velocity of the droplet for every frame $v(t)$.}
+%	\label{datacollection}
+%\end{figure}
 
 These movies were then processed with \textit{Tracker} \cite{tracker}. \textit{Tracker} decomposes a video into multiple frames for the purpose of tracking an object in a video. The Autotracker function marks the position of the object in every frame and records the time in between each frame ($\frac{1}{24}$ seconds), and using this information \textit{Tracker} estimates the velocity of the droplet at every frame. We also want to know the size of each droplet, so we measure the diameter of the droplet using a function in \textit{Tracker}. The diameter is measured 3 times in each movie, yielding 9 total measurements per trial. These nine measurements were averaged to estimate the diameter of the droplet used in that trial. In trial 3, where only one barrier was used, 9 independent measurements were made, as detailed in \refSect{sect:error}.
 
-From the volume of the oil $V$ measured with a graduated cylinder, and measurements taken of the tray, we can calculate the parameter $h$, which is defined as the height of the oil above the barrier. This was done by calculating the volume the ``space" inside the tray, which required accurate dimensions of the tray. %\footnote{The function making this calculation can be found in the Appendix.}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.58]{Trial2Paths.pdf}
+	\caption{The above figure shows the raw data from Trial 2. The red line in each image traces the path of the droplet for the duration of the trial. For each of the three barrier heights, the $h$ of the oil above the barrier is shown, along with the fraction of droplets $T$ that tunneled across the barrier. }
+	\label{trialex}
+\end{figure}
 
-Values for the various parameters in this experiment are shown in \reftab{explimits}. Error estimates are discussed in \refSect{sect:error}.
+From the volume of the oil $V$ measured with a graduated cylinder, and measurements taken of the tray, we can calculate the parameter $h$, which is defined as the height of the oil above the barrier. This was done by calculating the volume the ``space" inside the tray, which required accurate dimensions of the tray. Values for the various parameters in this experiment are shown in \reftab{explimits}. Error estimates are discussed in \refSect{sect:error}.%\footnote{The function making this calculation can be found in the Appendix.}
+
+
 
 	       \begin{table}[htdp] 
 \caption[Basic Table 1]{Values of the various parameters in this experiment.} 
@@ -79,14 +114,14 @@ We expect the perpendicular component of velocity to be important because it pro
 	\label{vel}
 \end{figure}
 
-Next we try breaking up the collisions by velocity. The collisions from the $3.0~\mathrm{mm}$ barrier were grouped into bins of width $2~mathrm{mm/s}$ and plotted by the fraction of all collisions that tunneled. The result, shown in \refFig{VP}, leaves a little to be desired. We see immediately the major limitation is the lack of trials, and perhaps, in consistency. Trial 3 is the only one that shows the expected trend: as velocity increases so does tunneling. Trials 1 and 2 show valiant efforts that eventually run into the ground. 
+Next we try breaking up the collisions by velocity. The collisions from the $3.0~\mathrm{mm}$ barrier were grouped into bins of width $2~\mathrm{mm/s}$ and plotted by the fraction of all collisions that tunneled. The result, shown in \refFig{VP}, leaves a little to be desired. We see immediately the major limitation is the lack of trials, and perhaps, in consistency. Trial 3 is the only one that shows the expected trend: as velocity increases so does tunneling. Trials 1 and 2 show valiant efforts that eventually run into the ground. 
 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.9]{VP.pdf}
 	\caption{Collisions of similar velocities were grouped into bins of width $2~\mathrm{mm/s}$. The overall fraction of transmissions was computed for each bin, and plotted. Colors distinguish between trials, and sizes indicate the number of data points in each bin. Error bars indicate the associated standard error. }
-	\label{vp}
+	\label{VP}
 \end{figure}
 %-------------------------
 %       CONCLUSIONS

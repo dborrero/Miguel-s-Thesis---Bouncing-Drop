@@ -34,6 +34,39 @@
   Url                      = {http://dx.doi.org/10.1103/PhysRev.85.180}
 }
 
+@Article{,
+  Title                    = {Interpretation of quantum mechanics
+by the double solution theory},
+  Author                   = {de Broglie, L.},
+  Journal                  = {Ann. Fond. Louis Broglie},
+  Year                     = {1987},
+  Pages                    = {1-23},
+  Volume                   = {12},
+
+  Owner                    = {Miguel},
+  Timestamp                = {2015.04.25}
+}
+
+@Article{,
+  Title                    = {Ondes et quanta.},
+  Author                   = {de Broglie, L.},
+  Journal                  = {C. R.},
+  Year                     = {1923},
+  Pages                    = {507-510},
+  Volume                   = {177},
+
+  Owner                    = {Miguel},
+  Timestamp                = {2015.04.25}
+}
+
+@Misc{tracker,
+  Title                    = {Tracker Video Analysis and Modeling Tool},
+
+  Author                   = {Douglas Brown},
+  Month                    = {November},
+  Year                     = {2014}
+}
+
 @Article{pilot-wave,
   Title                    = {Pilot-Wave Hydrodynamics},
   Author                   = {J. W. M. Bush},
@@ -69,7 +102,7 @@ electrodynamics.},
   Author                   = {Y. Couder and E. Fort},
   Journal                  = {Phys. Rev. Lett.},
   Year                     = {2006},
-  Number                   = {154101.1 - 154101.4},
+  Pages                    = {154101.1 - 154101.4},
   Volume                   = {97},
 
   Doi                      = {http://dx.doi.org/10.1103/PhysRevLett.97.154101},
@@ -182,7 +215,7 @@ sufficient to generate a quantumlike tunneling at a macroscopic scale.},
 
 @Article{shaker,
   Title                    = {Generating uniaxial vibration with an electrodynamic shaker and external air bearing},
-  Author                   = {Harris, Daniel M. and Bush, {John W. M.}},
+  Author                   = {Harris, Daniel M. and Bush, {J. W. M.}},
   Journal                  = {J. Sound Vib},
   Year                     = {2015},
   Pages                    = {255-269},
@@ -198,7 +231,7 @@ sufficient to generate a quantumlike tunneling at a macroscopic scale.},
 
 @Article{Harris2013,
   Title                    = {Droplets walking in a rotating frame: from quantized orbits to multimodal statistics},
-  Author                   = {Harris, Daniel M. and Bush, {J. W. M.}},
+  Author                   = {Harris, Daniel M. and Bush, {John W. M.}},
   Journal                  = {J. Fluid Mech.},
   Year                     = {2013},
   Pages                    = {444-464},
