@@ -1,6 +1,6 @@
 \chapter{Data Analysis and Results}
 
-
+In this chapter, I will summarize the raw data that I collected and the findings I generated. A closing discussion on the sources of error keeps us grounded.
 
 %-------------------------
 %        RAW DATA
@@ -17,9 +17,28 @@ The raw data consisted of a total of 7 videos and are laid out in \refFig{dataco
 
 These movies were then processed with \textit{Tracker} \cite{tracker}. \textit{Tracker} decomposes a video into multiple frames for the purpose of tracking an object in a video. The Autotracker function marks the position of the object in every frame and records the time in between each frame ($\frac{1}{24}$ seconds), and using this information \textit{Tracker} estimates the velocity of the droplet at every frame. We also want to know the size of each droplet, so we measure the diameter of the droplet using a function in \textit{Tracker}. The diameter is measured 3 times in each movie, yielding 9 total measurements per trial. These nine measurements were averaged to estimate the diameter of the droplet used in that trial. In trial 3, where only one barrier was used, 9 independent measurements were made, as detailed in \refSect{sect:error}.
 
-From the volume of the oil $V$ measured with a graduated cylinder, and measurements taken of the tray, we can calculate the parameter $h$, which is defined as the height of the oil above the barrier. This was done by calculating the volume the ``space" inside the tray, which required accurate dimensions of the tray.\footnote{The function making this calculation can be found in the Appendix.}
+From the volume of the oil $V$ measured with a graduated cylinder, and measurements taken of the tray, we can calculate the parameter $h$, which is defined as the height of the oil above the barrier. This was done by calculating the volume the ``space" inside the tray, which required accurate dimensions of the tray. %\footnote{The function making this calculation can be found in the Appendix.}
 
+Values for the various parameters in this experiment are shown in \reftab{explimits}. Error estimates are discussed in \refSect{sect:error}.
 
+	       \begin{table}[htdp] 
+\caption[Basic Table 1]{Values of the various parameters in this experiment.} 
+\begin{center} 
+\begin{tabular}{c c} 
+\toprule 
+  Parameter &  Lower Limit\\
+  \midrule
+Viscosity $\nu$ (cSt) & 20.0 \\ 
+Frequency $f$ (Hz) & 80.0 \\
+Memory $\gamma/\gamma_\mathrm{F}$ & $0.983 \pm 0.003 $ \\
+Drop Diameter $D$ (mm) & $0.99$ to $1.07 \pm 0.04$ \\
+Bath Depth $H$ (mm) & $4.26 \pm 0.35$ \\
+Oil Depth Above Barrier $h$ (mm) & $0.99$ to $1.52 \pm 0.35$ \\ 
+\bottomrule 
+\end{tabular}
+\end{center}
+\label{explimits} 
+\end{table}	
 
 
 %-------------------------
@@ -29,7 +48,9 @@ From the volume of the oil $V$ measured with a graduated cylinder, and measureme
 
 
     \subsection{Tunneling vs. Oil Depth}
-The primary purpose of this investigation was to determine how the depth of oil affected tunneling. The results are shown in \refFig{tbh}. The droplet never crossed near the value $h~=~1.0~\mathrm{mm}$, whereas it always crossed at a value $h~=~1.5~\mathrm{mm}$. In between, at a depth $h~=~1.25\mathrm{mm}$, we have both transmissions and reflections at a rate that changes for every trial. If we consider the droplet diameter, we see that the plot suggests that the transmission coefficient increases depending on the diameter of the droplet.
+The primary purpose of this investigation was to determine how the depth of oil affected tunneling. The results are shown in \refFig{tbh}, indicating that droplet never crossed near the value $h~=~1.0~\mathrm{mm}$, whereas it always crossed at a value $h~=~1.5~\mathrm{mm}$. In between, at a depth $h~=~1.25~\mathrm{mm}$, we have both transmissions and reflections at a rate that changes for every trial. If we consider the droplet diameter, we see that the plot suggests that the transmission coefficient increases depending on the diameter of the droplet. 
+
+The vertical error bars indicate standard error, and the horizontal error bars indicate unceritainty. 
 
 \begin{figure}[h!]
 	\centering
@@ -37,6 +58,7 @@ The primary purpose of this investigation was to determine how the depth of oil 
 	\caption{The proportion of transmissions for all collisions as a function of oil height above the barrier. Each shape corresponds to a single trial for which the droplet was kept constant.}
 	\label{tbh}
 \end{figure}
+
 
     \subsection{Tunneling by Droplet Velocity}
 Not every droplet barrier collision was ideal. Many times, the droplets approached at an angle or at different velocities which means that it is a little misleading to speak as if every collision was exactly the same. One way we can standardize collisions is by looking at the velocity perpendicular to the barrier at $5~\mathrm{mm}$ away from the center of the barrier, as shown in \refFig{tvd}.
@@ -48,7 +70,7 @@ Not every droplet barrier collision was ideal. Many times, the droplets approach
 	\label{tvd}
 \end{figure}
 
-We expect the perpendicular component of velocity to be important because it proved critical in the study of barrier width carried out in \rf{tunneling}, and because its intuitive: if the droplet moves faster, it has greater momentum and is more difficult to stop. \refFig{vel} shows every collision for the middle barrier height, and the result of each interaction. 
+We expect the perpendicular component of velocity to be important because it proved critical in the study of barrier width carried out in \rf{tunneling}, and because its intuitive: if the droplet moves faster, it has greater momentum and is more difficult to stop. \refFig{vel} shows every collision for the middle barrier height, and the result of each interaction. In trials 2 and 3, the majority of the droplets with the fastest perpendicular velocities are usually the ones that pass through the barrier, as expected. This does not seem to be the case for trial 1, for unknown reasons. 
 
 \begin{figure}[h!]
 	\centering
@@ -57,13 +79,13 @@ We expect the perpendicular component of velocity to be important because it pro
 	\label{vel}
 \end{figure}
 
-In trials 2 and 3, the majority of the droplets with the fastest perpendicular velocities are usually the ones that pass through the barrier, as expected. This does not seem to be the case for trial 1, for unknown reasons. 
+Next we try breaking up the collisions by velocity. The collisions from the $3.0~\mathrm{mm}$ barrier were grouped into bins of width $2~mathrm{mm/s}$ and plotted by the fraction of all collisions that tunneled. The result, shown in \refFig{VP}, leaves a little to be desired. We see immediately the major limitation is the lack of trials, and perhaps, in consistency. Trial 3 is the only one that shows the expected trend: as velocity increases so does tunneling. Trials 1 and 2 show valiant efforts that eventually run into the ground. 
 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.9]{VP.pdf}
-	\caption{}
+	\caption{Collisions of similar velocities were grouped into bins of width $2~\mathrm{mm/s}$. The overall fraction of transmissions was computed for each bin, and plotted. Colors distinguish between trials, and sizes indicate the number of data points in each bin. Error bars indicate the associated standard error. }
 	\label{vp}
 \end{figure}
 %-------------------------
@@ -85,20 +107,19 @@ In trials 2 and 3, the majority of the droplets with the fastest perpendicular v
 $$ 
 \frac{\mathrm{length~of~rhombus~in~mm}}{\mathrm{length~of~rhombus~pixels}}= \frac{\mathrm{diameter~of~droplet~in~mm}}{\mathrm{diameter~of~droplet~in~pixels}} 
 $$ 
-Since each has a defined length, and because we cannot resolve anything within that pixel, our error is associated with that measurement is at least the width of a pixel, usually around $\mathbf{0.08~\mathrm{\textbf{mm}}}$. There is also an error associated with the initial measurement of the rhombus in pixels, since it can be difficult to discern where exactly each point lies.
+Since each has a defined length, and because we cannot resolve anything within that pixel, our error is associated with that measurement is at least the width of half a pixel, usually around $\mathbf{0.04~\mathrm{\textbf{mm}}}$. There is also an error associated with the initial measurement of the rhombus in pixels, since it can be difficult to discern where exactly each point lies.
 
 Additionally, the droplet does not remain a perfect sphere as it bounces. At the bottom of its bounce, it will be squished and appear (from the top view) wider than usual, where at the moment of lift it will be less wide (from the top) than usual. Since the camera recording our data shoots at 24 frames per second, it is impossible to know at what point in the bounce the droplet is, so it is impossible to know when to measure the diameter of the droplet. For this reason, we measured the diameter of the droplet in 3 random frames per at each of the 3 barrier heights, and with the total of 9 separate measurements per trial we averaged the results. For the third trial in which only one barrier was used, the mm to pixel ratio was re-fit every 3 random diameter measurements, in order to mimic the procedure of the first two trials. In other words, 3 independent groups of 3 measurements were made. Multiple measurements give us an associated standard error, which combined with the error due to pixel limitations, give us error bars. 
 
 Our measurement procedure helped reduce the error associated with the changing size during a bounce. It also reduced the error associated with finding the exact mm to pixel ratio since, within each trial, each barrier height had to be tracked separately. This meant over the course of the trial, the program created multiple mm to pixel ratios, which improved the accuracy of the measurements.
 
     \subsection{Droplet Velocity}
-The droplet velocity was measured using \textit{Tracker}. The error in this measurement can be attributed to the Autotracker function, which automatically tracks the motion of the droplet using a built-in algorithm. Autotracking is mostly spot on, but if left alone for a few thousand frames, the marker begins to drag behind. The error can be estimated to no more than 20 pixels over $100$ frames, corresponding to $\mathbf{\pm~0.2~\mathrm{\textbf{mm/s}}}$.
+The droplet velocity was measured using \textit{Tracker}. The error in this measurement can be attributed to the Autotracker function, which automatically tracks the motion of the droplet using a built-in algorithm that searches a specific region of a frame for an known arrangement of pixels. Autotracking is mostly spot on, but if left alone for $1,000$ frames, the marker begins to deviate from the actual location of the droplet. The marker was adjusted whenever a deviation was noticed. The error can be estimated to no more than 20 pixels over $100$ frames, corresponding to $\mathbf{\pm~0.2~\mathrm{\textbf{mm/s}}}$.
 
     \subsection{Height of Oil}
-The volume of oil was measured before each trial with a graduated cylinder with markings every half milliliter. With measurements on the order of $18.0~\mathrm{mL}$, there was an associated error of $\mathbf{\pm~0.10~\mathrm{\textbf{mL}}}$. Then, oil was lost between each barrier adjustment since pliers were inserted in the oil to pull each barrier out, and a little bit of oil remained on the barrier and on the pliers each time. The volume of fluid lost after each barrier replacement was estimated to be about 3 droplets of diameter $3.0~\mathrm{mm}$. This corresponds to a loss of $\mathbf{0.014~\mathrm{\textbf{mL}}}$ of oil after every change in barrier. 
-Finally, the volume of the oil was used to estimate the height of the oil above the barrier. The elements in the tray were manufactured for this experiment, and were then measured using a device yielding an error of $\mathbf{\pm~0.03~\mathrm{\textbf{mm}}}$. 
+The volume of oil was measured before each trial with a graduated cylinder with markings every half milliliter. With measurements on the order of $18.0~\mathrm{mL}$, there was an associated error of $\mathbf{\pm~0.10~\mathrm{\textbf{mL}}}$. Then, oil was lost between each barrier adjustment since pliers were inserted in the oil to pull each barrier out, and a little bit of oil remained on the barrier and on the pliers each time. The volume of fluid lost after each barrier replacement was estimated to be about 3 droplets of diameter $3.0~\mathrm{mm}$. This corresponds to a loss of $\mathbf{0.014~\mathrm{\textbf{mL}}}$ of oil after every change in barrier. Finally, the volume of the oil was used to estimate the height of the oil above the barrier. The elements in the tray were manufactured for this experiment, and were then measured using a digital caliper ruler yielding an error of $\mathbf{\pm~0.03~\mathrm{\textbf{mm}}}$. 
 
-For the height of the oil above the barrier, the above estimates provide us with an error on the order of about $\mathbf{\pm~0.35~\mathrm{\textbf{mm}}}$. The amount of fluid lost after each barrier replacement corresponds to a height decrease of $\mathbf{0.36~\mathrm{\textbf{mm}}}$ (for a barrier of the same size).
+For the height of the oil above the barrier, the above estimates provide us with an error on the order of about $\mathbf{\pm~0.35~\mathrm{\textbf{mm}}}$. The amount of fluid lost after each barrier replacement corresponds to a height decrease of $\mathbf{0.36~\mathrm{\textbf{mm}}}$ (for a barrier of the same size). This was offset added volume of the larger barrier, so that the bath depth $H$ remained relatively constant across the entire trial. 
 
 It's impossible to account for factors such as the amount of oil left in the graduated cylinder, or the oil that may have seeped into microscopic fractures inside the tray. We assume these systematic errors to remain relatively constant over the duration of the experiment. This means that the pattern of our results should remain about the same, even if the exact numbers are slightly off. 
 

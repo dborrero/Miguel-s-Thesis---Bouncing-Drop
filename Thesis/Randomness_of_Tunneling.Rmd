@@ -111,22 +111,18 @@ D3 <- round(mean(c(1.089,0.9754,1.058,1.001,0.9794,1.030,0.9193,0.9878,1.090)), 
 D_SE3 <- round(sd(c(1.089,0.9754,1.058,1.001,0.9794,1.030,0.9193,0.9878,1.090))/sqrt(9), digits = 2)
 
 D <- c(D1,D1,D1,D2,D2,D2,D3)
-sd(rep(c(1,0), times = c(2,22)))/sqrt(24)
-SE <- c(0,sd(rep(c(1,0), times = c(2,22)))/sqrt(24), 0, 0, sd(rep(c(1,0), times = c(7,12)))/sqrt(19),0, sd(rep(c(1,0), times = c(4,9)))/sqrt(13))
-length(SE)
-df <- data.frame(trial, barrier, h, h_E, T, D, SE)
+df <- data.frame(trial, barrier, h, h_E, T, D)
 
   
 ggplot(df, aes(h, T, col = factor(D), shape = factor(D))) + 
   geom_point(size = 3) +
   geom_errorbarh(aes(xmin=h-h_E, xmax=h+h_E), height=.03) +
   xlab("Oil Height (mm)") + 
-  ylab("Probability of Tunneling") +
-  geom_errorbar(aes(ymin = T + SE , ymax = T-SE), width = 0.03) +
-  #ggtitle("Tunneling Probability by\n Height of Oil Above Barrier") +
-  guides(colour = guide_legend("Droplet\nDiameter (mm)"), shape = guide_legend("Droplet\nDiameter (mm)")) 
+  ylab("Transmissions") +
+  ggtitle("Tunneling Probability by\n Height of Oil Above Barrier") +
+  guides(colour = guide_legend("Droplet\nDiameter (mm)"), shape = guide_legend("Droplet\nDiameter (mm)"))
 
-
+?geom_errobar
 ```
 
 ```{r}
@@ -144,8 +140,6 @@ vdf <- data.frame(trial,collision, Dia, bar, height, v_perp, verr, tun, gamma, g
 
 vdf <- mutate(vdf, "Memory" = gamma/gammaF)
 
-
-
 sd(unique(vdf$Memory))
 
 memory_SE <- sd(unique((vdf$gamma)/vdf$gammaF))/sqrt(length(unique((vdf$gamma)/vdf$gammaF)))
@@ -157,19 +151,8 @@ ggplot(vdf, aes(x = height, v_perp, col = factor(tun))) +
   ylab("Perpendicular Velocity (mm/s)") +
   ggtitle("Is Tunneling Dependent on\nPerpendicular Velocity?") + 
   guides(colour = guide_legend("Tunneling"), shape = guide_legend("Droplet\nDiameter (mm)"))
-
-
-# FIRST PLOT AGAIN
-
-ggplot(df, aes(height, , col = factor(D), shape = factor(D))) + 
-  geom_point(size = 3) +
-  geom_errorbarh(aes(xmin=h-h_E, xmax=h+h_E), height=.03) +
-  xlab("Oil Height (mm)") + 
-  ylab("Probability of Tunneling") +
-  #ggtitle("Tunneling Probability by\n Height of Oil Above Barrier") +
-  guides(colour = guide_legend("Droplet\nDiameter (mm)"), shape = guide_legend("Droplet\nDiameter (mm)"))
-
-
+  
+  
 
 # Assuming about the same height.
 
@@ -190,7 +173,7 @@ ggplot(vdf, aes(x = jittert, v_perp, col = factor(tun))) +
   geom_point(size = 3, aes(shape = factor(Dia))) +
   xlab("Trial") +
   ylab("Perpendicular Velocity (mm/s)") +
-  #ggtitle("Is Tunneling Dependent on\nPerpendicular Velocity?") +
+  ggtitle("Is Tunneling Dependent on\nPerpendicular Velocity?") +
   guides(colour = guide_legend("Tunneling"), shape = guide_legend("Droplet\nDiameter (mm)")) +
   scale_x_discrete(limits = c(1,2,3),labels=c("1","2","3")) +
   coord_cartesian(xlim = c(0.5,3.5)) +
@@ -221,11 +204,9 @@ ggplot(vgroup, aes(vbin, prob, col = factor(trial))) +
   geom_smooth(method="auto") +
   xlab("Velocity (mm/s)") +
   ylab("Probability of Tunneling") +
-  guides( size = guide_legend("Number of\nDatapoints"),
-          colour = guide_legend("Trial")) +
+  guides( size = guide_legend(expression('log'[10]*'(Number of Datapoints)')), colour = guide_legend("Trial")) +
   #geom_errorbarh(aes(xmin=vbin-1.0, xmax=vbin+1.0), height=0.01) +
-  geom_errorbar(aes(ymin = prob-se, ymax = prob+se), width = 0.2) +
-  scale_size_area(max_size = 5,breaks=c(1,5,10,13))
+  geom_errorbar(aes(ymin = prob-se, ymax = prob+se), width = 0.2)
   
   
 
