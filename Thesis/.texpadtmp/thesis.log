@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 APR 2015 23:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 APR 2015 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,7 +683,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [29 <./Figs/Velocity2.pdf>] [30 <./Figs/VP.pdf>] [31] [32]) (./conclusion.tex
 [33] [34
 
-]) [35] [36
+]
+
+LaTeX Warning: Reference `shaker' on page 35 undefined on input line 15.
+
+) [35] [36
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
@@ -693,14 +697,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5145 strings out of 493117
- 76807 string characters out of 6135433
+ 5146 strings out of 493117
+ 76815 string characters out of 6135433
  143157 words of memory out of 5000000
- 8425 multiletter control sequences out of 15000+600000
+ 8426 multiletter control sequences out of 15000+600000
  14064 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,75p,1402b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -717,7 +724,7 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (48 pages, 25801568 bytes).
+.texpadtmp/thesis.pdf (48 pages, 25802217 bytes).
 PDF statistics:
  394 PDF objects out of 1000 (max. 8388607)
  269 compressed objects within 3 object streams
