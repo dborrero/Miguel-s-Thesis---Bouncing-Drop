@@ -3,40 +3,42 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ../thesis.bib
+Warning--entry type for "Brady" isn't style-file defined
+--line 39 of file ../thesis.bib
 Name 2 in "Eddi, A. and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
 Name 3 in "Eddi, A. and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
-You've used 22 entries,
+You've used 23 entries,
             1876 wiz_defined-function locations,
-            638 strings with 6530 characters,
-and the built_in function-call counts, 7652 in all, are:
-= -- 821
-> -- 187
+            642 strings with 6632 characters,
+and the built_in function-call counts, 7784 in all, are:
+= -- 830
+> -- 195
 < -- 0
-+ -- 73
-- -- 51
-* -- 509
-:= -- 983
++ -- 76
+- -- 53
+* -- 514
+:= -- 1001
 add.period$ -- 22
-call.type$ -- 22
-change.case$ -- 22
+call.type$ -- 23
+change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 399
-empty$ -- 709
-format.name$ -- 51
-if$ -- 1956
+cite$ -- 23
+duplicate$ -- 403
+empty$ -- 727
+format.name$ -- 53
+if$ -- 1989
 int.to.chr$ -- 0
-int.to.str$ -- 22
+int.to.str$ -- 23
 missing$ -- 21
-newline$ -- 69
-num.names$ -- 22
-pop$ -- 41
+newline$ -- 72
+num.names$ -- 23
+pop$ -- 46
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 358
+skip$ -- 367
 stack$ -- 0
 substring$ -- 749
 swap$ -- 227
@@ -45,7 +47,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 64
-width$ -- 24
-write$ -- 227
+while$ -- 65
+width$ -- 25
+write$ -- 233
 (There were 2 error messages)

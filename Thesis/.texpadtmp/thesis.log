@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 APR 2015 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  26 APR 2015 21:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -427,7 +427,7 @@ Non-PDF special ignored!
 ] (./Introduction.tex [1
 
 ]
-<./Figs/BouncingDroplet.pdf, id=43, 1752.5475pt x 305.14pt>
+<./Figs/BouncingDroplet.pdf, id=44, 1752.5475pt x 305.14pt>
 File: ./Figs/BouncingDroplet.pdf Graphic file (type pdf)
 
 <use ./Figs/BouncingDroplet.pdf>
@@ -445,7 +445,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2 <./Figs/BouncingDroplet.pdf>]
-<./Figs/Faraday.JPG, id=66, 5492.52pt x 3661.68pt>
+<./Figs/Faraday.JPG, id=67, 5492.52pt x 3661.68pt>
 File: ./Figs/Faraday.JPG Graphic file (type jpg)
  <use ./Figs/Faraday.JPG>
 Package pdftex.def Info: ./Figs/Faraday.JPG used on input line 47.
@@ -454,7 +454,7 @@ Package pdftex.def Info: ./Figs/Faraday.JPG used on input line 47.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Figs/Walking.pdf, id=67, 1557.82pt x 319.1925pt>
+<./Figs/Walking.pdf, id=68, 1557.82pt x 319.1925pt>
 File: ./Figs/Walking.pdf Graphic file (type pdf)
  <use ./Figs/Walking.pdf>
 Package pdftex.def Info: ./Figs/Walking.pdf used on input line 58.
@@ -469,7 +469,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3]) (./Chapter1.tex [4 <./Figs/Faraday.JPG> <./Figs/Walking.pdf>]
 Chapter 1.
-<./Figs/basicsetup.pdf, id=93, 291.0875pt x 132.495pt>
+<./Figs/basicsetup.pdf, id=94, 291.0875pt x 132.495pt>
 File: ./Figs/basicsetup.pdf Graphic file (type pdf)
 
 <use ./Figs/basicsetup.pdf>
@@ -477,10 +477,7 @@ Package pdftex.def Info: ./Figs/basicsetup.pdf used on input line 13.
 (pdftex.def)             Requested size: 232.8703pt x 105.99612pt.
  [5
 
- <./Figs/basicsetup.pdf>]
-Underfull \vbox (badness 1178) has occurred while \output is active []
-
- [6]
+ <./Figs/basicsetup.pdf>] [6]
 <./Figs/vibrationnumber.jpeg, id=115, 3766.07pt x 2188.175pt>
 File: ./Figs/vibrationnumber.jpeg Graphic file (type jpg)
 
@@ -506,7 +503,7 @@ Package pdftex.def Info: ./Figs/ProtiereWalkers.png used on input line 84.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5711) has occurred while \output is active []
 
  [8 <./Figs/vibrationnumber.jpeg>]
 <./Figs/BoundedStates.png, id=125, 1189.44376pt x 393.47pt>
@@ -523,15 +520,14 @@ Overfull \hbox (1.71216pt too wide) in paragraph at lines 101--104
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[9 <./Figs/ProtiereWalkers.png>]
-<./Figs/OrbitingProtiere2006.png, id=131, 1178.4025pt x 584.1825pt>
+<./Figs/OrbitingProtiere2006.png, id=126, 1178.4025pt x 584.1825pt>
 File: ./Figs/OrbitingProtiere2006.png Graphic file (type png)
 
 <use ./Figs/OrbitingProtiere2006.png>
 Package pdftex.def Info: ./Figs/OrbitingProtiere2006.png used on input line 111
 .
 (pdftex.def)             Requested size: 388.87402pt x 192.7808pt.
-
+ [9 <./Figs/ProtiereWalkers.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -560,9 +556,10 @@ File: ./Figs/EddiCombo.pdf Graphic file (type pdf)
 <use ./Figs/EddiCombo.pdf>
 Package pdftex.def Info: ./Figs/EddiCombo.pdf used on input line 202.
 (pdftex.def)             Requested size: 433.62pt x 164.06279pt.
-) (./tablesandgraphics.tex [15 <./Figs/EddiCombo.pdf>] [16
+) (./tablesandgraphics.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [15 <./Figs/EddiCombo.pdf>] [16]
 Chapter 2.
 <./Figs/Setup.pdf, id=181, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
@@ -573,7 +570,9 @@ Package pdftex.def Info: ./Figs/Setup.pdf used on input line 19.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17] <./Figs/Tray.pdf, id=185, 1019.81pt x 458.71375pt>
+[17
+
+] <./Figs/Tray.pdf, id=185, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
 Package pdftex.def Info: ./Figs/Tray.pdf used on input line 32.
@@ -618,7 +617,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: ./Figs/Trial2Paths.pdf Graphic file (type pdf)
 
 <use ./Figs/Trial2Paths.pdf>
-Package pdftex.def Info: ./Figs/Trial2Paths.pdf used on input line 50.
+Package pdftex.def Info: ./Figs/Trial2Paths.pdf used on input line 49.
 (pdftex.def)             Requested size: 432.55634pt x 358.03787pt.
 
 
@@ -670,24 +669,33 @@ Overfull \hbox (21.67679pt too wide) in paragraph at lines 112--113
 <./Figs/VP.pdf, id=305, 505.89pt x 361.35pt>
 File: ./Figs/VP.pdf Graphic file (type pdf)
  <use ./Figs/VP.pdf>
-Package pdftex.def Info: ./Figs/VP.pdf used on input line 122.
+Package pdftex.def Info: ./Figs/VP.pdf used on input line 121.
 (pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
 
-Overfull \hbox (21.67679pt too wide) in paragraph at lines 122--123
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 121--122
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29 <./Figs/Velocity2.pdf>] [30 <./Figs/VP.pdf>] [31] [32]) (./conclusion.tex
-[33] [34
+[29 <./Figs/Velocity2.pdf>] [30 <./Figs/VP.pdf>]
+<./Figs/Momentum.pdf, id=328, 505.89pt x 361.35pt>
+File: ./Figs/Momentum.pdf Graphic file (type pdf)
+ <use ./Figs/Momentum.pdf>
+Package pdftex.def Info: ./Figs/Momentum.pdf used on input line 139.
+(pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
 
-]
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 139--140
+ [][] 
+ []
 
-LaTeX Warning: Reference `shaker' on page 35 undefined on input line 15.
 
-) [35] [36
+Underfull \vbox (badness 4168) has occurred while \output is active []
+
+ [31 <./Figs/Momentum.pdf>] [32] [33]) (./conclusion.tex [34]) [35
+
+] [36
 
 ]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
@@ -697,20 +705,17 @@ LaTeX Warning: Reference `shaker' on page 35 undefined on input line 15.
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5146 strings out of 493117
- 76815 string characters out of 6135433
- 143157 words of memory out of 5000000
- 8426 multiletter control sequences out of 15000+600000
+ 5153 strings out of 493117
+ 76938 string characters out of 6135433
+ 143172 words of memory out of 5000000
+ 8432 multiletter control sequences out of 15000+600000
  14064 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,75p,1402b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,75p,1641b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -724,10 +729,10 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (48 pages, 25802217 bytes).
+.texpadtmp/thesis.pdf (48 pages, 25815597 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
+ 404 PDF objects out of 1000 (max. 8388607)
+ 277 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

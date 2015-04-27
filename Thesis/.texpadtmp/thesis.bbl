@@ -1,5 +1,29 @@
 \begin{thebibliography}{10}
 
+\bibitem{Couder2005a}
+Y.~Couder, E.~Fort, C.-H. Gautier, and A.~Boudaoud, ``From bouncing to
+  floating: Noncoalescence of drops on a fluid bath,'' {\em Phys. Rev. Lett.},
+  vol.~94, no.~17, pp.~177801.1-- 177801.4, 2005.
+
+\bibitem{double-slit}
+Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
+  macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, pp.~154101.1 --
+  154101.4, 2006.
+
+\bibitem{Oza2014}
+A.~U. Oza, D.~M. Harris, R.~R. Rosales, and J.~W.~M. Bush, ``Pilot-wave
+  dynamics in a rotating frame: on the emergence of orbital quantization,''
+  {\em J. Fluid Mech.}, vol.~744, pp.~404--429, 2014.
+
+\bibitem{pilot-wave}
+J.~W.~M. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
+  vol.~47, pp.~269--292, 2015.
+
+\bibitem{tunneling}
+A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a
+  classical wave-particle association,'' {\em Phys. Rev. Lett.}, vol.~102,
+  pp.~240401.1--240401.4, 2009.
+
 \bibitem{Couder2005b}
 Y.~Couder, S.~Protiere, E.~Fort, and A.~Boudaoud, ``Dynamical phenomena:
   Walking and orbiting droplets,'' {\em Nature}, vol.~437, no.~7056,
@@ -24,24 +48,10 @@ D.~Bohm, ``A suggested interpretation of the quantum theory in terms of `hidden
 J.~Walker, ``The amateur scientist,'' {\em Sci. Amer.}, vol.~238, no.~6,
   pp.~151--158, 1978.
 
-\bibitem{Couder2005a}
-Y.~Couder, E.~Fort, C.-H. Gautier, and A.~Boudaoud, ``From bouncing to
-  floating: Noncoalescence of drops on a fluid bath,'' {\em Phys. Rev. Lett.},
-  vol.~94, no.~17, pp.~177801.1-- 177801.4, 2005.
-
 \bibitem{Faraday}
 M.~Faraday, ``On a peculiar class of acoustical figures; and on certain forms
   assumed by a group of particles upon vibrating elastic surfaces,'' {\em Phil.
   Trans. R. Soc. Lond.}, vol.~121, pp.~319--340, 1831.
-
-\bibitem{tunneling}
-A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a
-  classical wave-particle association,'' {\em Phys. Rev. Lett.}, vol.~102,
-  pp.~240401.1--240401.4, 2009.
-
-\bibitem{pilot-wave}
-J.~W.~M. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
-  vol.~47, pp.~269--292, 2015.
 
 \bibitem{Kumar1996}
 K.~Kumar, ``Linear theory of {Faraday} instability in viscous liquids,'' {\em
@@ -80,15 +90,9 @@ D.~M. Harris and J.~Bush, ``Droplets walking in a rotating frame: from
   quantized orbits to multimodal statistics,'' {\em J. Fluid Mech.}, vol.~739,
   pp.~444--464, 2013.
 
-\bibitem{Oza2014}
-A.~U. Oza, D.~M. Harris, R.~R. Rosales, and J.~W.~M. Bush, ``Pilot-wave
-  dynamics in a rotating frame: on the emergence of orbital quantization,''
-  {\em J. Fluid Mech.}, vol.~744, pp.~404--429, 2014.
-
-\bibitem{double-slit}
-Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
-  macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, pp.~154101.1 --
-  154101.4, 2006.
+\bibitem{Brady}
+R.~Brady and R.~Anderson, ``Why bouncing droplets are a pretty good model of
+  quantum mechanics.''
 
 \bibitem{tracker}
 D.~Brown, ``Tracker video analysis and modeling tool,'' November 2014.

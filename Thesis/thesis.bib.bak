@@ -34,7 +34,7 @@
   Url                      = {http://dx.doi.org/10.1103/PhysRev.85.180}
 }
 
-@Article{,
+@Article{dB87,
   Title                    = {Interpretation of quantum mechanics
 by the double solution theory},
   Author                   = {de Broglie, L.},
@@ -47,7 +47,7 @@ by the double solution theory},
   Timestamp                = {2015.04.25}
 }
 
-@Article{,
+@Article{dB23,
   Title                    = {Ondes et quanta.},
   Author                   = {de Broglie, L.},
   Journal                  = {C. R.},

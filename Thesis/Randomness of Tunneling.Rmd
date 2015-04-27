@@ -150,6 +150,10 @@ sd(unique(vdf$Memory))
 
 memory_SE <- sd(unique((vdf$gamma)/vdf$gammaF))/sqrt(length(unique((vdf$gamma)/vdf$gammaF)))
 memory_AVG <- mean(unique(vdf$Memory))
+a <- vdf$gamma[2]
+b <- vdf$gammaF[2]
+mem_unc <- sqrt( (5)^2/b^2  + a^2*5^2/b^4 )
+
 
 ggplot(vdf, aes(x = height, v_perp, col = factor(tun))) + 
   geom_point(size = 3, aes(shape = factor(Dia))) +
@@ -196,6 +200,9 @@ ggplot(vdf, aes(x = jittert, v_perp, col = factor(tun))) +
   coord_cartesian(xlim = c(0.5,3.5)) +
   geom_errorbar(aes(ymin=v_perp-verr, ymax=v_perp+verr), width=0.03) 
 
+
+
+
 # Rounds to nearest 2
 roundcust <- function(x){
   ifelse(0 < x & x <= 2, 1,
@@ -215,11 +222,13 @@ vgroup <- subset(vdf, bar == 3.00) %>%
   summarize(prob = mean(tun_binary), num = n(), se = sd(tun_binary)/n())
 
 vgroup[is.na(vgroup)] <- 0
+
+
   
 ggplot(vgroup, aes(vbin, prob, col = factor(Dia))) + 
   geom_point(aes(size = num)) +
   geom_smooth(method="auto") +
-  xlab("Velocity (mm/s)") +
+  xlab("Perpendicular Velocity (mm/s)") +
   ylab("Probability of Tunneling") +
   guides( size = guide_legend("Number of\nDatapoints"),
           colour = guide_legend("Droplet\nDiameter (mm)")) +
@@ -227,7 +236,23 @@ ggplot(vgroup, aes(vbin, prob, col = factor(Dia))) +
   geom_errorbar(aes(ymin = prob-se, ymax = prob+se), width = 0.2) +
   scale_size_area(max_size = 5,breaks=c(1,5,10,13))
   
+# Momentum
+density <- 0.95 #g/mL
+
+pgroup <- mutate(vgroup, vol = 4/3*3.14159*(Dia/2)^3) %>%
+  mutate(momentum = vol*density*0.001*vbin) # 0.001 mL in 1 mm^3
+
   
+ggplot(pgroup, aes(momentum, prob, col = factor(trial))) + 
+  geom_point(aes(size = num)) +
+  geom_smooth(method="auto") +
+  xlab("Perpendicular Momentum (g mm/s)") +
+  ylab("Probability of Tunneling") +
+  guides( size = guide_legend("Number of\nDatapoints"),
+          colour = guide_legend("Trial")) +
+  #geom_errorbarh(aes(xmin=vbin-1.0, xmax=vbin+1.0), height=0.01) +
+  geom_errorbar(aes(ymin = prob-se, ymax = prob+se), width = 0.0001) +
+  scale_size_area(max_size = 5,breaks=c(1,5,10,13))
 
 #Boxplot
 ggplot(vdf, aes(x = Dia, y = v_perp, col = factor(Dia))) + 

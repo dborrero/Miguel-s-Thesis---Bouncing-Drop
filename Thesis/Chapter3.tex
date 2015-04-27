@@ -1,7 +1,6 @@
 \chapter{Data Analysis and Results}
 
-In this chapter, I will summarize the raw data that I collected and the findings I generated. A closing discussion on the sources of error keeps us grounded.
-
+In this chapter, I will summarize the raw data and the corresponding results. The chapter ends with a discussion on the sources of error in this experiment.
 %-------------------------
 %        RAW DATA
 %-------------------------
@@ -65,7 +64,8 @@ From the volume of the oil $V$ measured with a graduated cylinder, and measureme
   \midrule
 Viscosity $\nu$ (cSt) & 20.0 \\ 
 Frequency $f$ (Hz) & 80.0 \\
-Memory $\gamma/\gamma_\mathrm{F}$ & $0.983 \pm 0.003 $ \\
+Density $\rho$ (g/mL) & 0.95\\
+Memory $\gamma/\gamma_\mathrm{F}$ & $0.98 \pm 0.03 $ \\
 Drop Diameter $D$ (mm) & $0.99$ to $1.07 \pm 0.04$ \\
 Bath Depth $H$ (mm) & $4.26 \pm 0.35$ \\
 Oil Depth Above Barrier $h$ (mm) & $0.99$ to $1.52 \pm 0.35$ \\ 
@@ -114,15 +114,34 @@ We expect the perpendicular component of velocity to be important because it pro
 	\label{vel}
 \end{figure}
 
-Next we try breaking up the collisions by velocity. The collisions from the $3.0~\mathrm{mm}$ barrier were grouped into bins of width $2~\mathrm{mm/s}$ and plotted by the fraction of all collisions that tunneled. The result, shown in \refFig{VP}, leaves a little to be desired. We see immediately the major limitation is the lack of trials, and perhaps, in consistency. Trial 3 is the only one that shows the expected trend: as velocity increases so does tunneling. Trials 1 and 2 show valiant efforts that eventually run into the ground. 
-
+Next we try breaking up the collisions by velocity. The collisions from the $3.0~\mathrm{mm}$ barrier were grouped into bins of width $2~\mathrm{mm/s}$ and plotted by the fraction of all collisions that tunneled. The result, shown in \refFig{VP}, leaves a little to be desired. We see immediately the major limitation is the lack of trials, and perhaps, in consistency. Trial 3 is the only one that shows the expected trend for all bins: as velocity increases so does tunneling. Trials 1 and 2 show valiant efforts that eventually run into the ground. 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[scale=0.9]{VP.pdf}
-	\caption{Collisions of similar velocities were grouped into bins of width $2~\mathrm{mm/s}$. The overall fraction of transmissions was computed for each bin, and plotted. Colors distinguish between trials, and sizes indicate the number of data points in each bin. Error bars indicate the associated standard error. }
+	\caption{Collisions of similar perpendicular velocities were grouped into bins of width $2~\mathrm{mm/s}$. The overall fraction of transmissions was computed for each bin, and plotted. Colors distinguish between droplet diameters, and sizes indicate the number of data points in each bin. Error bars indicate the associated standard error. }
 	\label{VP}
 \end{figure}
+
+Our data seem to indicate that tunneling probability increases as a function of velocity and of droplet diameter. Droplet diameter is really just a way of expressing the size of the droplet, but another way of doing that is by using the droplets mass $m$. The momentum of an object of mass $m$ and velocity $v$ is defined as:
+$$p = mv.$$
+We can estimate the mass of the droplet by multiplying the volume of the droplet by its density $rho$. Assuming a spherical droplet of diameter $D$, the volume is given by:
+$$V_\mathrm{Droplet} = \frac{4}{3}\pi \left(\frac{D}{2}\right)^3.$$
+Thus, we can express the momentum of the droplet as
+\begin{align}
+p_\mathrm{Droplet} &= \rho~V_\mathrm{Droplet}~v \\
+& = \rho~\frac{4}{3}\pi \left(\frac{D}{2}\right)^3 v
+\end{align}
+where the density $\rho$ of silicone oil has been provided by the manufacturer. Looking at just the perpendicular velocity component and grouping the droplets into bins (as we did in \refFig{VP}) and we get the plot shown in \refFig{fig:mom}. The plot shows incredibly similar slopes for portions of trials 2 and 3, suggesting the importance of momentum as a factor that increases tunneling probability. Even one of the momentum bins from the first trial falls on the curve, though the rest of the bins from that trial remain unexplained. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=0.9]{Momentum.pdf}
+	\caption{Collisions of similar perpendicular momentum were grouped into bins. The overall fraction of transmissions was computed for each bin, and plotted. Colors distinguish between trials, and sizes indicate the number of data points in each bin. Error bars indicate the associated standard error. }
+	\label{fig:mom}
+\end{figure}
+
+
 %-------------------------
 %       CONCLUSIONS
 %-------------------------
@@ -159,7 +178,7 @@ For the height of the oil above the barrier, the above estimates provide us with
 It's impossible to account for factors such as the amount of oil left in the graduated cylinder, or the oil that may have seeped into microscopic fractures inside the tray. We assume these systematic errors to remain relatively constant over the duration of the experiment. This means that the pattern of our results should remain about the same, even if the exact numbers are slightly off. 
 
     \subsection{Consistency of Memory}
-The shaker's acceleration decayed the longer it ran which lead to changes in droplet behavior. This could be seen by the acceleration measured by the accelerometer, the acceleration decreased as the input signal remained constant. To counteract the changing acceleration, the amplitude of the driving signal was increased as such that the system memory $\gamma/\gamma_\mathrm{F}$ remained constant (as measured by the accelerometer) throughout the length of the experiment. After replacing each barrier, the Faraday threshold $\gamma_\mathrm{F}$ was re-measured. As the amount of oil and the barrier height changed, the Faraday threshold also changed, so keeping the same input signal was not an option. Rather, in all experiments the \textit{memory} was kept constant, at $\gamma/\gamma_\mathrm{F} = \mathbf{0.983~\pm~0.003}$. Because at different memories we see different droplet behaviors, a constant memory meant we keep the setting as consistent as possible over the course of a trial \rf{Harris2013}. This was preferred over keeping the forcing the same, resulting in a larger deviation in memory. 
+The shaker's acceleration decayed the longer it ran which lead to changes in droplet behavior. This could be seen by the acceleration measured by the accelerometer, the acceleration decreased as the input signal remained constant. To counteract the changing acceleration, the amplitude of the driving signal was increased as such that the system memory $\gamma/\gamma_\mathrm{F}$ remained constant (as measured by the accelerometer) throughout the length of the experiment. After replacing each barrier, the Faraday threshold $\gamma_\mathrm{F}$ was re-measured. As the amount of oil and the barrier height changed, the Faraday threshold also changed, so keeping the same input signal was not an option. Rather, in all experiments the \textit{memory} was kept constant, at $\gamma/\gamma_\mathrm{F} = \mathbf{0.98~\pm~0.03}$. Because at different memories we see different droplet behaviors, a constant memory meant we keep the setting as consistent as possible over the course of a trial \rf{Harris2013}. This was preferred over keeping the forcing the same, resulting in a larger deviation in memory. 
 
     \subsection{Imperfect Droplet Motion}
 The intent of the tray design was to create droplet trajectories such that their collisions were perpendicular to the length of the barrier. However, in practice, this was not the case. Trajectories tended to deviate to one side and impacted the barriers at an angle. These trajectories tended to drift to the side of the tray with the accelerometer, since the accelerometer added weight to one side causing the tray to vibrate unevenly. Often, in situations in which the droplet was reflected, the trajectory would become a small limit cycle that would repeat for a couple of periods before diverging off in another path. 
