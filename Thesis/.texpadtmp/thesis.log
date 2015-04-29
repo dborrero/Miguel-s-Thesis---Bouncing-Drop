@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  27 APR 2015 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 APR 2015 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -524,14 +524,15 @@ Overfull \hbox (1.71216pt too wide) in paragraph at lines 101--104
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figs/OrbitingProtiere2006.png, id=133, 1178.4025pt x 584.1825pt>
+[11 <./Figs/ProtiereWalkers.png>]
+<./Figs/OrbitingProtiere2006.png, id=137, 1178.4025pt x 584.1825pt>
 File: ./Figs/OrbitingProtiere2006.png Graphic file (type png)
 
 <use ./Figs/OrbitingProtiere2006.png>
 Package pdftex.def Info: ./Figs/OrbitingProtiere2006.png used on input line 111
 .
 (pdftex.def)             Requested size: 388.87402pt x 192.7808pt.
- [11 <./Figs/ProtiereWalkers.png>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -560,21 +561,20 @@ Package pdftex.def Info: ./Figs/Tunneling.pdf used on input line 219.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [16 <./Figs/stat.jpeg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <./Figs/Tunneling.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 229.
 
-<./Figs/EddiCombo.pdf, id=158, 1270.7475pt x 480.79625pt>
+<./Figs/EddiCombo.pdf, id=173, 1270.7475pt x 480.79625pt>
 File: ./Figs/EddiCombo.pdf Graphic file (type pdf)
 
 <use ./Figs/EddiCombo.pdf>
 Package pdftex.def Info: ./Figs/EddiCombo.pdf used on input line 230.
 (pdftex.def)             Requested size: 433.62pt x 164.06279pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17 <./Figs/Tunneling.pdf>]) (./tablesandgraphics.tex [18 <./Figs/EddiCombo.pd
-f>]
+) (./tablesandgraphics.tex [18 <./Figs/EddiCombo.pdf>]
 Chapter 2.
 <./Figs/Setup.pdf, id=188, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
@@ -590,10 +590,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ] <./Figs/Tray.pdf, id=192, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
-Package pdftex.def Info: ./Figs/Tray.pdf used on input line 32.
+Package pdftex.def Info: ./Figs/Tray.pdf used on input line 34.
 (pdftex.def)             Requested size: 489.50323pt x 220.1801pt.
 
-Overfull \hbox (55.88324pt too wide) in paragraph at lines 32--33
+Overfull \hbox (55.88324pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
@@ -604,24 +604,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./Figs/group.pdf Graphic file (type pdf)
 
 <use ./Figs/group.pdf>
-Package pdftex.def Info: ./Figs/group.pdf used on input line 47.
+Package pdftex.def Info: ./Figs/group.pdf used on input line 49.
 (pdftex.def)             Requested size: 436.13072pt x 358.28966pt.
 
-Overfull \hbox (2.51073pt too wide) in paragraph at lines 47--50
+Overfull \hbox (2.51073pt too wide) in paragraph at lines 49--52
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <./Figs/Tray.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22 <./Figs/group.pdf>]
-Underfull \vbox (badness 5985) has occurred while \output is active []
-
- [23]
-[24]) (./Chapter3.tex [25] [26
+[21 <./Figs/Tray.pdf>] [22 <./Figs/group.pdf>] [23] [24]) (./Chapter3.tex
+[25] [26
 
 ]
 Chapter 3.
@@ -729,11 +723,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5160 strings out of 493117
  77045 string characters out of 6135433
- 143185 words of memory out of 5000000
+ 144185 words of memory out of 5000000
  8438 multiletter control sequences out of 15000+600000
  14064 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,75p,1675b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,75p,1693b,355s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -747,7 +741,7 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
 ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (50 pages, 26950430 bytes).
+.texpadtmp/thesis.pdf (50 pages, 26950538 bytes).
 PDF statistics:
  412 PDF objects out of 1000 (max. 8388607)
  282 compressed objects within 3 object streams
