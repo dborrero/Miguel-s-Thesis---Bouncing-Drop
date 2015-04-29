@@ -3,50 +3,59 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: ieeetr.bst
 Database file #1: ../thesis.bib
+I was expecting a `,' or a `}'---line 48 of file ../thesis.bib
+ :   
+ :   howpublished             = "\url{http://arxiv.org/abs/1401.4356}"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 84 of file ../thesis.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Name 2 in "Eddi, A. and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
 Name 3 in "Eddi, A. and E. Fort, and F. Moisy, and Y. Couder" has a comma at the end for entry tunneling
 while executing---line 969 of file ieeetr.bst
-Warning--empty journal in Brady
 You've used 23 entries,
             1876 wiz_defined-function locations,
-            642 strings with 6632 characters,
-and the built_in function-call counts, 7800 in all, are:
-= -- 832
+            642 strings with 6572 characters,
+and the built_in function-call counts, 5377 in all, are:
+= -- 534
 > -- 195
 < -- 0
 + -- 76
 - -- 53
-* -- 518
-:= -- 1007
+* -- 328
+:= -- 765
 add.period$ -- 23
 call.type$ -- 23
 change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 408
-empty$ -- 726
+cite$ -- 23
+duplicate$ -- 343
+empty$ -- 488
 format.name$ -- 53
-if$ -- 1990
+if$ -- 1373
 int.to.chr$ -- 0
 int.to.str$ -- 23
-missing$ -- 22
+missing$ -- 21
 newline$ -- 72
 num.names$ -- 23
-pop$ -- 47
+pop$ -- 68
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 360
+skip$ -- 252
 stack$ -- 0
-substring$ -- 749
-swap$ -- 227
+substring$ -- 146
+swap$ -- 167
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 1
-while$ -- 65
+warning$ -- 0
+while$ -- 44
 width$ -- 25
-write$ -- 234
-(There were 2 error messages)
+write$ -- 235
+(There were 4 error messages)
