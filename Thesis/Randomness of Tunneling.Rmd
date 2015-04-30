@@ -105,15 +105,15 @@ H <- rep(4.26, times = 7)
 gamma <- c(284,264,252,268,264,252,256)
 gammaF <- c(290,270,258,270,268,256,262)
 
-DD1 <- c(c(0.9876,1.011,1.048),c(0.9968,0.9789,0.9676),c(0.9969,0.9969,0.9672))
+DD1 <- list(c(0.9876,1.011,1.048),c(0.9968,0.9789,0.9676),c(0.9969,0.9969,0.9672))
 D1 <- round(mean(c(0.9876,1.011,1.048,0.9968,0.9789,0.9676,0.9969,0.9969,0.9672)), digits = 2)
 D_SE1 <- round(sd(c(0.9876,1.011,1.048,0.9968,0.9789,0.9676,0.9969,0.9969,0.9672))/sqrt(9), digits = 2)
 
-DD2 <- c(1.042,1.094,1.113,1.011,1.154, 1.030,1.054,1.078,1.062)
+DD2 <- list(c(1.042,1.094,1.113),c(1.011,1.154, 1.030),c(1.054,1.078,1.062))
 D2 <- round(mean(c(1.042,1.094,1.113,1.011,1.154,1.030,1.054,1.078,1.062)), digits = 2)
 D_SE2 <- round(sd(c(1.042,1.094,1.113,1.011,1.154,1.030,1.054,1.078,1.062))/sqrt(9), digits = 2)
 
-DD3 <- c(c(1.089,0.9754,1.058),c(1.001,0.9794,1.030),c(0.9193,0.9878,1.090))
+DD3 <- list(c(1.089,0.9754,1.058,1.001,0.9794,1.030,0.9193,0.9878,1.090))
 D3 <- round(mean(c(1.089,0.9754,1.058,1.001,0.9794,1.030,0.9193,0.9878,1.090)), digits = 2)
 D_SE3 <- round(sd(c(1.089,0.9754,1.058,1.001,0.9794,1.030,0.9193,0.9878,1.090))/sqrt(9), digits = 2)
 
@@ -127,7 +127,7 @@ length(SE)
 #D_SE <- c(D_SE1,D_SE1,D_SE1,D_SE2,D_SE2,D_SE2,D_SE3)
 
 df <- data.frame(trial, barrier, gamma, gammaF,T, D, h, h_E, H)
-print(df)
+print(xtable(df))
   
 ggplot(df, aes(h, T, col = factor(D), shape = factor(D))) + 
   geom_point(size = 3) +
@@ -137,7 +137,6 @@ ggplot(df, aes(h, T, col = factor(D), shape = factor(D))) +
   geom_errorbar(aes(ymin = T + SE , ymax = T-SE), width = 0.03) +
   #ggtitle("Tunneling Probability by\n Height of Oil Above Barrier") +
   guides(colour = guide_legend("Droplet\nDiameter (mm)"), shape = guide_legend("Droplet\nDiameter (mm)")) 
-
 
 ```
 

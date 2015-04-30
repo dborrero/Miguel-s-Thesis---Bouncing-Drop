@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  29 APR 2015 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 APR 2015 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -729,19 +729,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: ./Figs/group.pdf Graphic file (type pdf)
 
 <use ./Figs/group.pdf>
-Package pdftex.def Info: ./Figs/group.pdf used on input line 49.
+Package pdftex.def Info: ./Figs/group.pdf used on input line 47.
 (pdftex.def)             Requested size: 436.13072pt x 358.28966pt.
 
-Overfull \hbox (2.51073pt too wide) in paragraph at lines 49--52
+Overfull \hbox (2.51073pt too wide) in paragraph at lines 47--50
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -750,9 +746,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21 <./Figs/Tray.pdf>]
-Underfull \vbox (badness 4013) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -767,9 +760,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [23]
-
-LaTeX Warning: Reference `vibration' on page 24 undefined on input line 89.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -973,10 +963,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5712 strings out of 493117
- 84505 string characters out of 6135433
- 158779 words of memory out of 5000000
- 8961 multiletter control sequences out of 15000+600000
+ 5711 strings out of 493117
+ 84494 string characters out of 6135433
+ 157779 words of memory out of 5000000
+ 8960 multiletter control sequences out of 15000+600000
  14233 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,17n,75p,1693b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -995,7 +985,7 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (52 pages, 26966973 bytes).
+.texpadtmp/thesis.pdf (52 pages, 26966752 bytes).
 PDF statistics:
  426 PDF objects out of 1000 (max. 8388607)
  292 compressed objects within 3 object streams
