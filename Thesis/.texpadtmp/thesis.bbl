@@ -52,11 +52,6 @@ M.~Faraday, ``On a peculiar class of acoustical figures; and on certain forms
   assumed by a group of particles upon vibrating elastic surfaces,'' {\em Phil.
   Trans. R. Soc. Lond.}, vol.~121, p.~319, 1831.
 
-\bibitem{Protiere2005}
-S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
-  capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, no.~45,
-  p.~S3529, 2005.
-
 \bibitem{Kumar1996}
 K.~Kumar, ``Linear theory of {Faraday} instability in viscous liquids,'' {\em
   Proc. R. Soc. A}, vol.~452, no.~1948, p.~1113, 1996.
@@ -69,6 +64,11 @@ J.~Mol\`{a}\v{c}ek and J.~W.~M. Bush, ``Drops walking on a vibrating bath:
 \bibitem{lord}
 L.~Rayleigh, ``On the capillary phenomena of jets,'' {\em Proc. R. Soc. Lond.},
   vol.~29, p.~71, 1879.
+
+\bibitem{Protiere2005}
+S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
+  capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, no.~45,
+  p.~S3529, 2005.
 
 \bibitem{Eddi2008}
 A.~Eddi, D.~Terwagne, E.~Fort, and Y.~Couder, ``Wave propelled ratchets and
@@ -90,7 +90,7 @@ D.~M. Harris and J.~Bush, ``Droplets walking in a rotating frame: from
 
 \bibitem{Brady}
 R.~Brady and R.~Anderson, ``Why bouncing droplets are a pretty good model of
-  quantum mechanics,'' 2014.
+  quantum mechanics,'' {\em arXiv}, 2014.
 
 \bibitem{tracker}
 D.~Brown, ``Tracker video analysis and modeling tool.''

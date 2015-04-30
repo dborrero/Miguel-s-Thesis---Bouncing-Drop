@@ -32,11 +32,11 @@
 \contentsline {section}{\numberline {3.2}Analysis}{28}
 \contentsline {subsection}{\numberline {3.2.1}Tunneling vs. Oil Depth}{28}
 \contentsline {subsection}{\numberline {3.2.2}Tunneling by Droplet Velocity}{29}
-\contentsline {section}{\numberline {3.3}Sources of Error}{33}
-\contentsline {subsection}{\numberline {3.3.1}Droplet Diameter}{34}
+\contentsline {section}{\numberline {3.3}Sources of Error}{31}
+\contentsline {subsection}{\numberline {3.3.1}Droplet Diameter}{32}
 \contentsline {subsection}{\numberline {3.3.2}Droplet Velocity}{34}
 \contentsline {subsection}{\numberline {3.3.3}Height of Oil}{35}
 \contentsline {subsection}{\numberline {3.3.4}Consistency of Memory}{35}
 \contentsline {subsection}{\numberline {3.3.5}Imperfect Droplet Motion}{35}
 \contentsline {chapter}{Conclusion}{37}
-\contentsline {chapter}{References}{39}
+\contentsline {chapter}{References}{41}
