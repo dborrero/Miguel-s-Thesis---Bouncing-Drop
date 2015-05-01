@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{pilot-wave}
+J.~W.~M. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
+  vol.~47, p.~269, 2015.
+
 \bibitem{Couder2005a}
 Y.~Couder, E.~Fort, C.-H. Gautier, and A.~Boudaoud, ``From bouncing to
   floating: Noncoalescence of drops on a fluid bath,'' {\em Phys. Rev. Lett.},
@@ -13,10 +17,6 @@ Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
 A.~U. Oza, D.~M. Harris, R.~R. Rosales, and J.~W.~M. Bush, ``Pilot-wave
   dynamics in a rotating frame: {O}n the emergence of orbital quantization,''
   {\em J. Fluid Mech.}, vol.~744, p.~404, 2014.
-
-\bibitem{pilot-wave}
-J.~W.~M. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
-  vol.~47, p.~269, 2015.
 
 \bibitem{tunneling}
 A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a

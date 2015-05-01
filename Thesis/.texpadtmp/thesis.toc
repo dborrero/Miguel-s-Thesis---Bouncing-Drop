@@ -6,11 +6,10 @@
 \contentsline {subsection}{\numberline {1.1.3}Walking}{9}
 \contentsline {subsubsection}{Bound States}{11}
 \contentsline {subsubsection}{Scattering States}{12}
-\contentsline {subsection}{\numberline {1.1.4}Path Memory}{12}
+\contentsline {subsection}{\numberline {1.1.4}Path Memory}{13}
 \contentsline {section}{\numberline {1.2}Bouncing Droplets as a Pilot-Wave Analog}{14}
-\contentsline {subsection}{\numberline {1.2.1}Differences}{15}
-\contentsline {subsection}{\numberline {1.2.2}Long Term Droplet Behavior}{15}
-\contentsline {subsection}{\numberline {1.2.3}Tunneling}{15}
+\contentsline {subsection}{\numberline {1.2.1}Long Term Droplet Behavior}{15}
+\contentsline {subsection}{\numberline {1.2.2}Tunneling}{15}
 \contentsline {subsubsection}{Tunneling in Quantum Mechanics}{15}
 \contentsline {subsubsection}{Tunneling in the Bouncing Droplet System}{16}
 \contentsline {chapter}{Chapter 2: Experimental Design}{19}

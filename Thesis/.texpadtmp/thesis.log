@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 APR 2015 00:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 APR 2015 16:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -614,6 +614,10 @@ Package pdftex.def Info: ./Figs/OrbitingProtiere2006.png used on input line 111
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+Underfull \vbox (badness 5302) has occurred while \output is active []
+
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
@@ -627,9 +631,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13 <./Figs/OrbitingProtiere2006.png>]
-
-LaTeX Warning: Reference `longterm' on page 14 undefined on input line 155.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -698,7 +699,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [18 <./Figs/EddiCombo.pdf>]
 Chapter 2.
-<./Figs/Setup.pdf, id=188, 390.45876pt x 257.96375pt>
+<./Figs/Setup.pdf, id=189, 390.45876pt x 257.96375pt>
 File: ./Figs/Setup.pdf Graphic file (type pdf)
  <use ./Figs/Setup.pdf>
 Package pdftex.def Info: ./Figs/Setup.pdf used on input line 19.
@@ -706,7 +707,7 @@ Package pdftex.def Info: ./Figs/Setup.pdf used on input line 19.
 
 [19
 
-] <./Figs/Tray.pdf, id=192, 1019.81pt x 458.71375pt>
+] <./Figs/Tray.pdf, id=193, 1019.81pt x 458.71375pt>
 File: ./Figs/Tray.pdf Graphic file (type pdf)
  <use ./Figs/Tray.pdf>
 Package pdftex.def Info: ./Figs/Tray.pdf used on input line 34.
@@ -725,7 +726,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=207, 792.9625pt x 651.43375pt>
+[20 <./Figs/Setup.pdf>] <./Figs/group.pdf, id=208, 792.9625pt x 651.43375pt>
 File: ./Figs/group.pdf Graphic file (type pdf)
 
 <use ./Figs/group.pdf>
@@ -780,7 +781,7 @@ Chapter 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figs/Trial2Paths.pdf, id=255, 745.78625pt x 617.30624pt>
+<./Figs/Trial2Paths.pdf, id=256, 745.78625pt x 617.30624pt>
 File: ./Figs/Trial2Paths.pdf Graphic file (type pdf)
 
 <use ./Figs/Trial2Paths.pdf>
@@ -797,26 +798,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28] <./Figs/TunnelingProb.pdf, id=264, 505.89pt x 361.35pt>
+[28] <./Figs/TunnelingProb.pdf, id=266, 505.89pt x 361.35pt>
 File: ./Figs/TunnelingProb.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingProb.pdf>
-Package pdftex.def Info: ./Figs/TunnelingProb.pdf used on input line 90.
+Package pdftex.def Info: ./Figs/TunnelingProb.pdf used on input line 88.
 (pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
 
-Overfull \hbox (21.67679pt too wide) in paragraph at lines 90--91
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 88--89
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Figs/TunnelingVDiagram.pdf, id=265, 645.41125pt x 331.2375pt>
+<./Figs/TunnelingVDiagram.pdf, id=267, 645.41125pt x 331.2375pt>
 File: ./Figs/TunnelingVDiagram.pdf Graphic file (type pdf)
 
 <use ./Figs/TunnelingVDiagram.pdf>
-Package pdftex.def Info: ./Figs/TunnelingVDiagram.pdf used on input line 101.
+Package pdftex.def Info: ./Figs/TunnelingVDiagram.pdf used on input line 99.
 (pdftex.def)             Requested size: 387.24974pt x 198.74402pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -825,29 +829,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [29 <./Figs/Trial2Paths.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./Figs/Velocity2.pdf, id=295, 505.89pt x 361.35pt>
+<./Figs/Velocity2.pdf, id=297, 505.89pt x 361.35pt>
 File: ./Figs/Velocity2.pdf Graphic file (type pdf)
  <use ./Figs/Velocity2.pdf>
-Package pdftex.def Info: ./Figs/Velocity2.pdf used on input line 110.
+Package pdftex.def Info: ./Figs/Velocity2.pdf used on input line 108.
 (pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
 
-Overfull \hbox (21.67679pt too wide) in paragraph at lines 110--111
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 108--109
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Figs/VP.pdf, id=296, 505.89pt x 361.35pt>
+<./Figs/VP.pdf, id=298, 505.89pt x 361.35pt>
 File: ./Figs/VP.pdf Graphic file (type pdf)
  <use ./Figs/VP.pdf>
-Package pdftex.def Info: ./Figs/VP.pdf used on input line 118.
+Package pdftex.def Info: ./Figs/VP.pdf used on input line 116.
 (pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
 
-Overfull \hbox (21.67679pt too wide) in paragraph at lines 118--119
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 116--117
  [][] 
  []
 
@@ -865,13 +866,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [30 <./Figs/TunnelingProb.pdf>]
-<./Figs/Momentum.pdf, id=306, 505.89pt x 361.35pt>
+<./Figs/Momentum.pdf, id=308, 505.89pt x 361.35pt>
 File: ./Figs/Momentum.pdf Graphic file (type pdf)
  <use ./Figs/Momentum.pdf>
-Package pdftex.def Info: ./Figs/Momentum.pdf used on input line 136.
+Package pdftex.def Info: ./Figs/Momentum.pdf used on input line 134.
 (pdftex.def)             Requested size: 455.29678pt x 325.21199pt.
 
-Overfull \hbox (21.67679pt too wide) in paragraph at lines 136--137
+Overfull \hbox (21.67679pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
@@ -933,17 +934,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38]) [39
 
+] [40
+
 ]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40]
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .bbl [41
-
 
 ])
 
@@ -956,22 +951,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 (/Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/.texpadtmp/thesis
 .aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5711 strings out of 493117
- 84494 string characters out of 6135433
- 157779 words of memory out of 5000000
+ 5712 strings out of 493117
+ 84517 string characters out of 6135433
+ 157860 words of memory out of 5000000
  8960 multiletter control sequences out of 15000+600000
- 14233 words of font info for 58 fonts, out of 8000000 for 9000
+ 14592 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,17n,75p,1693b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,17n,75p,1679b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
 sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
@@ -985,10 +979,10 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (52 pages, 26966752 bytes).
+.texpadtmp/thesis.pdf (52 pages, 26983811 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 292 compressed objects within 3 object streams
+ 434 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

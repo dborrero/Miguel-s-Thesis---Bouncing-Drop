@@ -1,28 +1,29 @@
 \chapter*{Appendix}
 \setcounter{chapter}{5}
 	\setcounter{section}{0}
+	\setcounter{table}{0}
 \label{app:raw}
 \section*{Raw Data}
 The combined raw data is shown in \refTab{raw}. The final two rows highlight the fact that the droplet diameter was measured 3 times for each of the 3 calculated $r_\mathrm{ptm}$ ratios.
-\begin{sidewaystable}[ht]
+\renewcommand{\thetable}{\Alph{table}}
+\begin{table}[ht]
 \caption{The raw collected data.}
 \centering
-\begin{tabular}{ccccccccccc}
+\begin{tabular}{cccccccc}
   \hline
- Trial & Barrier (mm) & $\gamma$ (mV) & $\gamma_\mathrm{F}$ (mV) & \%T & $D_{n,1}$ (mm) &$D_{n,2}$ (mm) & $D_{n,3}$ (mm)& $h$ (mm) & $H$ (mm)\\ 
+ Trial & $\gamma$/$\gamma_\mathrm{F}$ (mV/mV) & \%T & $D_{n,1}$ (mm) &$D_{n,2}$ (mm) & $D_{n,3}$ (mm)& $h$ (mm) \\ 
   \hline
- 1 & 2.75 & 284 & 290 & 1.00 & 0.99 &1.01&1.048& 1.52 & 4.26 \\ 
-   1 & 3.00 & 264 & 270 & 0.08 & 1.00 &0.98 &0.97 & 1.27  & 4.26 \\ 
-   1 & 3.25 & 252 & 258 & 0.00 & 1.00 & 1.00 &0.97 & 1.02  & 4.26 \\ 
-   2 & 2.75 & 268 & 270 & 1.00 & 1.04 &1.09 &1.11 & 1.51 & 4.26 \\ 
-   2 & 3.00 & 264 & 268 & 0.37 & 1.01 &1.15 &1.03 & 1.26  & 4.26 \\ 
-   2 & 3.25 & 252 & 256 & 0.00 & 1.06 &1.05 &1.08 & 1.01  & 4.26 \\ 
-   3 & 3.00 & 256 & 262 & 0.31 & 1.09& 0.98& 1.06 & 1.26  & 4.26 \\
-   3&3.00&-&-&-& 1.00 & 0.98 & 1.03 & -&-\\
-   3&3.00&-&-&-& 0.92& 0.99& 1.09 & -&-
+ 1  & 284 / 290 & 13/13 & 0.99 &1.01&1.05& 1.52  \\ 
+   1  & 264 / 270 & 2/24 & 1.00 &0.98 &0.97 & 1.27   \\ 
+   1  & 252 / 258 & 0/22 & 1.00 & 1.00 &0.97 & 1.02  \\ 
+   2  & 268 / 270 & 17/17 & 1.04 &1.09 &1.11 & 1.51 \\ 
+   2  & 264 / 268 & 7/19 & 1.01 &1.15 &1.03 & 1.26   \\ 
+   2  & 252 / 256 & 0/18 & 1.06 &1.05 &1.08 & 1.01   \\ 
+   3  & 256 / 262 & 4/13 & 1.09& 0.98& 1.06 & 1.26   \\
+   3&-&-& 1.00 & 0.98 & 1.03 & -\\
+   3&-&-& 0.92& 0.99& 1.09 & -
    \\ 
    \hline
   \label{raw}
 \end{tabular}
-\end{sidewaystable}
-
+\end{table}
