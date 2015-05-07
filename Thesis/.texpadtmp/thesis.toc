@@ -38,4 +38,5 @@
 \contentsline {subsection}{\numberline {3.3.4}Consistency of Memory}{35}
 \contentsline {subsection}{\numberline {3.3.5}Imperfect Droplet Motion}{35}
 \contentsline {chapter}{Conclusion}{37}
+\contentsline {chapter}{Appendix}{39}
 \contentsline {chapter}{References}{41}

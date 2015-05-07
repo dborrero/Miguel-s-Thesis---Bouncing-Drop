@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  30 APR 2015 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  7 MAY 2015 15:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -198,9 +198,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 (/usr/local/texlive/2014/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(./chemarr.sty
-Package: chemarr 2001/06/22 v1.1 Chemical reaction arrows (HO)
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -343,18 +341,18 @@ LaTeX Warning: Label `bounce' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count122
@@ -419,17 +417,17 @@ e
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+lasy on input line 71.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 69.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -955,10 +953,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5712 strings out of 493117
- 84517 string characters out of 6135433
- 157860 words of memory out of 5000000
- 8960 multiletter control sequences out of 15000+600000
+ 5701 strings out of 493117
+ 84357 string characters out of 6135433
+ 157658 words of memory out of 5000000
+ 8952 multiletter control sequences out of 15000+600000
  14592 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,17n,75p,1679b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -979,7 +977,7 @@ ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/
 2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 Output written on /Users/Miguel/Desktop/Miguel-s-Thesis---Bouncing-Drop/Thesis/
-.texpadtmp/thesis.pdf (52 pages, 26983811 bytes).
+.texpadtmp/thesis.pdf (52 pages, 26984115 bytes).
 PDF statistics:
  434 PDF objects out of 1000 (max. 8388607)
  298 compressed objects within 3 object streams
