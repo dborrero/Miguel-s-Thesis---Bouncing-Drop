@@ -1,0 +1,55 @@
+% This file was created with JabRef 2.10.
+% Encoding: MacRoman
+
+
+@Article{,
+  Title                    = {Unpredictable Tunneling of a Classical Wave-Particle Association},
+  Author                   = {A. Eddi, E. Fort, F. Moisy, Y. Couder},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2009},
+  Number                   = {240401},
+  Volume                   = {102},
+
+  Abstract                 = {A droplet bouncing on a vibrated bath becomes a ‘‘walker’’ moving at constant velocity on the interface
+when it couples to the surface wave it generates. Here the motion of a walker is investigated when it
+collides with barriers of various thicknesses. Surprisingly, it undergoes a form of tunneling: the reflection
+or transmission of a given incident walker is unpredictable. However, the crossing probability decreases
+exponentially with increasing barrier width. This shows that this wave-particle association has a nonlocality
+sufficient to generate a quantumlike tunneling at a macroscopic scale.},
+  Doi                      = {10.1103/PhysRevLett.102.240401},
+  Keywords                 = {tunneling},
+  Owner                    = {Miguel},
+  Timestamp                = {2015.03.31},
+  Url                      = {https://blog.espci.fr/aeddi/files/2014/06/PhysRevLett_TUNNEL.pdf}
+}
+
+@Article{,
+  Title                    = {Pilot-Wave Hydrodynamics},
+  Author                   = {J. M. W. Bush},
+  Journal                  = {Annu. Rev. Fluid Mech.},
+  Year                     = {2015},
+  Pages                    = {269-292},
+  Volume                   = {47},
+
+  Abstract                 = {Yves Couder, Emmanuel Fort, and coworkers recently discovered that a
+millimetric droplet sustained on the surface of a vibrating fluid bath may
+self-propel through a resonant interaction with its own wave field. This article
+reviews experimental evidence indicating that the walking droplets exhibit
+certain features previously thought to be exclusive to the microscopic,
+quantum realm. It then reviews theoretical descriptions of this hydrodynamic
+pilot-wave system that yield insight into the origins of its quantumlike
+behavior. Quantization arises from the dynamic constraint imposed
+on the droplet by its pilot-wave field, and multimodal statistics appear to
+be a feature of chaotic pilot-wave dynamics. I attempt to assess the potential
+and limitations of this hydrodynamic system as a quantum analog.
+This fluid system is compared to quantum pilot-wave theories, shown to
+be markedly different from Bohmian mechanics and more closely related to
+de Broglie’s original conception of quantum dynamics, his double-solution
+theory, and its relatively recent extensions through researchers in stochastic
+electrodynamics.},
+  Doi                      = {10.1146/annurev-fluid-010814-014506},
+  Owner                    = {Miguel},
+  Timestamp                = {2015.03.31},
+  Url                      = {http://math.mit.edu/~bush/wordpress/wp-content/uploads/2015/01/Bush-AnnRev2015.pdf}
+}
+

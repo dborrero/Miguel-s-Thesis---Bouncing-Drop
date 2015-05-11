@@ -1,0 +1,104 @@
+\begin{thebibliography}{10}
+
+\bibitem{pilot-wave}
+J.~W.~M. Bush, ``Pilot-wave hydrodynamics,'' {\em Annu. Rev. Fluid Mech.},
+  vol.~47, p.~269, 2015.
+
+\bibitem{Couder2005a}
+Y.~Couder, E.~Fort, C.-H. Gautier, and A.~Boudaoud, ``From bouncing to
+  floating: Noncoalescence of drops on a fluid bath,'' {\em Phys. Rev. Lett.},
+  vol.~94, no.~17, p.~177801, 2005.
+
+\bibitem{double-slit}
+Y.~Couder and E.~Fort, ``Single-particle diffraction and interference at a
+  macroscopic scale,'' {\em Phys. Rev. Lett.}, vol.~97, p.~154101, 2006.
+
+\bibitem{Oza2014}
+A.~U. Oza, D.~M. Harris, R.~R. Rosales, and J.~W.~M. Bush, ``Pilot-wave
+  dynamics in a rotating frame: {O}n the emergence of orbital quantization,''
+  {\em J. Fluid Mech.}, vol.~744, p.~404, 2014.
+
+\bibitem{tunneling}
+A.~Eddi, E.~Fort, F.~Moisy, and Y.~Couder, ``Unpredictable tunneling of a
+  classical wave-particle association,'' {\em Phys. Rev. Lett.}, vol.~102,
+  p.~240401, 2009.
+
+\bibitem{Couder2005b}
+Y.~Couder, S.~Protiere, E.~Fort, and A.~Boudaoud, ``Dynamical phenomena:
+  Walking and orbiting droplets,'' {\em Nature}, vol.~437, no.~7056, p.~208,
+  2005.
+
+\bibitem{dB23}
+L.~de~Broglie, ``Ondes et quanta.,'' {\em C. R.}, vol.~177, p.~507, 1923.
+
+\bibitem{dB87}
+L.~de~Broglie, ``Interpretation of quantum mechanics by the double solution
+  theory,'' {\em Ann. Fond. Louis Broglie}, vol.~12, p.~1, 1987.
+
+\bibitem{Bohm1952a}
+D.~Bohm, ``A suggested interpretation of the quantum theory in terms of `hidden
+  variables' {I},'' {\em Phys. Rev.}, vol.~85, no.~2, p.~166, 1952.
+
+\bibitem{Bohm1952b}
+D.~Bohm, ``A suggested interpretation of the quantum theory in terms of `hidden
+  variables' {II},'' {\em Phys. Rev.}, vol.~85, no.~2, p.~180, 1952.
+
+\bibitem{Walker}
+J.~Walker, ``The amateur scientist,'' {\em Sci. Amer.}, vol.~238, no.~6,
+  p.~151, 1978.
+
+\bibitem{Faraday}
+M.~Faraday, ``On a peculiar class of acoustical figures; and on certain forms
+  assumed by a group of particles upon vibrating elastic surfaces,'' {\em Phil.
+  Trans. R. Soc. Lond.}, vol.~121, p.~319, 1831.
+
+\bibitem{Kumar1996}
+K.~Kumar, ``Linear theory of {Faraday} instability in viscous liquids,'' {\em
+  Proc. R. Soc. A}, vol.~452, no.~1948, p.~1113, 1996.
+
+\bibitem{Molacek2013}
+J.~Mol\`{a}\v{c}ek and J.~W.~M. Bush, ``Drops walking on a vibrating bath:
+  {T}owards a hydrodynamic pilot-wave theory,'' {\em J. Fluid Mech.}, vol.~727,
+  p.~612, 2013.
+
+\bibitem{lord}
+L.~Rayleigh, ``On the capillary phenomena of jets,'' {\em Proc. R. Soc. Lond.},
+  vol.~29, p.~71, 1879.
+
+\bibitem{Protiere2005}
+S.~Protiere, Y.~Couder, E.~Fort, and A.~Boudaoud, ``The self-organization of
+  capillary wave sources,'' {\em J. Phys.: Condens. Matter}, vol.~17, no.~45,
+  p.~S3529, 2005.
+
+\bibitem{Eddi2008}
+A.~Eddi, D.~Terwagne, E.~Fort, and Y.~Couder, ``Wave propelled ratchets and
+  drifting rafts,'' {\em Europhys. Lett.}, vol.~82, no.~4, p.~44001, 2008.
+
+\bibitem{Protiere2006}
+S.~Protiere, A.~Boudard, and Y.~Couder, ``Particle-wave association on a fluid
+  interface,'' {\em J. Fluid Mech.}, vol.~554, p.~85, 2006.
+
+\bibitem{Eddi2011}
+A.~Eddi, E.~Sultan, J.~Moukhtar, E.~Fort, M.~Rossi, and Y.~Couder,
+  ``Information stored in {Faraday} waves: {T}he origin of a path memory,''
+  {\em J. Fluid Mech.}, vol.~674, p.~433, 2011.
+
+\bibitem{Harris2013}
+D.~M. Harris and J.~Bush, ``Droplets walking in a rotating frame: from
+  quantized orbits to multimodal statistics,'' {\em J. Fluid Mech.}, vol.~739,
+  p.~444, 2013.
+
+\bibitem{Brady}
+R.~Brady and R.~Anderson, ``Why bouncing droplets are a pretty good model of
+  quantum mechanics,'' {\em arXiv}, 2014.
+
+\bibitem{tracker}
+D.~Brown, ``Tracker video analysis and modeling tool.''
+  \url{https://www.cabrillo.edu/~dbrown/tracker/}, November 2014.
+
+\bibitem{shaker}
+D.~M. Harris and J.~Bush, ``Generating uniaxial vibration with an
+  electrodynamic shaker and external air bearing,'' {\em J. Sound Vib},
+  vol.~334, p.~255, 2015.
+
+\end{thebibliography}

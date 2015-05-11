@@ -1,0 +1,356 @@
+% This file was created with JabRef 2.10.
+% Encoding: MacRoman
+
+
+@Article{Bohm1952a,
+  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of `Hidden Variables' {I}},
+  Author                   = {Bohm, David},
+  Journal                  = {Phys. Rev.},
+  Year                     = {1952},
+  Number                   = {2},
+  Pages                    = {166-179},
+  Volume                   = {85},
+  Doi                      = {10.1103/physrev.85.166},
+  ISSN                     = {0031-899X},
+  Owner                    = {Miguel},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.04.20},
+  Url                      = {http://dx.doi.org/10.1103/PhysRev.85.166}
+}
+
+@Article{Bohm1952b,
+  Title                    = {A Suggested Interpretation of the Quantum Theory in Terms of `Hidden Variables' {II}},
+  Author                   = {Bohm, David},
+  Journal                  = {Phys. Rev.},
+  Year                     = {1952},
+  Number                   = {2},
+  Pages                    = {180-193},
+  Volume                   = {85},
+  Doi                      = {10.1103/physrev.85.180},
+  ISSN                     = {0031-899X},
+  Owner                    = {Miguel},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.04.20},
+  Url                      = {http://dx.doi.org/10.1103/PhysRev.85.180}
+}
+
+@Article{dB87,
+  Title                    = {Interpretation of quantum mechanics
+by the double solution theory},
+  Author                   = {de Broglie, L.},
+  Journal                  = {Ann. Fond. Louis Broglie},
+  Year                     = {1987},
+  Pages                    = {1-23},
+  Volume                   = {12},
+
+  Owner                    = {Miguel},
+  Timestamp                = {2015.04.25}
+}
+
+@Article{dB23,
+  Title                    = {Ondes et quanta.},
+  Author                   = {de Broglie, L.},
+  Journal                  = {C. R.},
+  Year                     = {1923},
+  Pages                    = {507-510},
+  Volume                   = {177},
+
+  Owner                    = {Miguel},
+  Timestamp                = {2015.04.25}
+}
+
+@Misc{tracker,
+  Title                    = {Tracker Video Analysis and Modeling Tool},
+
+  Author                   = {Douglas Brown},
+  Month                    = {November},
+  Year                     = {2014}
+}
+
+@Article{pilot-wave,
+  Title                    = {Pilot-Wave Hydrodynamics},
+  Author                   = {J. W. M. Bush},
+  Journal                  = {Annu. Rev. Fluid Mech.},
+  Year                     = {2015},
+  Pages                    = {269-292},
+  Volume                   = {47},
+
+  Abstract                 = {Yves Couder, Emmanuel Fort, and coworkers recently discovered that a
+millimetric droplet sustained on the surface of a vibrating fluid bath may
+self-propel through a resonant interaction with its own wave field. This article
+reviews experimental evidence indicating that the walking droplets exhibit
+certain features previously thought to be exclusive to the microscopic,
+quantum realm. It then reviews theoretical descriptions of this hydrodynamic
+pilot-wave system that yield insight into the origins of its quantumlike
+behavior. Quantization arises from the dynamic constraint imposed
+on the droplet by its pilot-wave field, and multimodal statistics appear to
+be a feature of chaotic pilot-wave dynamics. I attempt to assess the potential
+and limitations of this hydrodynamic system as a quantum analog.
+This fluid system is compared to quantum pilot-wave theories, shown to
+be markedly different from Bohmian mechanics and more closely related to
+de Broglie's original conception of quantum dynamics, his double-solution
+theory, and its relatively recent extensions through researchers in stochastic
+electrodynamics.},
+  Doi                      = {10.1146/annurev-fluid-010814-014506},
+  Owner                    = {Miguel},
+  Timestamp                = {2015.03.31},
+  Url                      = {http://math.mit.edu/~bush/wordpress/wp-content/uploads/2015/01/Bush-AnnRev2015.pdf}
+}
+
+@Article{double-slit,
+  Title                    = {Single-Particle Diffraction and Interference at a Macroscopic Scale},
+  Author                   = {Y. Couder and E. Fort},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2006},
+  Pages                    = {154101.1 - 154101.4},
+  Volume                   = {97},
+
+  Doi                      = {http://dx.doi.org/10.1103/PhysRevLett.97.154101},
+  Keywords                 = {double slit},
+  Owner                    = {Miguel},
+  Timestamp                = {2015.03.31},
+  Url                      = {http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.97.154101}
+}
+
+@Article{Couder2005a,
+  Title                    = {From Bouncing to Floating: Noncoalescence of Drops on a Fluid Bath},
+  Author                   = {Couder, Y. and Fort, E. and Gautier, C.-H. and Boudaoud, A.},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2005},
+  Number                   = {17},
+  Pages                    = {177801.1- 177801.4},
+  Volume                   = {94},
+
+  Doi                      = {10.1103/physrevlett.94.177801},
+  ISSN                     = {1079-7114},
+  Owner                    = {Miguel},
+  Publisher                = {American Physical Society (APS)},
+  Timestamp                = {2015.04.07},
+  Url                      = {http://dx.doi.org/10.1103/PhysRevLett.94.177801}
+}
+
+@Article{Couder2005b,
+  Title                    = {Dynamical phenomena: Walking and orbiting droplets},
+  Author                   = {Couder, Y. and Protiere, S. and Fort, E. and Boudaoud, A.},
+  Journal                  = {Nature},
+  Year                     = {2005},
+  Number                   = {7056},
+  Pages                    = {208-208},
+  Volume                   = {437},
+
+  Doi                      = {10.1038/437208a},
+  ISSN                     = {1476-4679},
+  Owner                    = {Miguel},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2015.03.31},
+  Url                      = {http://dx.doi.org/10.1038/437208a}
+}
+
+@Article{tunneling,
+  Title                    = {Unpredictable Tunneling of a Classical Wave-Particle Association},
+  Author                   = {Eddi, A. and E. Fort, and F. Moisy, and Y. Couder},
+  Journal                  = {Phys. Rev. Lett.},
+  Year                     = {2009},
+  Pages                    = {240401.1-240401.4},
+  Volume                   = {102},
+
+  Abstract                 = {A droplet bouncing on a vibrated bath becomes a ``walker" moving at constant velocity on the interface
+when it couples to the surface wave it generates. Here the motion of a walker is investigated when it
+collides with barriers of various thicknesses. Surprisingly, it undergoes a form of tunneling: the reflection
+or transmission of a given incident walker is unpredictable. However, the crossing probability decreases
+exponentially with increasing barrier width. This shows that this wave-particle association has a nonlocality
+sufficient to generate a quantumlike tunneling at a macroscopic scale.},
+  Doi                      = {10.1103/PhysRevLett.102.240401},
+  Keywords                 = {tunneling},
+  Owner                    = {Miguel},
+  Timestamp                = {2015.03.31},
+  Url                      = {https://blog.espci.fr/aeddi/files/2014/06/PhysRevLett_TUNNEL.pdf}
+}
+
+@Article{Eddi2011,
+  Title                    = {Information stored in {Faraday} waves: the origin of a path memory},
+  Author                   = {Eddi, Antonin and Sultan, E. and Moukhtar, J. and Fort, E. and Rossi, M. and Couder, Y.},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2011},
+  Pages                    = {433-463},
+  Volume                   = {674},
+
+  Doi                      = {10.1017/s0022112011000176},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.20},
+  Url                      = {http://dx.doi.org/10.1017/S0022112011000176}
+}
+
+@Article{Eddi2008,
+  Title                    = {Wave propelled ratchets and drifting rafts},
+  Author                   = {Eddi, A. and Terwagne, D. and Fort, E. and Couder, Y.},
+  Journal                  = {Europhys. Lett.},
+  Year                     = {2008},
+  Number                   = {4},
+  Pages                    = {44001.1-44001.5},
+  Volume                   = {82},
+
+  __markedentry            = {[Miguel:6]},
+  Doi                      = {10.1209/0295-5075/82/44001},
+  ISSN                     = {1286-4854},
+  Owner                    = {Miguel},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2015.04.22},
+  Url                      = {http://dx.doi.org/10.1209/0295-5075/82/44001}
+}
+
+@Article{Faraday,
+  Title                    = {On a peculiar class of acoustical figures; and on certain forms assumed by a group of particles upon vibrating elastic surfaces},
+  Author                   = {Faraday, M.},
+  Journal                  = {Phil. Trans. R. Soc. Lond.},
+  Year                     = {1831},
+  Pages                    = {319-340},
+  Volume                   = {121},
+
+  Owner                    = {Miguel},
+  Timestamp                = {2015.04.08}
+}
+
+@Article{shaker,
+  Title                    = {Generating uniaxial vibration with an electrodynamic shaker and external air bearing},
+  Author                   = {Harris, Daniel M. and Bush, {J. W. M.}},
+  Journal                  = {J. Sound Vib},
+  Year                     = {2015},
+  Pages                    = {255-269},
+  Volume                   = {334},
+
+  Doi                      = {10.1016/j.jsv.2014.09.015},
+  ISSN                     = {0022-460X},
+  Owner                    = {Miguel},
+  Publisher                = {Elsevier BV},
+  Timestamp                = {2015.04.19},
+  Url                      = {http://dx.doi.org/10.1016/j.jsv.2014.09.015}
+}
+
+@Article{Harris2013,
+  Title                    = {Droplets walking in a rotating frame: from quantized orbits to multimodal statistics},
+  Author                   = {Harris, Daniel M. and Bush, {John W. M.}},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2013},
+  Pages                    = {444-464},
+  Volume                   = {739},
+  Doi                      = {10.1017/jfm.2013.627},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.21},
+  Url                      = {http://dx.doi.org/10.1017/jfm.2013.627}
+}
+
+@Article{Kumar1996,
+  Title                    = {Linear Theory of {Faraday} Instability in Viscous Liquids},
+  Author                   = {Kumar, K.},
+  Journal                  = {Proc. R. Soc. A},
+  Year                     = {1996},
+  Number                   = {1948},
+  Pages                    = {1113-1126},
+  Volume                   = {452},
+
+  __markedentry            = {[Miguel:]},
+  Doi                      = {10.1098/rspa.1996.0056},
+  ISSN                     = {1471-2946},
+  Owner                    = {Miguel},
+  Publisher                = {The Royal Society},
+  Timestamp                = {2015.04.22},
+  Url                      = {http://dx.doi.org/10.1098/rspa.1996.0056}
+}
+
+@Article{Molacek2013,
+  Title                    = {Drops walking on a vibrating bath: towards a hydrodynamic pilot-wave theory},
+  Author                   = {Mol\`{a}\v{c}ek, Jan and Bush, John W. M.},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2013},
+  Pages                    = {612-647},
+  Volume                   = {727},
+  Doi                      = {10.1017/jfm.2013.280},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.21},
+  Url                      = {http://dx.doi.org/10.1017/jfm.2013.280}
+}
+
+@Article{Oza2014,
+  Title                    = {Pilot-wave dynamics in a rotating frame: on the emergence of orbital quantization},
+  Author                   = {Oza, Anand U. and Harris, Daniel M. and Rosales, Rodolfo R. and Bush, John W. M.},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2014},
+  Pages                    = {404-429},
+  Volume                   = {744},
+  Doi                      = {10.1017/jfm.2014.50},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.04.21},
+  Url                      = {http://dx.doi.org/10.1017/jfm.2014.50}
+}
+
+@Article{Protiere2006,
+  Title                    = {Particle-wave association on a fluid interface},
+  Author                   = {Protiere, Suzie and Boudard, Arezki and Couder, Yves},
+  Journal                  = {J. Fluid Mech.},
+  Year                     = {2006},
+  Pages                    = {85-108},
+  Volume                   = {554},
+
+  Doi                      = {10.1017/s0022112006009190},
+  ISSN                     = {1469-7645},
+  Owner                    = {Miguel},
+  Publisher                = {Cambridge University Press (CUP)},
+  Timestamp                = {2015.03.31},
+  Url                      = {http://dx.doi.org/10.1017/S0022112006009190}
+}
+
+@Article{Protiere2005,
+  Title                    = {The self-organization of capillary wave sources},
+  Author                   = {Protiere, Suzie and Couder, Yves and Fort, Emmanuel and Boudaoud, Arezki},
+  Journal                  = {J. Phys.: Condens. Matter},
+  Year                     = {2005},
+  Number                   = {45},
+  Pages                    = {S3529-S3535},
+  Volume                   = {17},
+
+  Doi                      = {10.1088/0953-8984/17/45/044},
+  ISSN                     = {1361-648X},
+  Owner                    = {Miguel},
+  Publisher                = {IOP Publishing},
+  Timestamp                = {2015.03.31},
+  Url                      = {http://dx.doi.org/10.1088/0953-8984/17/45/044}
+}
+
+@Article{lord,
+  Title                    = {On the capillary phenomena of jets},
+  Author                   = {Rayleigh, Lord},
+  Journal                  = {Proc. R. Soc. Lond.},
+  Year                     = {1879},
+  Pages                    = {71-97},
+  Volume                   = {29},
+
+  Owner                    = {Miguel},
+  Timestamp                = {2015.04.21}
+}
+
+@Article{Walker,
+  Title                    = {The Amateur Scientist},
+  Author                   = {Walker, Jearl},
+  Journal                  = {Sci. Amer.},
+  Year                     = {1978},
+  Number                   = {6},
+  Pages                    = {151-158},
+  Volume                   = {238},
+
+  Doi                      = {10.1038/scientificamerican0678-151},
+  ISSN                     = {0036-8733},
+  Owner                    = {Miguel},
+  Publisher                = {Nature Publishing Group},
+  Timestamp                = {2015.04.07},
+  Url                      = {http://dx.doi.org/10.1038/scientificamerican0678-151}
+}
+
